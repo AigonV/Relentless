@@ -1,4 +1,4 @@
-local key = _G.Key or _G.key
+local key = _G.Key
 local check = "https://raw.githubusercontent.com/AigonV/Relentless/master/checker.php?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AigonV/Relentless/master/ObfuscatedLinker.lua"))()
