@@ -657,7 +657,7 @@ TextLabel.TextSize = 14.000
 
 -- Scripts:
 
-local function DGIWA_fake_script() -- Frame.Dragify 
+local function HNFH_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -698,8 +698,8 @@ local function DGIWA_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(DGIWA_fake_script)()
-local function FKSSWE_fake_script() -- close.LocalScript 
+coroutine.wrap(HNFH_fake_script)()
+local function NBVITR_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	--made by aigon no skidding pls
@@ -726,8 +726,8 @@ local function FKSSWE_fake_script() -- close.LocalScript
 		gui:Destroy()
 	end)
 end
-coroutine.wrap(FKSSWE_fake_script)()
-local function EVPCPZ_fake_script() -- farm.LocalScript 
+coroutine.wrap(NBVITR_fake_script)()
+local function LDGTGT_fake_script() -- farm.LocalScript 
 	local script = Instance.new('LocalScript', farm)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -746,8 +746,8 @@ local function EVPCPZ_fake_script() -- farm.LocalScript
 		farming:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(EVPCPZ_fake_script)()
-local function KVSQ_fake_script() -- misc.LocalScript 
+coroutine.wrap(LDGTGT_fake_script)()
+local function FFXPZGX_fake_script() -- misc.LocalScript 
 	local script = Instance.new('LocalScript', misc)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -766,8 +766,8 @@ local function KVSQ_fake_script() -- misc.LocalScript
 		misc:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(KVSQ_fake_script)()
-local function TXFDXO_fake_script() -- feat.LocalScript 
+coroutine.wrap(FFXPZGX_fake_script)()
+local function HVKBFG_fake_script() -- feat.LocalScript 
 	local script = Instance.new('LocalScript', feat)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -786,8 +786,8 @@ local function TXFDXO_fake_script() -- feat.LocalScript
 		features:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(TXFDXO_fake_script)()
-local function VOEBZI_fake_script() -- teleports.LocalScript 
+coroutine.wrap(HVKBFG_fake_script)()
+local function VYSGD_fake_script() -- teleports.LocalScript 
 	local script = Instance.new('LocalScript', teleports)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -806,8 +806,8 @@ local function VOEBZI_fake_script() -- teleports.LocalScript
 		tps1:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(VOEBZI_fake_script)()
-local function HRGWDQD_fake_script() -- infy.LocalScript 
+coroutine.wrap(VYSGD_fake_script)()
+local function WWZM_fake_script() -- infy.LocalScript 
 	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
@@ -818,8 +818,8 @@ local function HRGWDQD_fake_script() -- infy.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(HRGWDQD_fake_script)()
-local function WAEZVIP_fake_script() -- banjo.handler 
+coroutine.wrap(WWZM_fake_script)()
+local function EDDQS_fake_script() -- banjo.handler 
 	local script = Instance.new('LocalScript', banjo)
 
 	local but = script.Parent
@@ -841,8 +841,8 @@ local function WAEZVIP_fake_script() -- banjo.handler
 		list:TweenSize(listoff, "InOut", "Sine", 0.15, true)
 	end)
 end
-coroutine.wrap(WAEZVIP_fake_script)()
-local function JRHA_fake_script() -- amogus.LocalScript 
+coroutine.wrap(EDDQS_fake_script)()
+local function JOLUKF_fake_script() -- amogus.LocalScript 
 	local script = Instance.new('LocalScript', amogus)
 
 	local but = script.Parent
@@ -1062,8 +1062,8 @@ local function JRHA_fake_script() -- amogus.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(JRHA_fake_script)()
-local function LEIXG_fake_script() -- banjol.LocalScript 
+coroutine.wrap(JOLUKF_fake_script)()
+local function HPZCO_fake_script() -- banjol.LocalScript 
 	local script = Instance.new('LocalScript', banjol)
 
 	local misce = script.Parent.Parent
@@ -1077,8 +1077,8 @@ local function LEIXG_fake_script() -- banjol.LocalScript
 		banjol:TweenSize(listoff, "InOut", "Sine", 0.15, true)
 	end
 end
-coroutine.wrap(LEIXG_fake_script)()
-local function KNPMOKG_fake_script() -- soon.LocalScript 
+coroutine.wrap(HPZCO_fake_script)()
+local function CTDVVWD_fake_script() -- soon.LocalScript 
 	local script = Instance.new('LocalScript', soon)
 
 	local but = script.Parent
@@ -1089,8 +1089,8 @@ local function KNPMOKG_fake_script() -- soon.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KNPMOKG_fake_script)()
-local function JJMXOGD_fake_script() -- day.LocalScript 
+coroutine.wrap(CTDVVWD_fake_script)()
+local function GGWM_fake_script() -- day.LocalScript 
 	local script = Instance.new('LocalScript', day)
 
 	local but = script.Parent
@@ -1135,8 +1135,8 @@ local function JJMXOGD_fake_script() -- day.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(JJMXOGD_fake_script)()
-local function SKXRYGK_fake_script() -- ss.LocalScript 
+coroutine.wrap(GGWM_fake_script)()
+local function XQDCIQ_fake_script() -- ss.LocalScript 
 	local script = Instance.new('LocalScript', ss)
 
 	local but = script.Parent
@@ -1147,8 +1147,8 @@ local function SKXRYGK_fake_script() -- ss.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(SKXRYGK_fake_script)()
-local function LZOVPA_fake_script() -- togglec.LocalScript 
+coroutine.wrap(XQDCIQ_fake_script)()
+local function UGNXU_fake_script() -- togglec.LocalScript 
 	local script = Instance.new('LocalScript', togglec)
 
 	local but = script.Parent
@@ -1201,8 +1201,8 @@ local function LZOVPA_fake_script() -- togglec.LocalScript
 		end)
 	]]
 end
-coroutine.wrap(LZOVPA_fake_script)()
-local function XHGN_fake_script() -- togglec_2.LocalScript 
+coroutine.wrap(UGNXU_fake_script)()
+local function WVHP_fake_script() -- togglec_2.LocalScript 
 	local script = Instance.new('LocalScript', togglec_2)
 
 	local looper = false
@@ -1246,8 +1246,8 @@ local function XHGN_fake_script() -- togglec_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(XHGN_fake_script)()
-local function FDUBG_fake_script() -- togglec_3.LocalScript 
+coroutine.wrap(WVHP_fake_script)()
+local function NOLWMY_fake_script() -- togglec_3.LocalScript 
 	local script = Instance.new('LocalScript', togglec_3)
 
 	local looper = false
@@ -1264,6 +1264,11 @@ local function FDUBG_fake_script() -- togglec_3.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			local args = {
+				[1] = "ChargeEnd"
+			}
+	
+			game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
 		else
 			looper = true 
 			but.Text = "Y"
@@ -1281,6 +1286,104 @@ local function FDUBG_fake_script() -- togglec_3.LocalScript
 		wait()
 		if looper then 
 			pcall(function()
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
 				local args = {
 					[1] = 1,
 					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
@@ -1305,8 +1408,8 @@ local function FDUBG_fake_script() -- togglec_3.LocalScript
 		end
 	end
 end
-coroutine.wrap(FDUBG_fake_script)()
-local function PEVYPN_fake_script() -- togglej.LocalScript 
+coroutine.wrap(NOLWMY_fake_script)()
+local function OLHA_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local but = script.Parent
@@ -1379,8 +1482,8 @@ local function PEVYPN_fake_script() -- togglej.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PEVYPN_fake_script)()
-local function KAQCB_fake_script() -- animp.LocalScript 
+coroutine.wrap(OLHA_fake_script)()
+local function BPNW_fake_script() -- animp.LocalScript 
 	local script = Instance.new('LocalScript', animp)
 
 	local but = script.Parent
@@ -1396,8 +1499,8 @@ local function KAQCB_fake_script() -- animp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KAQCB_fake_script)()
-local function VWMP_fake_script() -- noclog.LocalScript 
+coroutine.wrap(BPNW_fake_script)()
+local function FDLU_fake_script() -- noclog.LocalScript 
 	local script = Instance.new('LocalScript', noclog)
 
 	local but = script.Parent
@@ -1414,8 +1517,8 @@ local function VWMP_fake_script() -- noclog.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(VWMP_fake_script)()
-local function ASWBJU_fake_script() -- infstam.LocalScript 
+coroutine.wrap(FDLU_fake_script)()
+local function SLPK_fake_script() -- infstam.LocalScript 
 	local script = Instance.new('LocalScript', infstam)
 
 	local but = script.Parent
@@ -1429,8 +1532,8 @@ local function ASWBJU_fake_script() -- infstam.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ASWBJU_fake_script)()
-local function SZZH_fake_script() -- infme.LocalScript 
+coroutine.wrap(SLPK_fake_script)()
+local function YZKEUAD_fake_script() -- infme.LocalScript 
 	local script = Instance.new('LocalScript', infme)
 
 	local but = script.Parent
@@ -1444,8 +1547,8 @@ local function SZZH_fake_script() -- infme.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(SZZH_fake_script)()
-local function EBFW_fake_script() -- infair.LocalScript 
+coroutine.wrap(YZKEUAD_fake_script)()
+local function YISQHGU_fake_script() -- infair.LocalScript 
 	local script = Instance.new('LocalScript', infair)
 
 	local but = script.Parent
@@ -1459,8 +1562,8 @@ local function EBFW_fake_script() -- infair.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(EBFW_fake_script)()
-local function CRRYGLH_fake_script() -- CryoHub.toggle 
+coroutine.wrap(YISQHGU_fake_script)()
+local function UJXZSSF_fake_script() -- CryoHub.toggle 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -1494,8 +1597,8 @@ local function CRRYGLH_fake_script() -- CryoHub.toggle
 		end
 	end)
 end
-coroutine.wrap(CRRYGLH_fake_script)()
-local function NWSAKMY_fake_script() -- CryoHub.intro 
+coroutine.wrap(UJXZSSF_fake_script)()
+local function XEWCCV_fake_script() -- CryoHub.intro 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -1542,12 +1645,12 @@ local function NWSAKMY_fake_script() -- CryoHub.intro
 		end
 	end
 end
-coroutine.wrap(NWSAKMY_fake_script)()
-local function TYKSMQB_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(XEWCCV_fake_script)()
+local function EURG_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while wait() do
 		script.Parent.Text = _G.key or _G.Key
 	end
 end
-coroutine.wrap(TYKSMQB_fake_script)()
+coroutine.wrap(EURG_fake_script)()
