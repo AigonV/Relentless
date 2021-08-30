@@ -11,6 +11,7 @@ local Main = Instance.new("Frame")
 local title = Instance.new("TextLabel")
 local close = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
+local logo = Instance.new("ImageLabel")
 local menu = Instance.new("ScrollingFrame")
 local farm = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
@@ -26,71 +27,78 @@ local infy = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 local banjo = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local banjol = Instance.new("Frame")
-local UICorner_8 = Instance.new("UICorner")
-local amogus = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local soon = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
 local day = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local ss = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local clicktp = Instance.new("Frame")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local togglec = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local clicktp_2 = Instance.new("TextLabel")
+local nrss = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local banjol = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local amogus = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local soon = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
 local farming = Instance.new("ScrollingFrame")
 local combat = Instance.new("Frame")
 local ttl = Instance.new("TextLabel")
 local togglec_2 = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
 local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local bowfarm = Instance.new("Frame")
 local ttl_2 = Instance.new("TextLabel")
 local toggleb = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
 local UICorner_18 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local xlfarm = Instance.new("Frame")
 local ttl_3 = Instance.new("TextLabel")
 local togglexl = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
 local UICorner_20 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local feats = Instance.new("ScrollingFrame")
 local jesus = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
-local togglej = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
+local togglej = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
 local ttl_4 = Instance.new("TextLabel")
 local animp = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local noclog = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
-local infstam = Instance.new("TextButton")
+local noclog = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
-local infme = Instance.new("TextButton")
+local infstam = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
-local infair = Instance.new("TextButton")
+local infme = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
-local nocd = Instance.new("TextButton")
+local infair = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
+local nocd = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
 local ncddm = Instance.new("Frame")
 local radiusncd = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
 local UICorner_30 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
+local cesp = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local togglece = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local ttl_5 = Instance.new("TextLabel")
 local tps1 = Instance.new("ScrollingFrame")
 local soon_2 = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
-local soon_3 = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local soon_4 = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
-local soon_5 = Instance.new("TextButton")
 local UICorner_34 = Instance.new("UICorner")
-local ttl_5 = Instance.new("TextLabel")
-local Frame_2 = Instance.new("Frame")
+local soon_3 = Instance.new("TextButton")
 local UICorner_35 = Instance.new("UICorner")
+local soon_4 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local soon_5 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local ttl_6 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 
 --Properties:
@@ -163,6 +171,13 @@ close.TextSize = 14.000
 
 UICorner.CornerRadius = UDim.new(0, 3)
 UICorner.Parent = close
+
+logo.Name = "logo"
+logo.Parent = title
+logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+logo.BackgroundTransparency = 1.000
+logo.Size = UDim2.new(0, 24, 0, 22)
+logo.Image = "rbxassetid://7166475075"
 
 menu.Name = "menu"
 menu.Parent = Main
@@ -275,43 +290,6 @@ banjo.TextSize = 13.000
 UICorner_7.CornerRadius = UDim.new(0, 3)
 UICorner_7.Parent = banjo
 
-banjol.Name = "banjol"
-banjol.Parent = misce
-banjol.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-banjol.BorderSizePixel = 0
-banjol.ClipsDescendants = true
-banjol.Position = UDim2.new(0, 87, 0, 66)
-banjol.Size = UDim2.new(0, 71, 0, 115)
-
-UICorner_8.CornerRadius = UDim.new(0, 3)
-UICorner_8.Parent = banjol
-
-amogus.Name = "amogus"
-amogus.Parent = banjol
-amogus.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-amogus.Position = UDim2.new(0, 3, 0, 3)
-amogus.Size = UDim2.new(0, 65, 0, 22)
-amogus.Font = Enum.Font.SourceSans
-amogus.Text = "Amogus"
-amogus.TextColor3 = Color3.fromRGB(255, 255, 255)
-amogus.TextSize = 14.000
-
-UICorner_9.CornerRadius = UDim.new(0, 3)
-UICorner_9.Parent = amogus
-
-soon.Name = "soon"
-soon.Parent = banjol
-soon.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-soon.Position = UDim2.new(0, 3, 0, 28)
-soon.Size = UDim2.new(0, 65, 0, 22)
-soon.Font = Enum.Font.SourceSans
-soon.Text = "Soon"
-soon.TextColor3 = Color3.fromRGB(255, 255, 255)
-soon.TextSize = 14.000
-
-UICorner_10.CornerRadius = UDim.new(0, 3)
-UICorner_10.Parent = soon
-
 day.Name = "day"
 day.Parent = misce
 day.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
@@ -323,8 +301,8 @@ day.Text = "Always Day"
 day.TextColor3 = Color3.fromRGB(255, 255, 255)
 day.TextSize = 13.000
 
-UICorner_11.CornerRadius = UDim.new(0, 3)
-UICorner_11.Parent = day
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = day
 
 ss.Name = "ss"
 ss.Parent = misce
@@ -337,8 +315,8 @@ ss.Text = "Simple Spy"
 ss.TextColor3 = Color3.fromRGB(255, 255, 255)
 ss.TextSize = 13.000
 
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = ss
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = ss
 
 clicktp.Name = "clicktp"
 clicktp.Parent = misce
@@ -347,8 +325,8 @@ clicktp.BorderSizePixel = 0
 clicktp.Position = UDim2.new(0, 4, 0, 4)
 clicktp.Size = UDim2.new(0, 79, 0, 27)
 
-UICorner_13.CornerRadius = UDim.new(0, 3)
-UICorner_13.Parent = clicktp
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = clicktp
 
 togglec.Name = "togglec"
 togglec.Parent = clicktp
@@ -361,8 +339,8 @@ togglec.Text = "N"
 togglec.TextColor3 = Color3.fromRGB(255, 0, 0)
 togglec.TextSize = 13.000
 
-UICorner_14.CornerRadius = UDim.new(0, 3)
-UICorner_14.Parent = togglec
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = togglec
 
 clicktp_2.Name = "clicktp"
 clicktp_2.Parent = clicktp
@@ -374,6 +352,59 @@ clicktp_2.Font = Enum.Font.SourceSans
 clicktp_2.Text = "Click TP"
 clicktp_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 clicktp_2.TextSize = 14.000
+
+nrss.Name = "nrss"
+nrss.Parent = misce
+nrss.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+nrss.BorderSizePixel = 0
+nrss.Position = UDim2.new(0, 87, 0, 4)
+nrss.Size = UDim2.new(0, 79, 0, 27)
+nrss.Font = Enum.Font.SourceSans
+nrss.Text = "No Rain, Snow, Sand"
+nrss.TextColor3 = Color3.fromRGB(255, 255, 255)
+nrss.TextScaled = true
+nrss.TextSize = 13.000
+nrss.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = nrss
+
+banjol.Name = "banjol"
+banjol.Parent = misce
+banjol.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+banjol.BorderSizePixel = 0
+banjol.ClipsDescendants = true
+banjol.Position = UDim2.new(0, 87, 0, 66)
+banjol.Size = UDim2.new(0, 79, 0, 115)
+
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = banjol
+
+amogus.Name = "amogus"
+amogus.Parent = banjol
+amogus.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+amogus.Position = UDim2.new(0, 3, 0, 3)
+amogus.Size = UDim2.new(0, 73, 0, 22)
+amogus.Font = Enum.Font.SourceSans
+amogus.Text = "Amogus"
+amogus.TextColor3 = Color3.fromRGB(255, 255, 255)
+amogus.TextSize = 14.000
+
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = amogus
+
+soon.Name = "soon"
+soon.Parent = banjol
+soon.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+soon.Position = UDim2.new(0, 3, 0, 28)
+soon.Size = UDim2.new(0, 73, 0, 22)
+soon.Font = Enum.Font.SourceSans
+soon.Text = "Soon"
+soon.TextColor3 = Color3.fromRGB(255, 255, 255)
+soon.TextSize = 14.000
+
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = soon
 
 farming.Name = "farming"
 farming.Parent = Main
@@ -414,11 +445,11 @@ togglec_2.Text = "N"
 togglec_2.TextColor3 = Color3.fromRGB(255, 0, 0)
 togglec_2.TextSize = 14.000
 
-UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = togglec_2
-
 UICorner_16.CornerRadius = UDim.new(0, 3)
-UICorner_16.Parent = combat
+UICorner_16.Parent = togglec_2
+
+UICorner_17.CornerRadius = UDim.new(0, 3)
+UICorner_17.Parent = combat
 
 bowfarm.Name = "bowfarm"
 bowfarm.Parent = farming
@@ -450,11 +481,11 @@ toggleb.Text = "N"
 toggleb.TextColor3 = Color3.fromRGB(255, 0, 0)
 toggleb.TextSize = 14.000
 
-UICorner_17.CornerRadius = UDim.new(0, 3)
-UICorner_17.Parent = toggleb
-
 UICorner_18.CornerRadius = UDim.new(0, 3)
-UICorner_18.Parent = bowfarm
+UICorner_18.Parent = toggleb
+
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = bowfarm
 
 xlfarm.Name = "xlfarm"
 xlfarm.Parent = farming
@@ -486,11 +517,11 @@ togglexl.Text = "N"
 togglexl.TextColor3 = Color3.fromRGB(255, 0, 0)
 togglexl.TextSize = 14.000
 
-UICorner_19.CornerRadius = UDim.new(0, 3)
-UICorner_19.Parent = togglexl
-
 UICorner_20.CornerRadius = UDim.new(0, 3)
-UICorner_20.Parent = xlfarm
+UICorner_20.Parent = togglexl
+
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = xlfarm
 
 feats.Name = "feats"
 feats.Parent = Main
@@ -510,8 +541,8 @@ jesus.Position = UDim2.new(0, 4, 0, 4)
 jesus.Size = UDim2.new(0, 79, 0, 27)
 jesus.ZIndex = 0
 
-UICorner_21.CornerRadius = UDim.new(0, 3)
-UICorner_21.Parent = jesus
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = jesus
 
 togglej.Name = "togglej"
 togglej.Parent = jesus
@@ -524,8 +555,8 @@ togglej.Text = " N"
 togglej.TextColor3 = Color3.fromRGB(255, 0, 0)
 togglej.TextSize = 14.000
 
-UICorner_22.CornerRadius = UDim.new(0, 3)
-UICorner_22.Parent = togglej
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = togglej
 
 ttl_4.Name = "ttl"
 ttl_4.Parent = jesus
@@ -549,8 +580,8 @@ animp.Text = "All Anim Packs"
 animp.TextColor3 = Color3.fromRGB(255, 255, 255)
 animp.TextSize = 13.000
 
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = animp
+UICorner_24.CornerRadius = UDim.new(0, 3)
+UICorner_24.Parent = animp
 
 noclog.Name = "noclog"
 noclog.Parent = feats
@@ -563,8 +594,8 @@ noclog.Text = "No CLog"
 noclog.TextColor3 = Color3.fromRGB(255, 255, 255)
 noclog.TextSize = 13.000
 
-UICorner_24.CornerRadius = UDim.new(0, 3)
-UICorner_24.Parent = noclog
+UICorner_25.CornerRadius = UDim.new(0, 3)
+UICorner_25.Parent = noclog
 
 infstam.Name = "infstam"
 infstam.Parent = feats
@@ -577,8 +608,8 @@ infstam.Text = "Infinite Stam"
 infstam.TextColor3 = Color3.fromRGB(255, 255, 255)
 infstam.TextSize = 13.000
 
-UICorner_25.CornerRadius = UDim.new(0, 3)
-UICorner_25.Parent = infstam
+UICorner_26.CornerRadius = UDim.new(0, 3)
+UICorner_26.Parent = infstam
 
 infme.Name = "infme"
 infme.Parent = feats
@@ -592,8 +623,8 @@ infme.Text = "Infinite Energy"
 infme.TextColor3 = Color3.fromRGB(255, 255, 255)
 infme.TextSize = 13.000
 
-UICorner_26.CornerRadius = UDim.new(0, 3)
-UICorner_26.Parent = infme
+UICorner_27.CornerRadius = UDim.new(0, 3)
+UICorner_27.Parent = infme
 
 infair.Name = "infair"
 infair.Parent = feats
@@ -606,22 +637,22 @@ infair.Text = "Infinite Air"
 infair.TextColor3 = Color3.fromRGB(255, 255, 255)
 infair.TextSize = 13.000
 
-UICorner_27.CornerRadius = UDim.new(0, 3)
-UICorner_27.Parent = infair
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = infair
 
 nocd.Name = "nocd"
 nocd.Parent = feats
 nocd.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 nocd.BorderSizePixel = 0
-nocd.Position = UDim2.new(0, 4, 0, 36)
+nocd.Position = UDim2.new(0, 4, 0, 66)
 nocd.Size = UDim2.new(0, 79, 0, 27)
 nocd.Font = Enum.Font.SourceSans
 nocd.Text = "No Cooldowns"
 nocd.TextColor3 = Color3.fromRGB(255, 255, 255)
 nocd.TextSize = 13.000
 
-UICorner_28.CornerRadius = UDim.new(0, 3)
-UICorner_28.Parent = nocd
+UICorner_29.CornerRadius = UDim.new(0, 3)
+UICorner_29.Parent = nocd
 
 ncddm.Name = "ncddm"
 ncddm.Parent = feats
@@ -642,11 +673,47 @@ radiusncd.Text = "Radius No CD"
 radiusncd.TextColor3 = Color3.fromRGB(255, 255, 255)
 radiusncd.TextSize = 14.000
 
-UICorner_29.CornerRadius = UDim.new(0, 3)
-UICorner_29.Parent = radiusncd
-
 UICorner_30.CornerRadius = UDim.new(0, 3)
-UICorner_30.Parent = ncddm
+UICorner_30.Parent = radiusncd
+
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = ncddm
+
+cesp.Name = "cesp"
+cesp.Parent = feats
+cesp.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+cesp.BorderSizePixel = 0
+cesp.Position = UDim2.new(0, 4, 0, 35)
+cesp.Size = UDim2.new(0, 79, 0, 27)
+cesp.ZIndex = 0
+
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = cesp
+
+togglece.Name = "togglece"
+togglece.Parent = cesp
+togglece.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+togglece.BorderSizePixel = 0
+togglece.Position = UDim2.new(0, 59, 0, 5)
+togglece.Size = UDim2.new(0, 16, 0, 16)
+togglece.Font = Enum.Font.SourceSans
+togglece.Text = " N"
+togglece.TextColor3 = Color3.fromRGB(255, 0, 0)
+togglece.TextSize = 14.000
+
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = togglece
+
+ttl_5.Name = "ttl"
+ttl_5.Parent = cesp
+ttl_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ttl_5.BackgroundTransparency = 1.000
+ttl_5.Position = UDim2.new(0, 0, 0, 1)
+ttl_5.Size = UDim2.new(0, 59, 0, 26)
+ttl_5.Font = Enum.Font.SourceSans
+ttl_5.Text = "Chest ESP"
+ttl_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ttl_5.TextSize = 14.000
 
 tps1.Name = "tps1"
 tps1.Parent = Main
@@ -668,8 +735,8 @@ soon_2.Text = "Soon!"
 soon_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_2.TextSize = 13.000
 
-UICorner_31.CornerRadius = UDim.new(0, 3)
-UICorner_31.Parent = soon_2
+UICorner_34.CornerRadius = UDim.new(0, 3)
+UICorner_34.Parent = soon_2
 
 soon_3.Name = "soon"
 soon_3.Parent = tps1
@@ -682,8 +749,8 @@ soon_3.Text = "Soon!"
 soon_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_3.TextSize = 13.000
 
-UICorner_32.CornerRadius = UDim.new(0, 3)
-UICorner_32.Parent = soon_3
+UICorner_35.CornerRadius = UDim.new(0, 3)
+UICorner_35.Parent = soon_3
 
 soon_4.Name = "soon"
 soon_4.Parent = tps1
@@ -696,8 +763,8 @@ soon_4.Text = "Soon!"
 soon_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_4.TextSize = 13.000
 
-UICorner_33.CornerRadius = UDim.new(0, 3)
-UICorner_33.Parent = soon_4
+UICorner_36.CornerRadius = UDim.new(0, 3)
+UICorner_36.Parent = soon_4
 
 soon_5.Name = "soon"
 soon_5.Parent = tps1
@@ -710,19 +777,19 @@ soon_5.Text = "Soon!"
 soon_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_5.TextSize = 13.000
 
-UICorner_34.CornerRadius = UDim.new(0, 3)
-UICorner_34.Parent = soon_5
+UICorner_37.CornerRadius = UDim.new(0, 3)
+UICorner_37.Parent = soon_5
 
-ttl_5.Name = "ttl"
-ttl_5.Parent = tps1
-ttl_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ttl_5.BackgroundTransparency = 1.000
-ttl_5.Size = UDim2.new(0, 278, 0, 21)
-ttl_5.Font = Enum.Font.SourceSans
-ttl_5.Text = "             Islands                Cap-able islands                        Seas"
-ttl_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-ttl_5.TextSize = 14.000
-ttl_5.TextXAlignment = Enum.TextXAlignment.Left
+ttl_6.Name = "ttl"
+ttl_6.Parent = tps1
+ttl_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ttl_6.BackgroundTransparency = 1.000
+ttl_6.Size = UDim2.new(0, 278, 0, 21)
+ttl_6.Font = Enum.Font.SourceSans
+ttl_6.Text = "             Islands                Cap-able islands                        Seas"
+ttl_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ttl_6.TextSize = 14.000
+ttl_6.TextXAlignment = Enum.TextXAlignment.Left
 
 Frame_2.Parent = tps1
 Frame_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
@@ -730,8 +797,8 @@ Frame_2.BorderSizePixel = 0
 Frame_2.Position = UDim2.new(0, 0, 0, 21)
 Frame_2.Size = UDim2.new(0, 278, 0, 1)
 
-UICorner_35.CornerRadius = UDim.new(0, 5)
-UICorner_35.Parent = Frame
+UICorner_38.CornerRadius = UDim.new(0, 5)
+UICorner_38.Parent = Frame
 
 TextLabel.Parent = CryoHub
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -744,7 +811,7 @@ TextLabel.TextSize = 14.000
 
 -- Scripts:
 
-local function ZUTDN_fake_script() -- Frame.Dragify 
+local function CYFU_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -785,8 +852,8 @@ local function ZUTDN_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(ZUTDN_fake_script)()
-local function GSOEHG_fake_script() -- close.LocalScript 
+coroutine.wrap(CYFU_fake_script)()
+local function GODLCOW_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	--made by aigon no skidding pls
@@ -813,8 +880,8 @@ local function GSOEHG_fake_script() -- close.LocalScript
 		gui:Destroy()
 	end)
 end
-coroutine.wrap(GSOEHG_fake_script)()
-local function JQJTQY_fake_script() -- farm.LocalScript 
+coroutine.wrap(GODLCOW_fake_script)()
+local function IYXX_fake_script() -- farm.LocalScript 
 	local script = Instance.new('LocalScript', farm)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -833,8 +900,8 @@ local function JQJTQY_fake_script() -- farm.LocalScript
 		farming:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(JQJTQY_fake_script)()
-local function LBDJTX_fake_script() -- misc.LocalScript 
+coroutine.wrap(IYXX_fake_script)()
+local function RRCDR_fake_script() -- misc.LocalScript 
 	local script = Instance.new('LocalScript', misc)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -853,8 +920,8 @@ local function LBDJTX_fake_script() -- misc.LocalScript
 		misc:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(LBDJTX_fake_script)()
-local function OCKN_fake_script() -- feat.LocalScript 
+coroutine.wrap(RRCDR_fake_script)()
+local function CJMJKOC_fake_script() -- feat.LocalScript 
 	local script = Instance.new('LocalScript', feat)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -873,8 +940,8 @@ local function OCKN_fake_script() -- feat.LocalScript
 		features:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(OCKN_fake_script)()
-local function HBKQX_fake_script() -- teleports.LocalScript 
+coroutine.wrap(CJMJKOC_fake_script)()
+local function BVKTTX_fake_script() -- teleports.LocalScript 
 	local script = Instance.new('LocalScript', teleports)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -893,8 +960,8 @@ local function HBKQX_fake_script() -- teleports.LocalScript
 		tps1:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(HBKQX_fake_script)()
-local function NIQLWUJ_fake_script() -- infy.LocalScript 
+coroutine.wrap(BVKTTX_fake_script)()
+local function GXOO_fake_script() -- infy.LocalScript 
 	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
@@ -905,8 +972,8 @@ local function NIQLWUJ_fake_script() -- infy.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(NIQLWUJ_fake_script)()
-local function UHMTZ_fake_script() -- banjo.handler 
+coroutine.wrap(GXOO_fake_script)()
+local function FJILFU_fake_script() -- banjo.handler 
 	local script = Instance.new('LocalScript', banjo)
 
 	local but = script.Parent
@@ -928,8 +995,133 @@ local function UHMTZ_fake_script() -- banjo.handler
 		list:TweenSize(listoff, "InOut", "Sine", 0.15, true)
 	end)
 end
-coroutine.wrap(UHMTZ_fake_script)()
-local function XFZJ_fake_script() -- amogus.LocalScript 
+coroutine.wrap(FJILFU_fake_script)()
+local function GACO_fake_script() -- day.LocalScript 
+	local script = Instance.new('LocalScript', day)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(function()
+			for i,v in pairs(game.Lighting:GetChildren()) do
+				if v:IsA("ColorCorrectionEffect") or v:IsA("BlurEffect") or v:IsA("BloomEffect") or v:IsA("SunRaysEffect") then
+					v:Destroy()
+				end
+			end
+	
+			game.Lighting.Ambient = Color3.fromRGB(255, 255, 255)
+			game.Lighting.Brightness = 1
+			game.Lighting.ClockTime = 14
+			game.Lighting.ColorShift_Bottom = Color3.fromRGB(255, 255, 255)
+			game.Lighting.ColorShift_Top = Color3.fromRGB(255, 255, 255)
+			game.Lighting.ExposureCompensation = 0
+			game.Lighting.FogColor = Color3.fromRGB(255, 255, 255)
+			game.Lighting.FogEnd = 999999999
+			game.Lighting.GeographicLatitude = 41.733
+			game.Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
+			game.Lighting.GlobalShadows = true
+			game.Lighting.Changed:Connect(function()
+				game.Lighting.Ambient = Color3.fromRGB(255, 255, 255)
+				game.Lighting.Brightness = 1
+				game.Lighting.ClockTime = 14
+				game.Lighting.ColorShift_Bottom = Color3.fromRGB(255, 255, 255)
+				game.Lighting.ColorShift_Top = Color3.fromRGB(255, 255, 255)
+				game.Lighting.ExposureCompensation = 0
+				game.Lighting.FogColor = Color3.fromRGB(255, 255, 255)
+				game.Lighting.FogEnd = 999999999
+				game.Lighting.GeographicLatitude = 41.733
+				game.Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
+				game.Lighting.GlobalShadows = true
+			end)
+			game.Lighting.DescendantAdded:Connect(function(obj)
+				if obj:IsA("ColorCorrectionEffect") or obj:IsA("Sky") or obj:IsA("BlurEffect") or obj:IsA("BloomEffect") or obj:IsA("SunRaysEffect") then
+					obj:Destroy()
+				end
+			end)
+		end)
+	end)
+end
+coroutine.wrap(GACO_fake_script)()
+local function OIBU_fake_script() -- ss.LocalScript 
+	local script = Instance.new('LocalScript', ss)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(function()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/AigonV/Relentless/master/SimpleSpy.lua'),true))()
+		end)
+	end)
+end
+coroutine.wrap(OIBU_fake_script)()
+local function OTKQ_fake_script() -- togglec.LocalScript 
+	local script = Instance.new('LocalScript', togglec)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		if but.TextColor3 == Color3.fromRGB(255, 0, 0) and but.Text == "N" then
+			but.TextColor3 = Color3.fromRGB(0, 255, 0)
+			but.Text = "Y"
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Hover and press B to teleport where-ever.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+	
+			pcall(function()
+				local plr = game.Players.LocalPlayer 
+				local hum = plr.Character.HumanoidRootPart
+				local mouse = plr:GetMouse() 
+				mouse.KeyDown:connect(function(key) 
+					if key == "b" then 
+						if mouse.Target then 
+							hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z) 
+						end 
+					end 
+				end)
+			end)
+		end
+	end)
+	
+	--[[
+	game.StarterGui:SetCore("SendNotification", {
+			Title = "CryoHub™";
+			Text = "Hover and press B to teleport where-ever.";
+			Icon = "rbxassetid://7166475075";
+			Duration = 5;
+		})
+		
+		pcall(function()
+			local plr = game.Players.LocalPlayer 
+			local hum = plr.Character.HumanoidRootPart
+			local mouse = plr:GetMouse() 
+			mouse.KeyDown:connect(function(key) 
+				if key == "b" then 
+					if mouse.Target then 
+						hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z) 
+					end 
+				end 
+			end)
+		end)
+	]]
+end
+coroutine.wrap(OTKQ_fake_script)()
+local function QCKJN_fake_script() -- nrss.LocalScript 
+	local script = Instance.new('LocalScript', nrss)
+
+	local folder = game.Workspace.Camera.OverheadFX
+	local but = script.Parent
+	
+	but.MouseButton1Click:connect(function()
+		pcall(function()
+			folder:ClearAllChildren()
+		end)
+	end)
+end
+coroutine.wrap(QCKJN_fake_script)()
+local function SDMLYMA_fake_script() -- amogus.LocalScript 
 	local script = Instance.new('LocalScript', amogus)
 
 	local but = script.Parent
@@ -1149,8 +1341,8 @@ local function XFZJ_fake_script() -- amogus.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XFZJ_fake_script)()
-local function TTMV_fake_script() -- banjol.LocalScript 
+coroutine.wrap(SDMLYMA_fake_script)()
+local function YODI_fake_script() -- banjol.LocalScript 
 	local script = Instance.new('LocalScript', banjol)
 
 	local misce = script.Parent.Parent
@@ -1164,8 +1356,8 @@ local function TTMV_fake_script() -- banjol.LocalScript
 		banjol:TweenSize(listoff, "InOut", "Sine", 0.15, true)
 	end
 end
-coroutine.wrap(TTMV_fake_script)()
-local function KXAKQUV_fake_script() -- soon.LocalScript 
+coroutine.wrap(YODI_fake_script)()
+local function DLFI_fake_script() -- soon.LocalScript 
 	local script = Instance.new('LocalScript', soon)
 
 	local but = script.Parent
@@ -1176,120 +1368,8 @@ local function KXAKQUV_fake_script() -- soon.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KXAKQUV_fake_script)()
-local function YERSQA_fake_script() -- day.LocalScript 
-	local script = Instance.new('LocalScript', day)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			for i,v in pairs(game.Lighting:GetChildren()) do
-				if v:IsA("ColorCorrectionEffect") or v:IsA("BlurEffect") or v:IsA("BloomEffect") or v:IsA("SunRaysEffect") then
-					v:Destroy()
-				end
-			end
-	
-			game.Lighting.Ambient = Color3.fromRGB(255, 255, 255)
-			game.Lighting.Brightness = 1
-			game.Lighting.ClockTime = 14
-			game.Lighting.ColorShift_Bottom = Color3.fromRGB(255, 255, 255)
-			game.Lighting.ColorShift_Top = Color3.fromRGB(255, 255, 255)
-			game.Lighting.ExposureCompensation = 0
-			game.Lighting.FogColor = Color3.fromRGB(255, 255, 255)
-			game.Lighting.FogEnd = 999999999
-			game.Lighting.GeographicLatitude = 41.733
-			game.Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
-			game.Lighting.GlobalShadows = true
-			game.Lighting.Changed:Connect(function()
-				game.Lighting.Ambient = Color3.fromRGB(255, 255, 255)
-				game.Lighting.Brightness = 1
-				game.Lighting.ClockTime = 14
-				game.Lighting.ColorShift_Bottom = Color3.fromRGB(255, 255, 255)
-				game.Lighting.ColorShift_Top = Color3.fromRGB(255, 255, 255)
-				game.Lighting.ExposureCompensation = 0
-				game.Lighting.FogColor = Color3.fromRGB(255, 255, 255)
-				game.Lighting.FogEnd = 999999999
-				game.Lighting.GeographicLatitude = 41.733
-				game.Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
-				game.Lighting.GlobalShadows = true
-			end)
-			game.Lighting.DescendantAdded:Connect(function(obj)
-				if obj:IsA("ColorCorrectionEffect") or obj:IsA("Sky") or obj:IsA("BlurEffect") or obj:IsA("BloomEffect") or obj:IsA("SunRaysEffect") then
-					obj:Destroy()
-				end
-			end)
-		end)
-	end)
-end
-coroutine.wrap(YERSQA_fake_script)()
-local function TKNXLLI_fake_script() -- ss.LocalScript 
-	local script = Instance.new('LocalScript', ss)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			loadstring(game:HttpGet(('https://raw.githubusercontent.com/AigonV/Relentless/master/SimpleSpy.lua'),true))()
-		end)
-	end)
-end
-coroutine.wrap(TKNXLLI_fake_script)()
-local function MNUF_fake_script() -- togglec.LocalScript 
-	local script = Instance.new('LocalScript', togglec)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		if but.TextColor3 == Color3.fromRGB(255, 0, 0) and but.Text == "N" then
-			but.TextColor3 = Color3.fromRGB(0, 255, 0)
-			but.Text = "Y"
-			game.StarterGui:SetCore("SendNotification", {
-				Title = "CryoHub™";
-				Text = "Hover and press B to teleport where-ever.";
-				Icon = "rbxassetid://7166475075";
-				Duration = 5;
-			})
-	
-			pcall(function()
-				local plr = game.Players.LocalPlayer 
-				local hum = plr.Character.HumanoidRootPart
-				local mouse = plr:GetMouse() 
-				mouse.KeyDown:connect(function(key) 
-					if key == "b" then 
-						if mouse.Target then 
-							hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z) 
-						end 
-					end 
-				end)
-			end)
-		end
-	end)
-	
-	--[[
-	game.StarterGui:SetCore("SendNotification", {
-			Title = "CryoHub™";
-			Text = "Hover and press B to teleport where-ever.";
-			Icon = "rbxassetid://7166475075";
-			Duration = 5;
-		})
-		
-		pcall(function()
-			local plr = game.Players.LocalPlayer 
-			local hum = plr.Character.HumanoidRootPart
-			local mouse = plr:GetMouse() 
-			mouse.KeyDown:connect(function(key) 
-				if key == "b" then 
-					if mouse.Target then 
-						hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z) 
-					end 
-				end 
-			end)
-		end)
-	]]
-end
-coroutine.wrap(MNUF_fake_script)()
-local function RIVGY_fake_script() -- togglec_2.LocalScript 
+coroutine.wrap(DLFI_fake_script)()
+local function XEORZM_fake_script() -- togglec_2.LocalScript 
 	local script = Instance.new('LocalScript', togglec_2)
 
 	local looper = false
@@ -1302,7 +1382,7 @@ local function RIVGY_fake_script() -- togglec_2.LocalScript
 			but.TextColor3 = Color3.fromRGB(255, 0, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "CombatFarm Enabled; Make sure FightingStyle is equiped.";
+				Text = "CombatFarm Disabled.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -1312,7 +1392,7 @@ local function RIVGY_fake_script() -- togglec_2.LocalScript
 			but.TextColor3 = Color3.fromRGB(0, 255, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "CombatFarm Disabled.";
+				Text = "CombatFarm Enabled; Make sure Combat is equiped.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -1333,8 +1413,8 @@ local function RIVGY_fake_script() -- togglec_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(RIVGY_fake_script)()
-local function THUGKAN_fake_script() -- toggleb.LocalScript 
+coroutine.wrap(XEORZM_fake_script)()
+local function DPGLKB_fake_script() -- toggleb.LocalScript 
 	local script = Instance.new('LocalScript', toggleb)
 
 	local looper = false
@@ -1495,8 +1575,8 @@ local function THUGKAN_fake_script() -- toggleb.LocalScript
 		end
 	end
 end
-coroutine.wrap(THUGKAN_fake_script)()
-local function NJSR_fake_script() -- togglexl.LocalScript 
+coroutine.wrap(DPGLKB_fake_script)()
+local function NDKDA_fake_script() -- togglexl.LocalScript 
 	local script = Instance.new('LocalScript', togglexl)
 
 	local looper = false
@@ -1545,8 +1625,8 @@ local function NJSR_fake_script() -- togglexl.LocalScript
 		end
 	end
 end
-coroutine.wrap(NJSR_fake_script)()
-local function FNCRX_fake_script() -- togglej.LocalScript 
+coroutine.wrap(NDKDA_fake_script)()
+local function RAZYRH_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local but = script.Parent
@@ -1571,9 +1651,9 @@ local function FNCRX_fake_script() -- togglej.LocalScript
 	
 			UIS.InputBegan:Connect(function(input, onGui)
 				if onGui then return end
-				if input.KeyCode == Enum.KeyCode.M then
+				if input.KeyCode == Enum.KeyCode.N then
 					workspace.Env.Ocean.CanCollide = not workspace.Env.Ocean.CanCollide
-				elseif input.KeyCode == Enum.KeyCode.L then
+				elseif input.KeyCode == Enum.KeyCode.N then
 					Enabled = not Enabled
 					if not Enabled then
 						workspace.Env.Ocean.Size = Vector3.new(1, 1, 1)
@@ -1584,6 +1664,12 @@ local function FNCRX_fake_script() -- togglej.LocalScript
 					end
 				end
 			end)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Jesus is Enabled; Press N to toggle.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
 		elseif but.Text == "Y" then
 			but.Text = "N"
 			but.TextColor3 = Color3.fromRGB(255, 0, 0)
@@ -1619,8 +1705,8 @@ local function FNCRX_fake_script() -- togglej.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FNCRX_fake_script)()
-local function ZXDPZEF_fake_script() -- animp.LocalScript 
+coroutine.wrap(RAZYRH_fake_script)()
+local function OKISF_fake_script() -- animp.LocalScript 
 	local script = Instance.new('LocalScript', animp)
 
 	local but = script.Parent
@@ -1636,8 +1722,8 @@ local function ZXDPZEF_fake_script() -- animp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ZXDPZEF_fake_script)()
-local function JWPYONB_fake_script() -- noclog.LocalScript 
+coroutine.wrap(OKISF_fake_script)()
+local function IZIM_fake_script() -- noclog.LocalScript 
 	local script = Instance.new('LocalScript', noclog)
 
 	local but = script.Parent
@@ -1654,8 +1740,8 @@ local function JWPYONB_fake_script() -- noclog.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(JWPYONB_fake_script)()
-local function JSCDZQ_fake_script() -- infstam.LocalScript 
+coroutine.wrap(IZIM_fake_script)()
+local function XEPC_fake_script() -- infstam.LocalScript 
 	local script = Instance.new('LocalScript', infstam)
 
 	local but = script.Parent
@@ -1669,8 +1755,8 @@ local function JSCDZQ_fake_script() -- infstam.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(JSCDZQ_fake_script)()
-local function SOPXT_fake_script() -- infme.LocalScript 
+coroutine.wrap(XEPC_fake_script)()
+local function RKDJIEK_fake_script() -- infme.LocalScript 
 	local script = Instance.new('LocalScript', infme)
 
 	local but = script.Parent
@@ -1684,8 +1770,8 @@ local function SOPXT_fake_script() -- infme.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(SOPXT_fake_script)()
-local function BHTVI_fake_script() -- infair.LocalScript 
+coroutine.wrap(RKDJIEK_fake_script)()
+local function JVUAR_fake_script() -- infair.LocalScript 
 	local script = Instance.new('LocalScript', infair)
 
 	local but = script.Parent
@@ -1699,8 +1785,8 @@ local function BHTVI_fake_script() -- infair.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(BHTVI_fake_script)()
-local function DNRFF_fake_script() -- nocd.handler 
+coroutine.wrap(JVUAR_fake_script)()
+local function MCLYFQW_fake_script() -- nocd.handler 
 	local script = Instance.new('LocalScript', nocd)
 
 	local but = script.Parent
@@ -1722,8 +1808,8 @@ local function DNRFF_fake_script() -- nocd.handler
 		list:TweenSize(listoff, "InOut", "Sine", 0.15, true)
 	end)
 end
-coroutine.wrap(DNRFF_fake_script)()
-local function RBUC_fake_script() -- radiusncd.LocalScript 
+coroutine.wrap(MCLYFQW_fake_script)()
+local function VNQNMVY_fake_script() -- radiusncd.LocalScript 
 	local script = Instance.new('LocalScript', radiusncd)
 
 	--made by aigon no skidding pls
@@ -1756,8 +1842,101 @@ local function RBUC_fake_script() -- radiusncd.LocalScript
 	
 	
 end
-coroutine.wrap(RBUC_fake_script)()
-local function HPGROGE_fake_script() -- CryoHub.toggle 
+coroutine.wrap(VNQNMVY_fake_script)()
+local function YNNZ_fake_script() -- togglece.LocalScript 
+	local script = Instance.new('LocalScript', togglece)
+
+	local activator = false
+	local but = script.Parent
+	local esp = Instance.new("BoxHandleAdornment")
+	esp.Transparency = .5
+	esp.Parent = nil
+	esp.Adornee = s
+	esp.Color3 = Color3.fromRGB(0, 255, 0)
+	esp.Size = s.Size
+	esp.ZIndex = 0
+	esp.Visible = true
+	esp.AlwaysOnTop = true
+	
+	but.MouseButton1Click:Connect(function()
+		if activator then 
+			activator = false
+			but.Text = "N"
+			but.TextColor3 = Color3.fromRGB(255, 0, 0)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Chest ESP is Disabled.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+			
+			pcall(function()
+				for i, v in pairs(game.Workspace:GetChildren()) do
+					if v:IsA("Folder") then
+						for i, s in pairs(v:GetChildren()) do
+							if s.Name == "Chest" then
+								esp.Parent = s
+							end
+						end
+					end
+				end
+			end)
+			
+		else
+			activator = true 
+			but.Text = "Y"
+			but.TextColor3 = Color3.fromRGB(0, 255, 0)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Chest ESP is Enabled.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+			
+			pcall(function()
+				for i, v in pairs(game.Workspace:GetChildren()) do
+					if v:IsA("Folder") then
+						for i, s in pairs(v:GetChildren()) do
+							if s.Name == "Chest" then
+								esp.Parent = nil
+							end
+						end
+					end
+				end
+			end)
+			
+		end
+	end)
+	
+	--[[
+	local but = script.Parent
+	local esp = Instance.new("BoxHandleAdornment")
+	esp.Transparency = .5
+	esp.Parent = nil
+	esp.Adornee = nil
+	esp.Color3 = Color3.fromRGB(0, 255, 0)
+	esp.Size = nil
+	esp.ZIndex = 0
+	esp.Visible = true
+	esp.AlwaysOnTop = true
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(function()
+			for i, v in pairs(game.Workspace:GetChildren()) do
+				if v:IsA("Folder") then
+					for i, s in pairs(v:GetChildren()) do
+						if s.Name == "Chest" then
+							
+						end
+					end
+				end
+			end
+		end)
+	end)
+	]]
+end
+coroutine.wrap(YNNZ_fake_script)()
+local function YCNDO_fake_script() -- CryoHub.toggle 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -1791,8 +1970,8 @@ local function HPGROGE_fake_script() -- CryoHub.toggle
 		end
 	end)
 end
-coroutine.wrap(HPGROGE_fake_script)()
-local function LPPS_fake_script() -- CryoHub.intro 
+coroutine.wrap(YCNDO_fake_script)()
+local function WJIEY_fake_script() -- CryoHub.intro 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -1839,12 +2018,12 @@ local function LPPS_fake_script() -- CryoHub.intro
 		end
 	end
 end
-coroutine.wrap(LPPS_fake_script)()
-local function NNWM_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(WJIEY_fake_script)()
+local function ULIMEU_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while wait() do
 		script.Parent.Text = _G.key or _G.Key
 	end
 end
-coroutine.wrap(NNWM_fake_script)()
+coroutine.wrap(ULIMEU_fake_script)()
