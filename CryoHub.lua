@@ -11,7 +11,6 @@ local Main = Instance.new("Frame")
 local title = Instance.new("TextLabel")
 local close = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
-local logo = Instance.new("ImageButton")
 local menu = Instance.new("ScrollingFrame")
 local farm = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
@@ -21,94 +20,98 @@ local feat = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local teleports = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local line = Instance.new("Frame")
 local misce = Instance.new("ScrollingFrame")
-local infy = Instance.new("TextButton")
+local clicktp = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local banjo = Instance.new("TextButton")
+local infy = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local day = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local ss = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local clicktp = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
-local togglec = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local clicktp_2 = Instance.new("TextLabel")
-local nrss = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local banjol = Instance.new("Frame")
-local UICorner_13 = Instance.new("UICorner")
-local amogus = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local soon = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
 local antimod = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local nrss = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local banjol = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local amogus = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local banjo = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local nightv = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local ss = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
 local farming = Instance.new("ScrollingFrame")
 local combat = Instance.new("Frame")
 local ttl = Instance.new("TextLabel")
-local togglec_2 = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local UICorner_18 = Instance.new("UICorner")
+local togglec = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local bowfarm = Instance.new("Frame")
 local ttl_2 = Instance.new("TextLabel")
-local toggleb = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local UICorner_20 = Instance.new("UICorner")
+local togglebf = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local xlfarm = Instance.new("Frame")
 local ttl_3 = Instance.new("TextLabel")
 local togglexl = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local UICorner_22 = Instance.new("UICorner")
-local tip = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local feats = Instance.new("ScrollingFrame")
-local jesus = Instance.new("Frame")
-local UICorner_23 = Instance.new("UICorner")
-local togglej = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local ttl_4 = Instance.new("TextLabel")
+local t2 = Instance.new("TextLabel")
 local animp = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local noclog = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local infstam = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local infme = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local infair = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
-local ofeats = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
-local cesp = Instance.new("Frame")
-local UICorner_31 = Instance.new("UICorner")
-local togglece = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
+local jesus = Instance.new("Frame")
+local ttl_4 = Instance.new("TextLabel")
+local togglej = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
+local chestesp = Instance.new("Frame")
 local ttl_5 = Instance.new("TextLabel")
+local togglece = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local ncddm = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
 local radiusncd = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
-local UICorner_34 = Instance.new("UICorner")
-local impactc = Instance.new("TextButton")
-local UICorner_35 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local ttl_6 = Instance.new("TextLabel")
-local UICorner_36 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
+local impactc = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
 local rmwcds = Instance.new("TextButton")
-local UICorner_37 = Instance.new("UICorner")
-local tps1 = Instance.new("ScrollingFrame")
-local soon_2 = Instance.new("TextButton")
-local UICorner_38 = Instance.new("UICorner")
-local soon_3 = Instance.new("TextButton")
-local UICorner_39 = Instance.new("UICorner")
-local soon_4 = Instance.new("TextButton")
-local UICorner_40 = Instance.new("UICorner")
-local soon_5 = Instance.new("TextButton")
-local UICorner_41 = Instance.new("UICorner")
+local UICorner_34 = Instance.new("UICorner")
+local ofeats = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local infstam_2 = Instance.new("Frame")
 local ttl_7 = Instance.new("TextLabel")
-local Frame_2 = Instance.new("Frame")
-local line = Instance.new("Frame")
+local toggleis = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
+local infair_2 = Instance.new("Frame")
+local ttl_8 = Instance.new("TextLabel")
+local toggleis_2 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local UICorner_39 = Instance.new("UICorner")
+local tps1 = Instance.new("ScrollingFrame")
+local soon = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local soon_2 = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local soon_3 = Instance.new("TextButton")
 local UICorner_42 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
+local soon_4 = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local ttl_9 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local UICorner_44 = Instance.new("UICorner")
 
 --Properties:
 
@@ -181,14 +184,6 @@ close.TextSize = 14.000
 UICorner.CornerRadius = UDim.new(0, 3)
 UICorner.Parent = close
 
-logo.Name = "logo"
-logo.Parent = title
-logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-logo.BackgroundTransparency = 1.000
-logo.BorderSizePixel = 0
-logo.Size = UDim2.new(0, 24, 0, 22)
-logo.Image = "rbxassetid://7166475075"
-
 menu.Name = "menu"
 menu.Parent = Main
 menu.Active = true
@@ -255,6 +250,13 @@ teleports.TextSize = 14.000
 UICorner_5.CornerRadius = UDim.new(0, 3)
 UICorner_5.Parent = teleports
 
+line.Name = "line"
+line.Parent = Main
+line.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+line.BorderSizePixel = 0
+line.Position = UDim2.new(0, -3, 0, 22)
+line.Size = UDim2.new(0, 97, 0, 1)
+
 misce.Name = "misce"
 misce.Parent = Main
 misce.Active = true
@@ -264,6 +266,20 @@ misce.Position = UDim2.new(0, 100, 0, 28)
 misce.Size = UDim2.new(0, 278, 0, 0)
 misce.CanvasSize = UDim2.new(0, 0, 0, 0)
 misce.ScrollBarThickness = 0
+
+clicktp.Name = "clicktp"
+clicktp.Parent = misce
+clicktp.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+clicktp.BorderSizePixel = 0
+clicktp.Position = UDim2.new(0, 4, 0, 4)
+clicktp.Size = UDim2.new(0, 79, 0, 27)
+clicktp.Font = Enum.Font.SourceSans
+clicktp.Text = "Click TP"
+clicktp.TextColor3 = Color3.fromRGB(255, 255, 255)
+clicktp.TextSize = 13.000
+
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = clicktp
 
 infy.Name = "infy"
 infy.Parent = misce
@@ -276,112 +292,46 @@ infy.Text = "Infinite Yield"
 infy.TextColor3 = Color3.fromRGB(255, 255, 255)
 infy.TextSize = 13.000
 
-UICorner_6.CornerRadius = UDim.new(0, 3)
-UICorner_6.Parent = infy
-
-banjo.Name = "banjo"
-banjo.Parent = misce
-banjo.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-banjo.BorderSizePixel = 0
-banjo.Position = UDim2.new(0, 4, 0, 66)
-banjo.Size = UDim2.new(0, 79, 0, 27)
-banjo.Font = Enum.Font.SourceSans
-banjo.Text = "Banjo Music List"
-banjo.TextColor3 = Color3.fromRGB(255, 255, 255)
-banjo.TextSize = 13.000
-
 UICorner_7.CornerRadius = UDim.new(0, 3)
-UICorner_7.Parent = banjo
+UICorner_7.Parent = infy
 
-day.Name = "day"
-day.Parent = misce
-day.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-day.BorderSizePixel = 0
-day.Position = UDim2.new(0, 4, 0, 97)
-day.Size = UDim2.new(0, 79, 0, 27)
-day.Font = Enum.Font.SourceSans
-day.Text = "Always Day"
-day.TextColor3 = Color3.fromRGB(255, 255, 255)
-day.TextSize = 13.000
+antimod.Name = "antimod"
+antimod.Parent = misce
+antimod.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+antimod.Position = UDim2.new(0, 4, 0, 159)
+antimod.Size = UDim2.new(0, 270, 0, 22)
+antimod.Font = Enum.Font.SourceSans
+antimod.Text = "Anti-Moderators"
+antimod.TextColor3 = Color3.fromRGB(255, 255, 255)
+antimod.TextSize = 14.000
 
 UICorner_8.CornerRadius = UDim.new(0, 3)
-UICorner_8.Parent = day
-
-ss.Name = "ss"
-ss.Parent = misce
-ss.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-ss.BorderSizePixel = 0
-ss.Position = UDim2.new(0, 4, 0, 128)
-ss.Size = UDim2.new(0, 79, 0, 27)
-ss.Font = Enum.Font.SourceSans
-ss.Text = "Simple Spy"
-ss.TextColor3 = Color3.fromRGB(255, 255, 255)
-ss.TextSize = 13.000
-
-UICorner_9.CornerRadius = UDim.new(0, 3)
-UICorner_9.Parent = ss
-
-clicktp.Name = "clicktp"
-clicktp.Parent = misce
-clicktp.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-clicktp.BorderSizePixel = 0
-clicktp.Position = UDim2.new(0, 4, 0, 4)
-clicktp.Size = UDim2.new(0, 79, 0, 27)
-
-UICorner_10.CornerRadius = UDim.new(0, 3)
-UICorner_10.Parent = clicktp
-
-togglec.Name = "togglec"
-togglec.Parent = clicktp
-togglec.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-togglec.BorderSizePixel = 0
-togglec.Position = UDim2.new(0, 55, 0, 4)
-togglec.Size = UDim2.new(0, 20, 0, 18)
-togglec.Font = Enum.Font.SourceSans
-togglec.Text = "N"
-togglec.TextColor3 = Color3.fromRGB(255, 0, 0)
-togglec.TextSize = 13.000
-
-UICorner_11.CornerRadius = UDim.new(0, 3)
-UICorner_11.Parent = togglec
-
-clicktp_2.Name = "clicktp"
-clicktp_2.Parent = clicktp
-clicktp_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-clicktp_2.BackgroundTransparency = 1.000
-clicktp_2.BorderSizePixel = 0
-clicktp_2.Size = UDim2.new(0, 55, 0, 27)
-clicktp_2.Font = Enum.Font.SourceSans
-clicktp_2.Text = "Click TP"
-clicktp_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-clicktp_2.TextSize = 14.000
+UICorner_8.Parent = antimod
 
 nrss.Name = "nrss"
 nrss.Parent = misce
 nrss.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-nrss.BorderSizePixel = 0
 nrss.Position = UDim2.new(0, 87, 0, 4)
 nrss.Size = UDim2.new(0, 79, 0, 27)
 nrss.Font = Enum.Font.SourceSans
 nrss.Text = "No Rain, Snow, Sand"
 nrss.TextColor3 = Color3.fromRGB(255, 255, 255)
 nrss.TextScaled = true
-nrss.TextSize = 13.000
+nrss.TextSize = 14.000
 nrss.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = nrss
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = nrss
 
 banjol.Name = "banjol"
 banjol.Parent = misce
 banjol.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-banjol.BorderSizePixel = 0
 banjol.ClipsDescendants = true
 banjol.Position = UDim2.new(0, 87, 0, 35)
 banjol.Size = UDim2.new(0, 79, 0, 120)
 
-UICorner_13.CornerRadius = UDim.new(0, 3)
-UICorner_13.Parent = banjol
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = banjol
 
 amogus.Name = "amogus"
 amogus.Parent = banjol
@@ -393,35 +343,47 @@ amogus.Text = "Amogus"
 amogus.TextColor3 = Color3.fromRGB(255, 255, 255)
 amogus.TextSize = 14.000
 
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = amogus
+
+banjo.Name = "banjo"
+banjo.Parent = misce
+banjo.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+banjo.Position = UDim2.new(0, 4, 0, 66)
+banjo.Size = UDim2.new(0, 79, 0, 27)
+banjo.Font = Enum.Font.SourceSans
+banjo.Text = "Banjo Player"
+banjo.TextColor3 = Color3.fromRGB(255, 255, 255)
+banjo.TextSize = 14.000
+
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = banjo
+
+nightv.Name = "nightv"
+nightv.Parent = misce
+nightv.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+nightv.Position = UDim2.new(0, 4, 0, 97)
+nightv.Size = UDim2.new(0, 79, 0, 27)
+nightv.Font = Enum.Font.SourceSans
+nightv.Text = "Night Vision"
+nightv.TextColor3 = Color3.fromRGB(255, 255, 255)
+nightv.TextSize = 14.000
+
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = nightv
+
+ss.Name = "ss"
+ss.Parent = misce
+ss.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+ss.Position = UDim2.new(0, 4, 0, 128)
+ss.Size = UDim2.new(0, 79, 0, 27)
+ss.Font = Enum.Font.SourceSans
+ss.Text = "SimpleSpy"
+ss.TextColor3 = Color3.fromRGB(255, 255, 255)
+ss.TextSize = 14.000
+
 UICorner_14.CornerRadius = UDim.new(0, 3)
-UICorner_14.Parent = amogus
-
-soon.Name = "soon"
-soon.Parent = banjol
-soon.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-soon.Position = UDim2.new(0, 3, 0, 28)
-soon.Size = UDim2.new(0, 73, 0, 22)
-soon.Font = Enum.Font.SourceSans
-soon.Text = "Soon"
-soon.TextColor3 = Color3.fromRGB(255, 255, 255)
-soon.TextSize = 14.000
-
-UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = soon
-
-antimod.Name = "antimod"
-antimod.Parent = misce
-antimod.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-antimod.BorderSizePixel = 0
-antimod.Position = UDim2.new(0, 4, 0, 159)
-antimod.Size = UDim2.new(0, 270, 0, 22)
-antimod.Font = Enum.Font.SourceSans
-antimod.Text = "Anti-Moderators"
-antimod.TextColor3 = Color3.fromRGB(255, 255, 255)
-antimod.TextSize = 13.000
-
-UICorner_16.CornerRadius = UDim.new(0, 3)
-UICorner_16.Parent = antimod
+UICorner_14.Parent = ss
 
 farming.Name = "farming"
 farming.Parent = Main
@@ -429,7 +391,7 @@ farming.Active = true
 farming.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 farming.BorderSizePixel = 0
 farming.Position = UDim2.new(0, 100, 0, 28)
-farming.Size = UDim2.new(0, 278, 0, 185)
+farming.Size = UDim2.new(0, 278, 0, 0)
 farming.CanvasSize = UDim2.new(0, 0, 0, 0)
 farming.ScrollBarThickness = 0
 
@@ -445,28 +407,29 @@ ttl.Parent = combat
 ttl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ttl.BackgroundTransparency = 1.000
 ttl.BorderSizePixel = 0
-ttl.Size = UDim2.new(0, 52, 0, 24)
+ttl.Position = UDim2.new(0.068965517, 0, 0, 0)
+ttl.Size = UDim2.new(0, 40, 0, 24)
 ttl.Font = Enum.Font.SourceSans
 ttl.Text = "Combat"
 ttl.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttl.TextSize = 14.000
 
-togglec_2.Name = "togglec"
-togglec_2.Parent = combat
-togglec_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-togglec_2.BorderSizePixel = 0
-togglec_2.Position = UDim2.new(0, 67, 0, 4)
-togglec_2.Size = UDim2.new(0, 16, 0, 16)
-togglec_2.Font = Enum.Font.SourceSans
-togglec_2.Text = " N"
-togglec_2.TextColor3 = Color3.fromRGB(255, 0, 0)
-togglec_2.TextSize = 14.000
+togglec.Name = "togglec"
+togglec.Parent = combat
+togglec.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+togglec.BorderSizePixel = 0
+togglec.Position = UDim2.new(0, 65, 0, 4)
+togglec.Size = UDim2.new(0, 16, 0, 16)
+togglec.Font = Enum.Font.SourceSans
+togglec.Text = "N"
+togglec.TextColor3 = Color3.fromRGB(255, 0, 0)
+togglec.TextSize = 14.000
 
-UICorner_17.CornerRadius = UDim.new(0, 3)
-UICorner_17.Parent = togglec_2
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = togglec
 
-UICorner_18.CornerRadius = UDim.new(0, 3)
-UICorner_18.Parent = combat
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = combat
 
 bowfarm.Name = "bowfarm"
 bowfarm.Parent = farming
@@ -480,29 +443,29 @@ ttl_2.Parent = bowfarm
 ttl_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ttl_2.BackgroundTransparency = 1.000
 ttl_2.BorderSizePixel = 0
-ttl_2.Position = UDim2.new(0.068965517, 0, 0, 0)
-ttl_2.Size = UDim2.new(0, 46, 0, 24)
+ttl_2.Position = UDim2.new(0.137931034, 0, 0, 0)
+ttl_2.Size = UDim2.new(0, 34, 0, 24)
 ttl_2.Font = Enum.Font.SourceSans
 ttl_2.Text = "Bow Farm"
 ttl_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttl_2.TextSize = 14.000
 
-toggleb.Name = "toggleb"
-toggleb.Parent = bowfarm
-toggleb.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-toggleb.BorderSizePixel = 0
-toggleb.Position = UDim2.new(0, 67, 0, 4)
-toggleb.Size = UDim2.new(0, 16, 0, 16)
-toggleb.Font = Enum.Font.SourceSans
-toggleb.Text = " N"
-toggleb.TextColor3 = Color3.fromRGB(255, 0, 0)
-toggleb.TextSize = 14.000
+togglebf.Name = "togglebf"
+togglebf.Parent = bowfarm
+togglebf.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+togglebf.BorderSizePixel = 0
+togglebf.Position = UDim2.new(0, 65, 0, 4)
+togglebf.Size = UDim2.new(0, 16, 0, 16)
+togglebf.Font = Enum.Font.SourceSans
+togglebf.Text = "N"
+togglebf.TextColor3 = Color3.fromRGB(255, 0, 0)
+togglebf.TextSize = 14.000
 
-UICorner_19.CornerRadius = UDim.new(0, 3)
-UICorner_19.Parent = toggleb
+UICorner_17.CornerRadius = UDim.new(0, 3)
+UICorner_17.Parent = togglebf
 
-UICorner_20.CornerRadius = UDim.new(0, 3)
-UICorner_20.Parent = bowfarm
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = bowfarm
 
 xlfarm.Name = "xlfarm"
 xlfarm.Parent = farming
@@ -517,9 +480,9 @@ ttl_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ttl_3.BackgroundTransparency = 1.000
 ttl_3.BorderSizePixel = 0
 ttl_3.Position = UDim2.new(0.068965517, 0, 0, 0)
-ttl_3.Size = UDim2.new(0, 46, 0, 24)
+ttl_3.Size = UDim2.new(0, 40, 0, 24)
 ttl_3.Font = Enum.Font.SourceSans
-ttl_3.Text = "XL Cutlass"
+ttl_3.Text = "XL Farm"
 ttl_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttl_3.TextSize = 14.000
 
@@ -527,29 +490,18 @@ togglexl.Name = "togglexl"
 togglexl.Parent = xlfarm
 togglexl.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 togglexl.BorderSizePixel = 0
-togglexl.Position = UDim2.new(0, 67, 0, 4)
+togglexl.Position = UDim2.new(0, 65, 0, 4)
 togglexl.Size = UDim2.new(0, 16, 0, 16)
 togglexl.Font = Enum.Font.SourceSans
-togglexl.Text = " N"
+togglexl.Text = "N"
 togglexl.TextColor3 = Color3.fromRGB(255, 0, 0)
 togglexl.TextSize = 14.000
 
-UICorner_21.CornerRadius = UDim.new(0, 3)
-UICorner_21.Parent = togglexl
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = togglexl
 
-UICorner_22.CornerRadius = UDim.new(0, 3)
-UICorner_22.Parent = xlfarm
-
-tip.Name = "tip"
-tip.Parent = farming
-tip.BackgroundColor3 = Color3.fromRGB(143, 15, 255)
-tip.BackgroundTransparency = 1.000
-tip.Position = UDim2.new(0, 95, 0, 4)
-tip.Size = UDim2.new(0, 78, 0, 24)
-tip.Font = Enum.Font.SourceSans
-tip.Text = "Currently risky."
-tip.TextColor3 = Color3.fromRGB(94, 0, 209)
-tip.TextSize = 14.000
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = xlfarm
 
 feats.Name = "feats"
 feats.Parent = Main
@@ -561,41 +513,16 @@ feats.Size = UDim2.new(0, 278, 0, 0)
 feats.CanvasSize = UDim2.new(0, 0, 0, 0)
 feats.ScrollBarThickness = 0
 
-jesus.Name = "jesus"
-jesus.Parent = feats
-jesus.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-jesus.BorderSizePixel = 0
-jesus.Position = UDim2.new(0, 4, 0, 4)
-jesus.Size = UDim2.new(0, 79, 0, 27)
-jesus.ZIndex = 0
-
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = jesus
-
-togglej.Name = "togglej"
-togglej.Parent = jesus
-togglej.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-togglej.BorderSizePixel = 0
-togglej.Position = UDim2.new(0, 59, 0, 5)
-togglej.Size = UDim2.new(0, 16, 0, 16)
-togglej.Font = Enum.Font.SourceSans
-togglej.Text = " N"
-togglej.TextColor3 = Color3.fromRGB(255, 0, 0)
-togglej.TextSize = 14.000
-
-UICorner_24.CornerRadius = UDim.new(0, 3)
-UICorner_24.Parent = togglej
-
-ttl_4.Name = "ttl"
-ttl_4.Parent = jesus
-ttl_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ttl_4.BackgroundTransparency = 1.000
-ttl_4.Position = UDim2.new(0, 0, 0, 1)
-ttl_4.Size = UDim2.new(0, 39, 0, 26)
-ttl_4.Font = Enum.Font.SourceSans
-ttl_4.Text = "Jesus"
-ttl_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-ttl_4.TextSize = 14.000
+t2.Name = "t2"
+t2.Parent = feats
+t2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+t2.BackgroundTransparency = 1.000
+t2.Position = UDim2.new(0, 6, 0, 9)
+t2.Size = UDim2.new(0, 39, 0, 21)
+t2.Font = Enum.Font.SourceSans
+t2.Text = "Jesus"
+t2.TextColor3 = Color3.fromRGB(255, 255, 255)
+t2.TextSize = 14.000
 
 animp.Name = "animp"
 animp.Parent = feats
@@ -608,8 +535,8 @@ animp.Text = "All Anim Packs"
 animp.TextColor3 = Color3.fromRGB(255, 255, 255)
 animp.TextSize = 13.000
 
-UICorner_25.CornerRadius = UDim.new(0, 3)
-UICorner_25.Parent = animp
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = animp
 
 noclog.Name = "noclog"
 noclog.Parent = feats
@@ -622,8 +549,8 @@ noclog.Text = "No CLog"
 noclog.TextColor3 = Color3.fromRGB(255, 255, 255)
 noclog.TextSize = 13.000
 
-UICorner_26.CornerRadius = UDim.new(0, 3)
-UICorner_26.Parent = noclog
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = noclog
 
 infstam.Name = "infstam"
 infstam.Parent = feats
@@ -631,19 +558,20 @@ infstam.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 infstam.BorderSizePixel = 0
 infstam.Position = UDim2.new(0, 195, 0, 4)
 infstam.Size = UDim2.new(0, 79, 0, 27)
+infstam.Visible = false
 infstam.Font = Enum.Font.SourceSans
-infstam.Text = "Infinite Stam"
+infstam.Text = "Inf Stam"
 infstam.TextColor3 = Color3.fromRGB(255, 255, 255)
 infstam.TextSize = 13.000
 
-UICorner_27.CornerRadius = UDim.new(0, 3)
-UICorner_27.Parent = infstam
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = infstam
 
 infme.Name = "infme"
 infme.Parent = feats
 infme.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 infme.BorderSizePixel = 0
-infme.Position = UDim2.new(0, 193, 0, 40)
+infme.Position = UDim2.new(0, 195, 0, 35)
 infme.Size = UDim2.new(0, 79, 0, 27)
 infme.Visible = false
 infme.Font = Enum.Font.SourceSans
@@ -651,8 +579,8 @@ infme.Text = "Infinite Energy"
 infme.TextColor3 = Color3.fromRGB(255, 255, 255)
 infme.TextSize = 13.000
 
-UICorner_28.CornerRadius = UDim.new(0, 3)
-UICorner_28.Parent = infme
+UICorner_24.CornerRadius = UDim.new(0, 3)
+UICorner_24.Parent = infme
 
 infair.Name = "infair"
 infair.Parent = feats
@@ -660,103 +588,110 @@ infair.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 infair.BorderSizePixel = 0
 infair.Position = UDim2.new(0, 195, 0, 35)
 infair.Size = UDim2.new(0, 79, 0, 27)
+infair.Visible = false
 infair.Font = Enum.Font.SourceSans
-infair.Text = "Infinite Air"
+infair.Text = "Inf Air"
 infair.TextColor3 = Color3.fromRGB(255, 255, 255)
 infair.TextSize = 13.000
 
-UICorner_29.CornerRadius = UDim.new(0, 3)
-UICorner_29.Parent = infair
+UICorner_25.CornerRadius = UDim.new(0, 3)
+UICorner_25.Parent = infair
 
-ofeats.Name = "ofeats"
-ofeats.Parent = feats
-ofeats.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-ofeats.BorderSizePixel = 0
-ofeats.Position = UDim2.new(0, 4, 0, 66)
-ofeats.Size = UDim2.new(0, 79, 0, 27)
-ofeats.Font = Enum.Font.SourceSans
-ofeats.Text = "Other features"
-ofeats.TextColor3 = Color3.fromRGB(255, 255, 255)
-ofeats.TextSize = 14.000
-ofeats.TextWrapped = true
+jesus.Name = "jesus"
+jesus.Parent = feats
+jesus.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+jesus.BorderSizePixel = 0
+jesus.Position = UDim2.new(0, 4, 0, 4)
+jesus.Size = UDim2.new(0, 80, 0, 27)
 
-UICorner_30.CornerRadius = UDim.new(0, 3)
-UICorner_30.Parent = ofeats
+ttl_4.Name = "ttl"
+ttl_4.Parent = jesus
+ttl_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ttl_4.BackgroundTransparency = 1.000
+ttl_4.BorderSizePixel = 0
+ttl_4.Position = UDim2.new(0.0689651519, 0, 0, 0)
+ttl_4.Size = UDim2.new(0, 28, 0, 27)
+ttl_4.Font = Enum.Font.SourceSans
+ttl_4.Text = "Jesus"
+ttl_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ttl_4.TextSize = 14.000
 
-cesp.Name = "cesp"
-cesp.Parent = feats
-cesp.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-cesp.BorderSizePixel = 0
-cesp.Position = UDim2.new(0, 4, 0, 35)
-cesp.Size = UDim2.new(0, 79, 0, 27)
-cesp.ZIndex = 0
+togglej.Name = "togglej"
+togglej.Parent = jesus
+togglej.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+togglej.BorderSizePixel = 0
+togglej.Position = UDim2.new(0, 58, 0, 5)
+togglej.Size = UDim2.new(0, 18, 0, 18)
+togglej.Font = Enum.Font.SourceSans
+togglej.Text = "N"
+togglej.TextColor3 = Color3.fromRGB(255, 0, 0)
+togglej.TextSize = 14.000
 
-UICorner_31.CornerRadius = UDim.new(0, 3)
-UICorner_31.Parent = cesp
+UICorner_26.CornerRadius = UDim.new(0, 3)
+UICorner_26.Parent = togglej
 
-togglece.Name = "togglece"
-togglece.Parent = cesp
-togglece.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-togglece.BorderSizePixel = 0
-togglece.Position = UDim2.new(0, 59, 0, 5)
-togglece.Size = UDim2.new(0, 16, 0, 16)
-togglece.Font = Enum.Font.SourceSans
-togglece.Text = " N"
-togglece.TextColor3 = Color3.fromRGB(255, 0, 0)
-togglece.TextSize = 14.000
+UICorner_27.CornerRadius = UDim.new(0, 3)
+UICorner_27.Parent = jesus
 
-UICorner_32.CornerRadius = UDim.new(0, 3)
-UICorner_32.Parent = togglece
+chestesp.Name = "chestesp"
+chestesp.Parent = feats
+chestesp.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+chestesp.BorderSizePixel = 0
+chestesp.Position = UDim2.new(0, 4, 0, 35)
+chestesp.Size = UDim2.new(0, 80, 0, 27)
 
 ttl_5.Name = "ttl"
-ttl_5.Parent = cesp
+ttl_5.Parent = chestesp
 ttl_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ttl_5.BackgroundTransparency = 1.000
-ttl_5.Position = UDim2.new(0, 0, 0, 1)
-ttl_5.Size = UDim2.new(0, 59, 0, 26)
+ttl_5.BorderSizePixel = 0
+ttl_5.Position = UDim2.new(0, 8, 0, 0)
+ttl_5.Size = UDim2.new(0, 42, 0, 27)
 ttl_5.Font = Enum.Font.SourceSans
 ttl_5.Text = "Chest ESP"
 ttl_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttl_5.TextSize = 14.000
+
+togglece.Name = "togglece"
+togglece.Parent = chestesp
+togglece.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+togglece.BorderSizePixel = 0
+togglece.Position = UDim2.new(0, 58, 0, 5)
+togglece.Size = UDim2.new(0, 18, 0, 18)
+togglece.Font = Enum.Font.SourceSans
+togglece.Text = "N"
+togglece.TextColor3 = Color3.fromRGB(255, 0, 0)
+togglece.TextSize = 14.000
+
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = togglece
+
+UICorner_29.CornerRadius = UDim.new(0, 3)
+UICorner_29.Parent = chestesp
 
 ncddm.Name = "ncddm"
 ncddm.Parent = feats
 ncddm.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 ncddm.BorderSizePixel = 0
 ncddm.ClipsDescendants = true
-ncddm.Position = UDim2.new(0, 87, 0, 4)
+ncddm.Position = UDim2.new(0, 88, 0, 4)
 ncddm.Size = UDim2.new(0, 103, 0, 177)
+
+UICorner_30.CornerRadius = UDim.new(0, 3)
+UICorner_30.Parent = ncddm
 
 radiusncd.Name = "radiusncd"
 radiusncd.Parent = ncddm
 radiusncd.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-radiusncd.BorderSizePixel = 0
 radiusncd.Position = UDim2.new(0, 3, 0, 3)
-radiusncd.Size = UDim2.new(0, 96, 0, 27)
+radiusncd.Size = UDim2.new(0, 97, 0, 27)
 radiusncd.Font = Enum.Font.SourceSans
-radiusncd.Text = "Radius No CD"
+radiusncd.Text = "Radius R No CD"
 radiusncd.TextColor3 = Color3.fromRGB(255, 255, 255)
 radiusncd.TextSize = 14.000
 
-UICorner_33.CornerRadius = UDim.new(0, 3)
-UICorner_33.Parent = radiusncd
-
-UICorner_34.CornerRadius = UDim.new(0, 3)
-UICorner_34.Parent = ncddm
-
-impactc.Name = "impactc"
-impactc.Parent = ncddm
-impactc.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-impactc.BorderSizePixel = 0
-impactc.Position = UDim2.new(0, 69, 0, 33)
-impactc.Size = UDim2.new(0, 30, 0, 27)
-impactc.Font = Enum.Font.SourceSans
-impactc.Text = "N"
-impactc.TextColor3 = Color3.fromRGB(255, 0, 0)
-impactc.TextSize = 14.000
-
-UICorner_35.CornerRadius = UDim.new(0, 3)
-UICorner_35.Parent = impactc
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = radiusncd
 
 ttl_6.Name = "ttl"
 ttl_6.Parent = ncddm
@@ -768,22 +703,120 @@ ttl_6.Text = "IF Charger"
 ttl_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttl_6.TextSize = 14.000
 
-UICorner_36.CornerRadius = UDim.new(0, 3)
-UICorner_36.Parent = ttl_6
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = ttl_6
+
+impactc.Name = "impactc"
+impactc.Parent = ncddm
+impactc.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+impactc.Position = UDim2.new(0, 69, 0, 33)
+impactc.Size = UDim2.new(0, 30, 0, 27)
+impactc.Font = Enum.Font.SourceSans
+impactc.Text = "N"
+impactc.TextColor3 = Color3.fromRGB(255, 0, 0)
+impactc.TextSize = 14.000
+
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = impactc
 
 rmwcds.Name = "rmwcds"
 rmwcds.Parent = ncddm
 rmwcds.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-rmwcds.BorderSizePixel = 0
 rmwcds.Position = UDim2.new(0, 3, 0, 63)
-rmwcds.Size = UDim2.new(0, 96, 0, 27)
+rmwcds.Size = UDim2.new(0, 97, 0, 27)
 rmwcds.Font = Enum.Font.SourceSans
-rmwcds.Text = "Remove MW CDs"
+rmwcds.Text = "Remove Wep CDs"
 rmwcds.TextColor3 = Color3.fromRGB(255, 255, 255)
 rmwcds.TextSize = 14.000
 
+UICorner_34.CornerRadius = UDim.new(0, 3)
+UICorner_34.Parent = rmwcds
+
+ofeats.Name = "ofeats"
+ofeats.Parent = feats
+ofeats.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+ofeats.BorderSizePixel = 0
+ofeats.Position = UDim2.new(0, 4, 0, 66)
+ofeats.Size = UDim2.new(0, 80, 0, 27)
+ofeats.Font = Enum.Font.SourceSans
+ofeats.Text = "Other Features"
+ofeats.TextColor3 = Color3.fromRGB(255, 255, 255)
+ofeats.TextSize = 13.000
+
+UICorner_35.CornerRadius = UDim.new(0, 3)
+UICorner_35.Parent = ofeats
+
+infstam_2.Name = "infstam"
+infstam_2.Parent = feats
+infstam_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+infstam_2.BorderSizePixel = 0
+infstam_2.Position = UDim2.new(0, 195, 0, 4)
+infstam_2.Size = UDim2.new(0, 79, 0, 27)
+
+ttl_7.Name = "ttl"
+ttl_7.Parent = infstam_2
+ttl_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ttl_7.BackgroundTransparency = 1.000
+ttl_7.BorderSizePixel = 0
+ttl_7.Position = UDim2.new(0.0689650923, 0, 0, 0)
+ttl_7.Size = UDim2.new(0, 43, 0, 27)
+ttl_7.Font = Enum.Font.SourceSans
+ttl_7.Text = "Inf Stam"
+ttl_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+ttl_7.TextSize = 14.000
+
+toggleis.Name = "toggleis"
+toggleis.Parent = infstam_2
+toggleis.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+toggleis.BorderSizePixel = 0
+toggleis.Position = UDim2.new(0, 58, 0, 5)
+toggleis.Size = UDim2.new(0, 18, 0, 18)
+toggleis.Font = Enum.Font.SourceSans
+toggleis.Text = "N"
+toggleis.TextColor3 = Color3.fromRGB(255, 0, 0)
+toggleis.TextSize = 14.000
+
+UICorner_36.CornerRadius = UDim.new(0, 3)
+UICorner_36.Parent = toggleis
+
 UICorner_37.CornerRadius = UDim.new(0, 3)
-UICorner_37.Parent = rmwcds
+UICorner_37.Parent = infstam_2
+
+infair_2.Name = "infair"
+infair_2.Parent = feats
+infair_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+infair_2.BorderSizePixel = 0
+infair_2.Position = UDim2.new(0, 195, 0, 35)
+infair_2.Size = UDim2.new(0, 79, 0, 27)
+
+ttl_8.Name = "ttl"
+ttl_8.Parent = infair_2
+ttl_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ttl_8.BackgroundTransparency = 1.000
+ttl_8.BorderSizePixel = 0
+ttl_8.Position = UDim2.new(0.0689650923, 0, 0, 0)
+ttl_8.Size = UDim2.new(0, 36, 0, 27)
+ttl_8.Font = Enum.Font.SourceSans
+ttl_8.Text = "Inf Air"
+ttl_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+ttl_8.TextSize = 14.000
+
+toggleis_2.Name = "toggleis"
+toggleis_2.Parent = infair_2
+toggleis_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+toggleis_2.BorderSizePixel = 0
+toggleis_2.Position = UDim2.new(0, 58, 0, 5)
+toggleis_2.Size = UDim2.new(0, 18, 0, 18)
+toggleis_2.Font = Enum.Font.SourceSans
+toggleis_2.Text = "N"
+toggleis_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+toggleis_2.TextSize = 14.000
+
+UICorner_38.CornerRadius = UDim.new(0, 3)
+UICorner_38.Parent = toggleis_2
+
+UICorner_39.CornerRadius = UDim.new(0, 3)
+UICorner_39.Parent = infair_2
 
 tps1.Name = "tps1"
 tps1.Parent = Main
@@ -791,104 +824,88 @@ tps1.Active = true
 tps1.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 tps1.BorderSizePixel = 0
 tps1.Position = UDim2.new(0, 100, 0, 28)
-tps1.Size = UDim2.new(0, 278, 0, 0)
+tps1.Size = UDim2.new(0, 278, 0, 185)
 tps1.ScrollBarThickness = 0
+
+soon.Name = "soon"
+soon.Parent = tps1
+soon.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+soon.BorderSizePixel = 0
+soon.Position = UDim2.new(0, 4, 0, 27)
+soon.Size = UDim2.new(0, 71, 0, 27)
+soon.Font = Enum.Font.SourceSans
+soon.Text = "Soon!"
+soon.TextColor3 = Color3.fromRGB(255, 255, 255)
+soon.TextSize = 13.000
+
+UICorner_40.CornerRadius = UDim.new(0, 3)
+UICorner_40.Parent = soon
 
 soon_2.Name = "soon"
 soon_2.Parent = tps1
 soon_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 soon_2.BorderSizePixel = 0
-soon_2.Position = UDim2.new(0, 4, 0, 26)
+soon_2.Position = UDim2.new(0, 4, 0, 58)
 soon_2.Size = UDim2.new(0, 71, 0, 27)
 soon_2.Font = Enum.Font.SourceSans
 soon_2.Text = "Soon!"
 soon_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_2.TextSize = 13.000
 
-UICorner_38.CornerRadius = UDim.new(0, 3)
-UICorner_38.Parent = soon_2
+UICorner_41.CornerRadius = UDim.new(0, 3)
+UICorner_41.Parent = soon_2
 
 soon_3.Name = "soon"
 soon_3.Parent = tps1
 soon_3.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 soon_3.BorderSizePixel = 0
-soon_3.Position = UDim2.new(0, 4, 0, 57)
+soon_3.Position = UDim2.new(0, 4, 0, 89)
 soon_3.Size = UDim2.new(0, 71, 0, 27)
 soon_3.Font = Enum.Font.SourceSans
 soon_3.Text = "Soon!"
 soon_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_3.TextSize = 13.000
 
-UICorner_39.CornerRadius = UDim.new(0, 3)
-UICorner_39.Parent = soon_3
+UICorner_42.CornerRadius = UDim.new(0, 3)
+UICorner_42.Parent = soon_3
 
 soon_4.Name = "soon"
 soon_4.Parent = tps1
 soon_4.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 soon_4.BorderSizePixel = 0
-soon_4.Position = UDim2.new(0, 4, 0, 88)
+soon_4.Position = UDim2.new(0, 4, 0, 120)
 soon_4.Size = UDim2.new(0, 71, 0, 27)
 soon_4.Font = Enum.Font.SourceSans
 soon_4.Text = "Soon!"
 soon_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_4.TextSize = 13.000
 
-UICorner_40.CornerRadius = UDim.new(0, 3)
-UICorner_40.Parent = soon_4
+UICorner_43.CornerRadius = UDim.new(0, 3)
+UICorner_43.Parent = soon_4
 
-soon_5.Name = "soon"
-soon_5.Parent = tps1
-soon_5.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-soon_5.BorderSizePixel = 0
-soon_5.Position = UDim2.new(0, 4, 0, 119)
-soon_5.Size = UDim2.new(0, 71, 0, 27)
-soon_5.Font = Enum.Font.SourceSans
-soon_5.Text = "Soon!"
-soon_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-soon_5.TextSize = 13.000
-
-UICorner_41.CornerRadius = UDim.new(0, 3)
-UICorner_41.Parent = soon_5
-
-ttl_7.Name = "ttl"
-ttl_7.Parent = tps1
-ttl_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ttl_7.BackgroundTransparency = 1.000
-ttl_7.Size = UDim2.new(0, 278, 0, 21)
-ttl_7.Font = Enum.Font.SourceSans
-ttl_7.Text = "             Islands                Cap-able islands                        Seas"
-ttl_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-ttl_7.TextSize = 14.000
-ttl_7.TextXAlignment = Enum.TextXAlignment.Left
+ttl_9.Name = "ttl"
+ttl_9.Parent = tps1
+ttl_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ttl_9.BackgroundTransparency = 1.000
+ttl_9.Size = UDim2.new(0, 278, 0, 21)
+ttl_9.Font = Enum.Font.SourceSans
+ttl_9.Text = "             Islands                Cap-able islands                        Seas"
+ttl_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+ttl_9.TextSize = 14.000
+ttl_9.TextXAlignment = Enum.TextXAlignment.Left
 
 Frame_2.Parent = tps1
-Frame_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame_2.BorderSizePixel = 0
 Frame_2.Position = UDim2.new(0, 0, 0, 21)
 Frame_2.Size = UDim2.new(0, 278, 0, 1)
 
-line.Name = "line"
-line.Parent = Main
-line.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-line.BorderSizePixel = 0
-line.Position = UDim2.new(0, -3, 0, 22)
-line.Size = UDim2.new(0, 387, 0, 1)
-
-UICorner_42.CornerRadius = UDim.new(0, 5)
-UICorner_42.Parent = Frame
-
-TextLabel.Parent = CryoHub
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.Size = UDim2.new(0, 200, 0, 50)
-TextLabel.Visible = false
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = ""
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextSize = 14.000
+UICorner_44.CornerRadius = UDim.new(0, 5)
+UICorner_44.Parent = Frame
 
 -- Scripts:
 
-local function LVWTK_fake_script() -- Frame.Dragify 
+local function FXBVPY_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -929,8 +946,8 @@ local function LVWTK_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(LVWTK_fake_script)()
-local function ETODA_fake_script() -- close.LocalScript 
+coroutine.wrap(FXBVPY_fake_script)()
+local function NLIA_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	--made by aigon no skidding pls
@@ -943,7 +960,7 @@ local function ETODA_fake_script() -- close.LocalScript
 	local uion2 = UDim2.new(0, 384, 0, 21)
 	local uioff = UDim2.new(0, 0, 0, 21)
 	local but = script.Parent
-	local gui = main.Parent
+	local gui = main.Parent.Parent
 	
 	but.MouseButton1Click:Connect(function()
 		circle.Visible = true
@@ -952,44 +969,15 @@ local function ETODA_fake_script() -- close.LocalScript
 		wait(0.15)
 		main:TweenSize(uioff, "InOut", "Sine", 0.1, true)
 		wait(0.3)
-		circle:TweenSize(off, "InOut", "Sine", 1, true)
-		wait(1.15)
-		gui:Destroy()
-	end)
-end
-coroutine.wrap(ETODA_fake_script)()
-local function DUWER_fake_script() -- logo.LocalScript 
-	local script = Instance.new('LocalScript', logo)
-
-	
-end
-coroutine.wrap(DUWER_fake_script)()
-local function IGGVS_fake_script() -- logo.rotator 
-	local script = Instance.new('LocalScript', logo)
-
-	local RunService = game:GetService("RunService")
-	function slerp(a,b,x)
-		return a*(((1+(math.cos(x*math.pi)))/2)) + b*(((1-(math.cos(x*math.pi)))/2))
-	end
-	
-	local object = script.Parent
-	local count = 0.0
-	local rotation = object.Rotation	
-	
-	RunService.Heartbeat:Connect(function(step)
-		count += step / script.speed.Value * 2
-		if step <= 1 then
-			object.Rotation = slerp(-script.rotation.Value,script.rotation.Value,count)+rotation
-		else if step <= 2 then
-				object.Rotation = slerp(script.rotation.Value,-script.rotation.Value,count)+rotation
-			else
-				count = 0
-			end
+		if main.Size == uioff then
+			circle:TweenSize(off, "InOut", "Sine", 1, true)
+			wait(1.15)
+			gui:Destroy()
 		end
 	end)
 end
-coroutine.wrap(IGGVS_fake_script)()
-local function QZWPQX_fake_script() -- farm.LocalScript 
+coroutine.wrap(NLIA_fake_script)()
+local function WJEN_fake_script() -- farm.LocalScript 
 	local script = Instance.new('LocalScript', farm)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1008,8 +996,8 @@ local function QZWPQX_fake_script() -- farm.LocalScript
 		farming:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(QZWPQX_fake_script)()
-local function RCBFG_fake_script() -- misc.LocalScript 
+coroutine.wrap(WJEN_fake_script)()
+local function WUDFHY_fake_script() -- misc.LocalScript 
 	local script = Instance.new('LocalScript', misc)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1028,8 +1016,8 @@ local function RCBFG_fake_script() -- misc.LocalScript
 		misc:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(RCBFG_fake_script)()
-local function URQQLML_fake_script() -- feat.LocalScript 
+coroutine.wrap(WUDFHY_fake_script)()
+local function KAWDBGI_fake_script() -- feat.LocalScript 
 	local script = Instance.new('LocalScript', feat)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1048,8 +1036,8 @@ local function URQQLML_fake_script() -- feat.LocalScript
 		features:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(URQQLML_fake_script)()
-local function MBCE_fake_script() -- teleports.LocalScript 
+coroutine.wrap(KAWDBGI_fake_script)()
+local function HILOTL_fake_script() -- teleports.LocalScript 
 	local script = Instance.new('LocalScript', teleports)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1068,135 +1056,20 @@ local function MBCE_fake_script() -- teleports.LocalScript
 		tps1:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(MBCE_fake_script)()
-local function CTNEBL_fake_script() -- infy.LocalScript 
-	local script = Instance.new('LocalScript', infy)
+coroutine.wrap(HILOTL_fake_script)()
+local function XKHQFYN_fake_script() -- clicktp.LocalScript 
+	local script = Instance.new('LocalScript', clicktp)
 
 	local but = script.Parent
 	
 	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))();
-		end)
-	end)
-end
-coroutine.wrap(CTNEBL_fake_script)()
-local function NNEZ_fake_script() -- banjo.handler 
-	local script = Instance.new('LocalScript', banjo)
-
-	local but = script.Parent
-	local list = script.Parent.Parent.banjol
-	local liston = UDim2.new(0, 79, 0, 120)
-	local listoff = UDim2.new(0, 79, 0, 0)
-	
-	list.Size = listoff
-	
-	but.MouseButton1Click:Connect(function()
-		if list.Size == listoff then
-			list:TweenSize(liston, "InOut", "Sine", 0.15, true)
-		else 
-			list:TweenSize(listoff, "InOut", "Sine", 0.15, true)
-		end
-	end)
-end
-coroutine.wrap(NNEZ_fake_script)()
-local function TMEJ_fake_script() -- day.LocalScript 
-	local script = Instance.new('LocalScript', day)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			for i,v in pairs(game.Lighting:GetChildren()) do
-				if v:IsA("ColorCorrectionEffect") or v:IsA("BlurEffect") or v:IsA("BloomEffect") or v:IsA("SunRaysEffect") then
-					v:Destroy()
-				end
-			end
-	
-			game.Lighting.Ambient = Color3.fromRGB(255, 255, 255)
-			game.Lighting.Brightness = 1
-			game.Lighting.ClockTime = 14
-			game.Lighting.ColorShift_Bottom = Color3.fromRGB(255, 255, 255)
-			game.Lighting.ColorShift_Top = Color3.fromRGB(255, 255, 255)
-			game.Lighting.ExposureCompensation = 0
-			game.Lighting.FogColor = Color3.fromRGB(255, 255, 255)
-			game.Lighting.FogEnd = 999999999
-			game.Lighting.GeographicLatitude = 41.733
-			game.Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
-			game.Lighting.GlobalShadows = true
-			game.Lighting.Changed:Connect(function()
-				game.Lighting.Ambient = Color3.fromRGB(255, 255, 255)
-				game.Lighting.Brightness = 1
-				game.Lighting.ClockTime = 14
-				game.Lighting.ColorShift_Bottom = Color3.fromRGB(255, 255, 255)
-				game.Lighting.ColorShift_Top = Color3.fromRGB(255, 255, 255)
-				game.Lighting.ExposureCompensation = 0
-				game.Lighting.FogColor = Color3.fromRGB(255, 255, 255)
-				game.Lighting.FogEnd = 999999999
-				game.Lighting.GeographicLatitude = 41.733
-				game.Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
-				game.Lighting.GlobalShadows = true
-			end)
-			game.Lighting.DescendantAdded:Connect(function(obj)
-				if obj:IsA("ColorCorrectionEffect") or obj:IsA("Sky") or obj:IsA("BlurEffect") or obj:IsA("BloomEffect") or obj:IsA("SunRaysEffect") then
-					obj:Destroy()
-				end
-			end)
-		end)
-	end)
-end
-coroutine.wrap(TMEJ_fake_script)()
-local function RJRKGWP_fake_script() -- ss.LocalScript 
-	local script = Instance.new('LocalScript', ss)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			loadstring(game:HttpGet(('https://raw.githubusercontent.com/AigonV/Relentless/master/SimpleSpy.lua'),true))()
-		end)
-	end)
-end
-coroutine.wrap(RJRKGWP_fake_script)()
-local function QGDFL_fake_script() -- togglec.LocalScript 
-	local script = Instance.new('LocalScript', togglec)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		if but.TextColor3 == Color3.fromRGB(255, 0, 0) and but.Text == "N" then
-			but.TextColor3 = Color3.fromRGB(0, 255, 0)
-			but.Text = "Y"
-			game.StarterGui:SetCore("SendNotification", {
-				Title = "CryoHub™";
-				Text = "Hover and press B to teleport where-ever.";
-				Icon = "rbxassetid://7166475075";
-				Duration = 5;
-			})
-	
-			pcall(function()
-				local plr = game.Players.LocalPlayer 
-				local hum = plr.Character.HumanoidRootPart
-				local mouse = plr:GetMouse() 
-				mouse.KeyDown:connect(function(key) 
-					if key == "b" then 
-						if mouse.Target then 
-							hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z) 
-						end 
-					end 
-				end)
-			end)
-		end
-	end)
-	
-	--[[
-	game.StarterGui:SetCore("SendNotification", {
+		game.StarterGui:SetCore("SendNotification", {
 			Title = "CryoHub™";
 			Text = "Hover and press B to teleport where-ever.";
 			Icon = "rbxassetid://7166475075";
 			Duration = 5;
 		})
-		
+	
 		pcall(function()
 			local plr = game.Players.LocalPlayer 
 			local hum = plr.Character.HumanoidRootPart
@@ -1209,271 +1082,22 @@ local function QGDFL_fake_script() -- togglec.LocalScript
 				end 
 			end)
 		end)
-	]]
-end
-coroutine.wrap(QGDFL_fake_script)()
-local function FXBG_fake_script() -- nrss.LocalScript 
-	local script = Instance.new('LocalScript', nrss)
-
-	local folder = game.Workspace.Camera.OverheadFX
-	local but = script.Parent
-	
-	but.MouseButton1Click:connect(function()
-		pcall(function()
-			folder:ClearAllChildren()
-		end)
 	end)
 end
-coroutine.wrap(FXBG_fake_script)()
-local function CJHAX_fake_script() -- amogus.LocalScript 
-	local script = Instance.new('LocalScript', amogus)
+coroutine.wrap(XKHQFYN_fake_script)()
+local function TEKFN_fake_script() -- infy.LocalScript 
+	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
 	
 	but.MouseButton1Click:Connect(function()
 		pcall(function()
-			wait(1)
-			local args = {
-				[1] = 4
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 5
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 6
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 7
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 6
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 5
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 4
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.6)
-	
-			local args = {
-				[1] = 4
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 5
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 4
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.8)
-	
-			local args = {
-				[1] = 1
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.4)
-	
-			local args = {
-				[1] = 1
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(1)
-	
-			local args = {
-				[1] = 4
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 5
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 6
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 7
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 6
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 5
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 7
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.8)
-	
-			local args = {
-				[1] = 6
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 7
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 6
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			local args = {
-				[1] = 5
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 7
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 6
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			local args = {
-				[1] = 5
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
-	
-			wait(0.2)
-	
-			local args = {
-				[1] = 4
-			}
-	
-			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Four-string Banjo").LocalScript.Banjo:FireServer(unpack(args))
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))();
 		end)
 	end)
 end
-coroutine.wrap(CJHAX_fake_script)()
-local function YJWE_fake_script() -- banjol.LocalScript 
-	local script = Instance.new('LocalScript', banjol)
-
-	local misce = script.Parent.Parent
-	local banjol = script.Parent
-	local on = UDim2.new(0, 278, 0, 185)
-	local off = UDim2.new(0, 278, 0, 0)
-	local listoff = UDim2.new(0, 71, 0, 0)
-	
-	wait(0.3)
-	if misce.Size == not on then
-		banjol:TweenSize(listoff, "InOut", "Sine", 0.15, true)
-	end
-end
-coroutine.wrap(YJWE_fake_script)()
-local function BGUBSPT_fake_script() -- soon.LocalScript 
-	local script = Instance.new('LocalScript', soon)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			print("coming soon")
-		end)
-	end)
-end
-coroutine.wrap(BGUBSPT_fake_script)()
-local function QFBYJJ_fake_script() -- antimod.LocalScript 
+coroutine.wrap(TEKFN_fake_script)()
+local function BGHD_fake_script() -- antimod.LocalScript 
 	local script = Instance.new('LocalScript', antimod)
 
 	local but = script.Parent
@@ -1506,7 +1130,7 @@ local function QFBYJJ_fake_script() -- antimod.LocalScript
 		
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "CryoHub™";
-			Text = "You will now be automatically kicked if a moderator joins.";
+			Text = "You will be kicked if a moderator joins.";
 			Icon = "rbxassetid://7166475075";
 			Duration = 5;
 		})
@@ -1566,9 +1190,97 @@ local function QFBYJJ_fake_script() -- antimod.LocalScript
 		end
 	end
 end
-coroutine.wrap(QFBYJJ_fake_script)()
-local function GNRXOME_fake_script() -- togglec_2.LocalScript 
-	local script = Instance.new('LocalScript', togglec_2)
+coroutine.wrap(BGHD_fake_script)()
+local function SYMGS_fake_script() -- banjo.LocalScript 
+	local script = Instance.new('LocalScript', banjo)
+
+	local but = script.Parent
+	local list = script.Parent.Parent.banjol
+	local liston = UDim2.new(0, 79, 0, 120)
+	local listoff = UDim2.new(0, 79, 0, 0)
+	
+	list.Size = listoff
+	
+	but.MouseButton1Click:Connect(function()
+		if list.Size == listoff then
+			list:TweenSize(liston, "InOut", "Sine", 0.15, true)
+		else 
+			list:TweenSize(listoff, "InOut", "Sine", 0.15, true)
+		end
+	end)
+end
+coroutine.wrap(SYMGS_fake_script)()
+local function UTGJ_fake_script() -- nightv.LocalScript 
+	local script = Instance.new('LocalScript', nightv)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(
+			function()
+				for i, v in pairs(game.Lighting:GetChildren()) do
+					if v:IsA("ColorCorrectionEffect") or v:IsA("BlurEffect") or v:IsA("BloomEffect") or v:IsA("SunRaysEffect") then
+						v:Destroy()
+					end
+				end
+	
+				game.Lighting.Ambient = Color3.fromRGB(255, 255, 255)
+				game.Lighting.Brightness = 1
+				game.Lighting.ClockTime = 14
+				game.Lighting.ColorShift_Bottom = Color3.fromRGB(255, 255, 255)
+				game.Lighting.ColorShift_Top = Color3.fromRGB(255, 255, 255)
+				game.Lighting.ExposureCompensation = 0
+				game.Lighting.FogColor = Color3.fromRGB(255, 255, 255)
+				game.Lighting.FogEnd = 999999999
+				game.Lighting.GeographicLatitude = 41.733
+				game.Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
+				game.Lighting.GlobalShadows = true
+				game.Lighting.Changed:Connect(
+					function()
+						game.Lighting.Ambient = Color3.fromRGB(255, 255, 255)
+						game.Lighting.Brightness = 1
+						game.Lighting.ClockTime = 14
+						game.Lighting.ColorShift_Bottom = Color3.fromRGB(255, 255, 255)
+						game.Lighting.ColorShift_Top = Color3.fromRGB(255, 255, 255)
+						game.Lighting.ExposureCompensation = 0
+						game.Lighting.FogColor = Color3.fromRGB(255, 255, 255)
+						game.Lighting.FogEnd = 999999999
+						game.Lighting.GeographicLatitude = 41.733
+						game.Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
+						game.Lighting.GlobalShadows = true
+					end
+				)
+				game.Lighting.DescendantAdded:Connect(
+					function(obj)
+						if
+							obj:IsA("ColorCorrectionEffect") or obj:IsA("Sky") or obj:IsA("BlurEffect") or
+								obj:IsA("BloomEffect") or
+								obj:IsA("SunRaysEffect")
+						then
+							obj:Destroy()
+						end
+					end
+				)
+			end
+		)
+	
+	end)
+end
+coroutine.wrap(UTGJ_fake_script)()
+local function RTJE_fake_script() -- ss.LocalScript 
+	local script = Instance.new('LocalScript', ss)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(function()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/AigonV/Relentless/master/SimpleSpy.lua'),true))()
+		end)
+	end)
+end
+coroutine.wrap(RTJE_fake_script)()
+local function GWSCR_fake_script() -- togglec.LocalScript 
+	local script = Instance.new('LocalScript', togglec)
 
 	local looper = false
 	local but = script.Parent
@@ -1576,7 +1288,7 @@ local function GNRXOME_fake_script() -- togglec_2.LocalScript
 	but.MouseButton1Click:Connect(function()
 		if looper then 
 			looper = false
-			but.Text = " N"
+			but.Text = "N"
 			but.TextColor3 = Color3.fromRGB(255, 0, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
@@ -1586,7 +1298,7 @@ local function GNRXOME_fake_script() -- togglec_2.LocalScript
 			})
 		else
 			looper = true 
-			but.Text = " Y"
+			but.Text = "Y"
 			but.TextColor3 = Color3.fromRGB(0, 255, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
@@ -1611,9 +1323,9 @@ local function GNRXOME_fake_script() -- togglec_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(GNRXOME_fake_script)()
-local function AQUAM_fake_script() -- toggleb.LocalScript 
-	local script = Instance.new('LocalScript', toggleb)
+coroutine.wrap(GWSCR_fake_script)()
+local function DOUNG_fake_script() -- togglebf.LocalScript 
+	local script = Instance.new('LocalScript', togglebf)
 
 	local looper = false
 	local but = script.Parent
@@ -1621,7 +1333,7 @@ local function AQUAM_fake_script() -- toggleb.LocalScript
 	but.MouseButton1Click:Connect(function()
 		if looper then 
 			looper = false
-			but.Text = " N"
+			but.Text = "N"
 			but.TextColor3 = Color3.fromRGB(255, 0, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
@@ -1636,7 +1348,7 @@ local function AQUAM_fake_script() -- toggleb.LocalScript
 			game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
 		else
 			looper = true 
-			but.Text = " Y"
+			but.Text = "Y"
 			but.TextColor3 = Color3.fromRGB(0, 255, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
@@ -1773,8 +1485,8 @@ local function AQUAM_fake_script() -- toggleb.LocalScript
 		end
 	end
 end
-coroutine.wrap(AQUAM_fake_script)()
-local function XIVGZKK_fake_script() -- togglexl.LocalScript 
+coroutine.wrap(DOUNG_fake_script)()
+local function GEROVGI_fake_script() -- togglexl.LocalScript 
 	local script = Instance.new('LocalScript', togglexl)
 
 	local looper = false
@@ -1783,21 +1495,26 @@ local function XIVGZKK_fake_script() -- togglexl.LocalScript
 	but.MouseButton1Click:Connect(function()
 		if looper then 
 			looper = false
-			but.Text = " N"
+			but.Text = "N"
 			but.TextColor3 = Color3.fromRGB(255, 0, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "XLFarm Disabled.";
+				Text = "BowFarm Disabled.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			local args = {
+				[1] = "ChargeEnd"
+			}
+	
+			game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
 		else
 			looper = true 
-			but.Text = " Y"
+			but.Text = "Y"
 			but.TextColor3 = Color3.fromRGB(0, 255, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "XLFarm Enabled; Make sure Colossal Cutlass is equiped.";
+				Text = "BowFarm Enabled; Make sure Magic Bow is equiped.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -1809,17 +1526,214 @@ local function XIVGZKK_fake_script() -- togglexl.LocalScript
 		if looper then 
 			pcall(function()
 				local args = {
-					[1] = "Slash",
-					[2] = Vector3.new(-6158.322265625, 453.15765380859, 7729.91796875)
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
 				}
 	
-				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Colossal Cutlass").LocalScript.Cutlass:FireServer(unpack(args))
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(0.3)
+				local args = {
+					[1] = 1,
+					[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+				}
+	
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+				wait(1)
+				local args = {
+					[1] = "Charge"
+				}
+	
+				game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
+	
+				wait(4)
+	
+				local args = {
+					[1] = "ChargeEnd"
+				}
+	
+				game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
 			end)
 		end
 	end
 end
-coroutine.wrap(XIVGZKK_fake_script)()
-local function WNLJ_fake_script() -- togglej.LocalScript 
+coroutine.wrap(GEROVGI_fake_script)()
+local function ARFJWJ_fake_script() -- animp.LocalScript 
+	local script = Instance.new('LocalScript', animp)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(function()
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Unlocked all animation packs.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+			
+			local plr = game:GetService("Players").LocalPlayer
+			plr.bin.HasSorcererPack.Value = true
+			plr.bin.HasAthleticPack.Value = true
+			plr.bin.HasCowardPack.Value = true
+			plr.bin.HasBossPack.Value = true
+			plr.bin.HasMoonwalkPack.Value = true
+		end)
+	end)
+end
+coroutine.wrap(ARFJWJ_fake_script)()
+local function BYJTNNV_fake_script() -- noclog.LocalScript 
+	local script = Instance.new('LocalScript', noclog)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(function()
+			local plr = game:GetService("Players").LocalPlayer
+			while wait() do
+				plr.bin.InCombat.Value = false
+				plr.bin.CombatLog.Value = false
+			end
+		end)
+	end)
+end
+coroutine.wrap(BYJTNNV_fake_script)()
+local function ASCDVWV_fake_script() -- infstam.LocalScript 
+	local script = Instance.new('LocalScript', infstam)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(function()
+			local plr = game:GetService("Players").LocalPlayer
+			while wait() do
+				plr.bin.Stamina.Value = math.huge
+			end
+		end)
+	end)
+end
+coroutine.wrap(ASCDVWV_fake_script)()
+local function XSQZNYB_fake_script() -- infme.LocalScript 
+	local script = Instance.new('LocalScript', infme)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(function()
+			local plr = game:GetService("Players").LocalPlayer
+			while wait() do
+				plr.bin.MagicEnergy.Value = math.huge
+			end
+		end)
+	end)
+end
+coroutine.wrap(XSQZNYB_fake_script)()
+local function XMFRA_fake_script() -- infair.LocalScript 
+	local script = Instance.new('LocalScript', infair)
+
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		pcall(function()
+			local plr = game:GetService("Players").LocalPlayer
+			while wait() do
+				plr.bin.Air.Value = math.huge
+			end
+		end)
+	end)
+end
+coroutine.wrap(XMFRA_fake_script)()
+local function SNSVUE_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local activator = false
@@ -1869,161 +1783,8 @@ local function WNLJ_fake_script() -- togglej.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WNLJ_fake_script)()
-local function TRALS_fake_script() -- animp.LocalScript 
-	local script = Instance.new('LocalScript', animp)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			local plr = game:GetService("Players").LocalPlayer
-			plr.bin.HasSorcererPack.Value = true
-			plr.bin.HasAthleticPack.Value = true
-			plr.bin.HasCowardPack.Value = true
-			plr.bin.HasBossPack.Value = true
-			plr.bin.HasMoonwalkPack.Value = true
-		end)
-	end)
-end
-coroutine.wrap(TRALS_fake_script)()
-local function JENWT_fake_script() -- noclog.LocalScript 
-	local script = Instance.new('LocalScript', noclog)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			local plr = game:GetService("Players").LocalPlayer
-			
-			while wait() do
-				plr.bin.InCombat.Value = false
-				plr.bin.CombatLog.Value = false
-				plr.bin.PvP.Value = false
-			end
-		end)
-	end)
-end
-coroutine.wrap(JENWT_fake_script)()
-local function PIKSS_fake_script() -- infstam.LocalScript 
-	local script = Instance.new('LocalScript', infstam)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			local plr = game:GetService("Players").LocalPlayer
-			while wait() do
-				plr.bin.Stamina.Value = math.huge
-			end
-		end)
-	end)
-end
-coroutine.wrap(PIKSS_fake_script)()
-local function RJXQW_fake_script() -- infme.LocalScript 
-	local script = Instance.new('LocalScript', infme)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			local plr = game:GetService("Players").LocalPlayer
-			while wait() do
-				plr.bin.MagicEnergy.Value = math.huge
-			end
-		end)
-	end)
-end
-coroutine.wrap(RJXQW_fake_script)()
-local function YYQL_fake_script() -- infair.LocalScript 
-	local script = Instance.new('LocalScript', infair)
-
-	local but = script.Parent
-	
-	but.MouseButton1Click:Connect(function()
-		pcall(function()
-			local plr = game:GetService("Players").LocalPlayer
-			while wait() do
-				plr.bin.Air.Value = math.huge
-			end
-		end)
-	end)
-end
-coroutine.wrap(YYQL_fake_script)()
-local function BYGG_fake_script() -- ofeats.handler 
-	local script = Instance.new('LocalScript', ofeats)
-
-	local but = script.Parent
-	local list = script.Parent.Parent.ncddm
-	local liston = UDim2.new(0, 103, 0, 177)
-	local listoff = UDim2.new(0, 103, 0, 0)
-	
-	list.Size = listoff
-	
-	but.MouseButton1Click:Connect(function()
-		if list.Size == listoff then
-			list:TweenSize(liston, "InOut", "Sine", 0.15, true)
-		else
-			list:TweenSize(listoff, "InOut", "Sine", 0.15, true)
-		end
-	end)
-	
-	--Rainbow text script
-	local text = script.Parent
-	local add = 10
-	wait(1)
-	local k = 1
-	while k <= 255 do
-		text.TextColor3 = Color3.new(k/255,0/255,0/255)
-		k = k + add
-		wait()
-	end
-	while true do
-		k = 1
-		while k <= 255 do
-			text.TextColor3 = Color3.new(255/255,k/255,0/255)
-			k = k + add
-			wait()
-		end
-		k = 1
-		while k <= 255 do
-			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
-			k = k + add
-			wait()
-		end
-		k = 1
-		while k <= 255 do
-			text.TextColor3 = Color3.new(0/255,255/255,k/255)
-			k = k + add
-			wait()
-		end
-		k = 1
-		while k <= 255 do
-			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
-			k = k + add
-			wait()
-		end
-		k = 1
-		while k <= 255 do
-			text.TextColor3 = Color3.new(k/255,0/255,255/255)
-			k = k + add
-			wait()
-		end
-		k = 1
-		while k <= 255 do
-			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
-			k = k + add
-			wait()
-		end
-		while k <= 255 do
-			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
-			k = k + add
-			wait()
-		end
-	end
-end
-coroutine.wrap(BYGG_fake_script)()
-local function DENXRG_fake_script() -- togglece.LocalScript 
+coroutine.wrap(SNSVUE_fake_script)()
+local function AMQWGY_fake_script() -- togglece.LocalScript 
 	local script = Instance.new('LocalScript', togglece)
 
 	local activator = false
@@ -2041,7 +1802,7 @@ local function DENXRG_fake_script() -- togglece.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
-			
+	
 			pcall(function()
 				for i, v in pairs(game.Workspace:GetChildren()) do
 					if v:IsA("Folder") then
@@ -2064,7 +1825,7 @@ local function DENXRG_fake_script() -- togglece.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
-			
+	
 			pcall(function()
 				for i, v in pairs(game.Workspace:GetChildren()) do
 					if v:IsA("Folder") then
@@ -2087,8 +1848,8 @@ local function DENXRG_fake_script() -- togglece.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DENXRG_fake_script)()
-local function LSAC_fake_script() -- radiusncd.LocalScript 
+coroutine.wrap(AMQWGY_fake_script)()
+local function DBMKG_fake_script() -- radiusncd.LocalScript 
 	local script = Instance.new('LocalScript', radiusncd)
 
 	--made by aigon no skidding pls
@@ -2099,30 +1860,19 @@ local function LSAC_fake_script() -- radiusncd.LocalScript
 	
 	
 	but.MouseButton1Click:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "CryoHub™";
-			Text = "Don't spam or it'll break. V to use ability.";
-			Icon = "rbxassetid://7166475075";
-			Duration = 5;
-		})
-		
-		uis.InputBegan:Connect(function(cuck, ok)
+		pcall(function()
 			pcall(function()
-				pcall(function()
-					local args = {
-						[1] = "RKeyDown"
-					}
+				local args = {
+					[1] = "RKeyDown"
+				}
 	
-					game:GetService("Players").LocalPlayer.Character:FindFirstChild("Radius Fist").LocalScript.Combat:FireServer(unpack(args))
-				end)
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Radius Fist").LocalScript.Combat:FireServer(unpack(args))
 			end)
 		end)
 	end)
-	
-	
 end
-coroutine.wrap(LSAC_fake_script)()
-local function SWZIKE_fake_script() -- impactc.LocalScript 
+coroutine.wrap(DBMKG_fake_script)()
+local function NGFLXCM_fake_script() -- impactc.LocalScript 
 	local script = Instance.new('LocalScript', impactc)
 
 	local looper = false
@@ -2166,8 +1916,8 @@ local function SWZIKE_fake_script() -- impactc.LocalScript
 		end
 	end
 end
-coroutine.wrap(SWZIKE_fake_script)()
-local function VXMMLV_fake_script() -- rmwcds.LocalScript 
+coroutine.wrap(NGFLXCM_fake_script)()
+local function XSCQFML_fake_script() -- rmwcds.LocalScript 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local plr = game.Players.LocalPlayer
@@ -2247,8 +1997,8 @@ local function VXMMLV_fake_script() -- rmwcds.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(VXMMLV_fake_script)()
-local function EXQTXVD_fake_script() -- rmwcds.instance 
+coroutine.wrap(XSCQFML_fake_script)()
+local function FIEX_fake_script() -- rmwcds.instance 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local m1 = Instance.new("StringValue")
@@ -2263,8 +2013,163 @@ local function EXQTXVD_fake_script() -- rmwcds.instance
 	m2.Parent = script.Parent
 	m3.Parent = script.Parent
 end
-coroutine.wrap(EXQTXVD_fake_script)()
-local function BPFUAE_fake_script() -- CryoHub.toggle 
+coroutine.wrap(FIEX_fake_script)()
+local function MPFFX_fake_script() -- ofeats.LocalScript 
+	local script = Instance.new('LocalScript', ofeats)
+
+	local but = script.Parent
+	local list = script.Parent.Parent.ncddm
+	local liston = UDim2.new(0, 103, 0, 177)
+	local listoff = UDim2.new(0, 103, 0, 0)
+	
+	list.Size = listoff
+	
+	but.MouseButton1Click:Connect(function()
+		if list.Size == listoff then
+			list:TweenSize(liston, "InOut", "Sine", 0.15, true)
+		else
+			list:TweenSize(listoff, "InOut", "Sine", 0.15, true)
+		end
+	end)
+	
+	--Rainbow text script
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(MPFFX_fake_script)()
+local function OYDM_fake_script() -- toggleis.LocalScript 
+	local script = Instance.new('LocalScript', toggleis)
+
+	local looper = false
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		if looper then 
+			looper = false
+			but.Text = "N"
+			but.TextColor3 = Color3.fromRGB(255, 0, 0)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Infinite Stamina Disabled.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+		else
+			looper = true 
+			but.Text = "Y"
+			but.TextColor3 = Color3.fromRGB(0, 255, 0)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Infinite Stamina Enabled.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+		end
+	end)
+	
+	while true do 
+		wait()
+		if looper then 
+			pcall(function()
+				local plr = game:GetService("Players").LocalPlayer
+				plr.bin.Stamina.Value = math.huge
+			end)
+		end
+	end
+end
+coroutine.wrap(OYDM_fake_script)()
+local function OANIJWV_fake_script() -- toggleis_2.LocalScript 
+	local script = Instance.new('LocalScript', toggleis_2)
+
+	local looper = false
+	local but = script.Parent
+	
+	but.MouseButton1Click:Connect(function()
+		if looper then 
+			looper = false
+			but.Text = "N"
+			but.TextColor3 = Color3.fromRGB(255, 0, 0)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Infinite Air Disabled.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+		else
+			looper = true 
+			but.Text = "Y"
+			but.TextColor3 = Color3.fromRGB(0, 255, 0)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Infinite Air Enabled.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+		end
+	end)
+	
+	while true do 
+		wait()
+		if looper then 
+			pcall(function()
+				local plr = game:GetService("Players").LocalPlayer
+				plr.bin.Air.Value = math.huge
+			end)
+		end
+	end
+end
+coroutine.wrap(OANIJWV_fake_script)()
+local function OTFVOKF_fake_script() -- CryoHub.toggle 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -2274,6 +2179,7 @@ local function BPFUAE_fake_script() -- CryoHub.toggle
 	local uion = UDim2.new(0, 384, 0, 220)
 	local uion2 = UDim2.new(0, 384, 0, 21)
 	local uioff = UDim2.new(0, 0, 0, 21)
+	local on = UDim2.new(0, 500, 0, 500)
 	local hotkey = Enum.KeyCode.M
 	local uis = game:GetService("UserInputService")
 	local open = false
@@ -2281,29 +2187,26 @@ local function BPFUAE_fake_script() -- CryoHub.toggle
 	main.Size = uioff
 	
 	uis.InputBegan:Connect(function(cuck, ok)
-		if circle.Visible == false then
-			if cuck.KeyCode == hotkey then
-				if open == false and main.Size == uion then
-					open = true
-					main:TweenSize(uion2, "InOut", "Sine", 0.14, true)
-					wait(0.2)
-					main:TweenSize(uioff, "InOut", "Sine", 0.14, true)
-				elseif open == true and main.Size == uioff then
-					open = false
-					main:TweenSize(uion2, "InOut", "Sine", 0.14, true)
-					wait(0.2)
-					main:TweenSize(uion, "InOut", "Sine", 0.14, true)
-				end
+		if cuck.KeyCode == hotkey and circle.Size == on then
+			if open == false and main.Size == uion then
+				open = true
+				main:TweenSize(uion2, "InOut", "Sine", 0.14, true)
+				wait(0.2)
+				main:TweenSize(uioff, "InOut", "Sine", 0.14, true)
+			elseif open == true and main.Size == uioff then
+				open = false
+				main:TweenSize(uion2, "InOut", "Sine", 0.14, true)
+				wait(0.2)
+				main:TweenSize(uion, "InOut", "Sine", 0.14, true)
 			end
 		end
 	end)
 end
-coroutine.wrap(BPFUAE_fake_script)()
-local function ZGZMXMW_fake_script() -- CryoHub.intro 
+coroutine.wrap(OTFVOKF_fake_script)()
+local function CQUR_fake_script() -- CryoHub.intro 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
-	
 	local main = script.Parent.Frame.Main
 	local circle = script.Parent.Frame.Circle
 	local frame = script.Parent.Frame
@@ -2345,11 +2248,14 @@ local function ZGZMXMW_fake_script() -- CryoHub.intro
 			circle.Visible = false
 		end
 	end
+	wait(0.2)
+	if circle.Visible == false then
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "CryoHub";
+			Text = "Press M to toggle GUI.";
+			Icon = "rbxassetid://7166475075"; 
+			Duration = 5;
+		})
+	end
 end
-coroutine.wrap(ZGZMXMW_fake_script)()
-local function UCWG_fake_script() -- TextLabel.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel)
-
-	
-end
-coroutine.wrap(UCWG_fake_script)()
+coroutine.wrap(CQUR_fake_script)()
