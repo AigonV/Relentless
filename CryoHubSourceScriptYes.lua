@@ -97,7 +97,7 @@ local UICorner_36 = Instance.new("UICorner")
 local UICorner_37 = Instance.new("UICorner")
 local infair_2 = Instance.new("Frame")
 local ttl_8 = Instance.new("TextLabel")
-local toggleis_2 = Instance.new("TextButton")
+local toggleia = Instance.new("TextButton")
 local UICorner_38 = Instance.new("UICorner")
 local UICorner_39 = Instance.new("UICorner")
 local tps1 = Instance.new("ScrollingFrame")
@@ -804,19 +804,19 @@ ttl_8.Text = "Inf Air"
 ttl_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttl_8.TextSize = 14.000
 
-toggleis_2.Name = "toggleis"
-toggleis_2.Parent = infair_2
-toggleis_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-toggleis_2.BorderSizePixel = 0
-toggleis_2.Position = UDim2.new(0, 58, 0, 5)
-toggleis_2.Size = UDim2.new(0, 18, 0, 18)
-toggleis_2.Font = Enum.Font.SourceSans
-toggleis_2.Text = "N"
-toggleis_2.TextColor3 = Color3.fromRGB(255, 0, 0)
-toggleis_2.TextSize = 14.000
+toggleia.Name = "toggleia"
+toggleia.Parent = infair_2
+toggleia.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+toggleia.BorderSizePixel = 0
+toggleia.Position = UDim2.new(0, 58, 0, 5)
+toggleia.Size = UDim2.new(0, 18, 0, 18)
+toggleia.Font = Enum.Font.SourceSans
+toggleia.Text = "N"
+toggleia.TextColor3 = Color3.fromRGB(255, 0, 0)
+toggleia.TextSize = 14.000
 
 UICorner_38.CornerRadius = UDim.new(0, 3)
-UICorner_38.Parent = toggleis_2
+UICorner_38.Parent = toggleia
 
 UICorner_39.CornerRadius = UDim.new(0, 3)
 UICorner_39.Parent = infair_2
@@ -908,7 +908,7 @@ UICorner_44.Parent = Frame
 
 -- Scripts:
 
-local function OAFG_fake_script() -- Frame.Dragify 
+local function GCEOZHX_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -949,8 +949,8 @@ local function OAFG_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(OAFG_fake_script)()
-local function QGXQXM_fake_script() -- close.LocalScript 
+coroutine.wrap(GCEOZHX_fake_script)()
+local function UQKKWC_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	--made by aigon no skidding pls
@@ -979,8 +979,8 @@ local function QGXQXM_fake_script() -- close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QGXQXM_fake_script)()
-local function PBYJ_fake_script() -- farm.LocalScript 
+coroutine.wrap(UQKKWC_fake_script)()
+local function ZRVNX_fake_script() -- farm.LocalScript 
 	local script = Instance.new('LocalScript', farm)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -999,8 +999,8 @@ local function PBYJ_fake_script() -- farm.LocalScript
 		farming:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(PBYJ_fake_script)()
-local function SEHCDQ_fake_script() -- misc.LocalScript 
+coroutine.wrap(ZRVNX_fake_script)()
+local function NXLV_fake_script() -- misc.LocalScript 
 	local script = Instance.new('LocalScript', misc)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1019,8 +1019,8 @@ local function SEHCDQ_fake_script() -- misc.LocalScript
 		misc:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(SEHCDQ_fake_script)()
-local function GEKNUY_fake_script() -- feat.LocalScript 
+coroutine.wrap(NXLV_fake_script)()
+local function WNPPJ_fake_script() -- feat.LocalScript 
 	local script = Instance.new('LocalScript', feat)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1039,8 +1039,8 @@ local function GEKNUY_fake_script() -- feat.LocalScript
 		features:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(GEKNUY_fake_script)()
-local function LWHPEBI_fake_script() -- teleports.LocalScript 
+coroutine.wrap(WNPPJ_fake_script)()
+local function BUBSOI_fake_script() -- teleports.LocalScript 
 	local script = Instance.new('LocalScript', teleports)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1059,8 +1059,8 @@ local function LWHPEBI_fake_script() -- teleports.LocalScript
 		tps1:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(LWHPEBI_fake_script)()
-local function GVGBWM_fake_script() -- clicktp.LocalScript 
+coroutine.wrap(BUBSOI_fake_script)()
+local function YIJCW_fake_script() -- clicktp.LocalScript 
 	local script = Instance.new('LocalScript', clicktp)
 
 	local but = script.Parent
@@ -1087,8 +1087,8 @@ local function GVGBWM_fake_script() -- clicktp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(GVGBWM_fake_script)()
-local function GYXK_fake_script() -- infy.LocalScript 
+coroutine.wrap(YIJCW_fake_script)()
+local function ULZSLZ_fake_script() -- infy.LocalScript 
 	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
@@ -1099,8 +1099,8 @@ local function GYXK_fake_script() -- infy.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(GYXK_fake_script)()
-local function IJEDLU_fake_script() -- antimod.LocalScript 
+coroutine.wrap(ULZSLZ_fake_script)()
+local function MACF_fake_script() -- antimod.LocalScript 
 	local script = Instance.new('LocalScript', antimod)
 
 	local but = script.Parent
@@ -1193,8 +1193,8 @@ local function IJEDLU_fake_script() -- antimod.LocalScript
 		end
 	end
 end
-coroutine.wrap(IJEDLU_fake_script)()
-local function YFTNQFQ_fake_script() -- banjo.LocalScript 
+coroutine.wrap(MACF_fake_script)()
+local function EZEOY_fake_script() -- banjo.LocalScript 
 	local script = Instance.new('LocalScript', banjo)
 
 	local but = script.Parent
@@ -1212,11 +1212,13 @@ local function YFTNQFQ_fake_script() -- banjo.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YFTNQFQ_fake_script)()
-local function UIOY_fake_script() -- nightv.LocalScript 
+coroutine.wrap(EZEOY_fake_script)()
+local function UEQSORJ_fake_script() -- nightv.LocalScript 
 	local script = Instance.new('LocalScript', nightv)
 
 	local but = script.Parent
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883363978443620393/N88b-_h5in4EpY2grAMTCJo9lt_kkmY5OyP2MlmB5v3vT1cWThYGnSFN3vqxmS0w36Ag"
 	
 	but.MouseButton1Click:Connect(function()
 		pcall(
@@ -1266,11 +1268,30 @@ local function UIOY_fake_script() -- nightv.LocalScript
 				)
 			end
 		)
+		
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "`Feature`",
+					["description"] = "``"..game.Players.LocalPlayer.Name.."`` enabled Night Vision.",
+					["type"] = "rich",
+					["color"] = tonumber(0x7269da)
+				}
+			}
+		}
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
 	
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
 	end)
 end
-coroutine.wrap(UIOY_fake_script)()
-local function MAHCZ_fake_script() -- ss.LocalScript 
+coroutine.wrap(UEQSORJ_fake_script)()
+local function AZEEHM_fake_script() -- ss.LocalScript 
 	local script = Instance.new('LocalScript', ss)
 
 	local but = script.Parent
@@ -1281,8 +1302,8 @@ local function MAHCZ_fake_script() -- ss.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(MAHCZ_fake_script)()
-local function GAHYWNG_fake_script() -- toggleq.LocalScript 
+coroutine.wrap(AZEEHM_fake_script)()
+local function JNDKF_fake_script() -- toggleq.LocalScript 
 	local script = Instance.new('LocalScript', toggleq)
 
 	local looper = false
@@ -1374,12 +1395,14 @@ local function GAHYWNG_fake_script() -- toggleq.LocalScript
 		end
 	end
 end
-coroutine.wrap(GAHYWNG_fake_script)()
-local function SLGJX_fake_script() -- togglebf.LocalScript 
+coroutine.wrap(JNDKF_fake_script)()
+local function BXVO_fake_script() -- togglebf.LocalScript 
 	local script = Instance.new('LocalScript', togglebf)
 
 	local looper = false
 	local but = script.Parent
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883354667776626718/GstkpFm0V9x_nqWh4rqcr66hDxg_F4xK6UCaXDwgxwpwpgd3IdwiTksJbqmvuMfzr5NY"
 	
 	but.MouseButton1Click:Connect(function()
 		if looper then 
@@ -1397,6 +1420,27 @@ local function SLGJX_fake_script() -- togglebf.LocalScript
 			}
 	
 			game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
+			
+			local data = {
+				["content"] = "some shit",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = ""..game.Players.LocalPlayer.Name.." disabled Bow Farm.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
+			
 		else
 			looper = true 
 			but.Text = "Y"
@@ -1407,6 +1451,26 @@ local function SLGJX_fake_script() -- togglebf.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` enabled Bow Farm.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		end
 	end)
 	
@@ -1536,12 +1600,14 @@ local function SLGJX_fake_script() -- togglebf.LocalScript
 		end
 	end
 end
-coroutine.wrap(SLGJX_fake_script)()
-local function LDTMTSY_fake_script() -- togglexl.LocalScript 
+coroutine.wrap(BXVO_fake_script)()
+local function HZHVIZH_fake_script() -- togglexl.LocalScript 
 	local script = Instance.new('LocalScript', togglexl)
 
 	local looper = false
 	local but = script.Parent
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883360350576214086/d-qfNQxFAm20TN75_1MPJx3pqes-FTR-m_i-Ifzd5QSBTdIQYqL1LtRAaf0y3w6kez-6"
 	
 	but.MouseButton1Click:Connect(function()
 		if looper then 
@@ -1559,6 +1625,26 @@ local function LDTMTSY_fake_script() -- togglexl.LocalScript
 			}
 	
 			game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` disabled XL Farm.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		else
 			looper = true 
 			but.Text = "Y"
@@ -1569,6 +1655,26 @@ local function LDTMTSY_fake_script() -- togglexl.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` enabled XL Farm.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		end
 	end)
 	
@@ -1698,11 +1804,14 @@ local function LDTMTSY_fake_script() -- togglexl.LocalScript
 		end
 	end
 end
-coroutine.wrap(LDTMTSY_fake_script)()
-local function QJPIU_fake_script() -- animp.LocalScript 
+coroutine.wrap(HZHVIZH_fake_script)()
+local function IBJK_fake_script() -- animp.LocalScript 
 	local script = Instance.new('LocalScript', animp)
 
 	local but = script.Parent
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883363978443620393/N88b-_h5in4EpY2grAMTCJo9lt_kkmY5OyP2MlmB5v3vT1cWThYGnSFN3vqxmS0w36Ag"
+	
 	
 	but.MouseButton1Click:Connect(function()
 		pcall(function()
@@ -1720,13 +1829,35 @@ local function QJPIU_fake_script() -- animp.LocalScript
 			plr.bin.HasBossPack.Value = true
 			plr.bin.HasMoonwalkPack.Value = true
 		end)
+		
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "`Feature`",
+					["description"] = "``"..game.Players.LocalPlayer.Name.."`` got all Animation Packs.",
+					["type"] = "rich",
+					["color"] = tonumber(0x7269da)
+				}
+			}
+		}
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
 	end)
 end
-coroutine.wrap(QJPIU_fake_script)()
-local function VETEPS_fake_script() -- noclog.LocalScript 
+coroutine.wrap(IBJK_fake_script)()
+local function NSUKQ_fake_script() -- noclog.LocalScript 
 	local script = Instance.new('LocalScript', noclog)
 
 	local but = script.Parent
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883363978443620393/N88b-_h5in4EpY2grAMTCJo9lt_kkmY5OyP2MlmB5v3vT1cWThYGnSFN3vqxmS0w36Ag"
 	
 	but.MouseButton1Click:Connect(function()
 		pcall(function()
@@ -1737,10 +1868,30 @@ local function VETEPS_fake_script() -- noclog.LocalScript
 				plr.bin.PvP.Value = false
 			end
 		end)
+		
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "`Feature`",
+					["description"] = "``"..game.Players.LocalPlayer.Name.."`` enabled No Combat Logging.",
+					["type"] = "rich",
+					["color"] = tonumber(0x7269da)
+				}
+			}
+		}
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
 	end)
 end
-coroutine.wrap(VETEPS_fake_script)()
-local function QIDDGVX_fake_script() -- infstam.LocalScript 
+coroutine.wrap(NSUKQ_fake_script)()
+local function NTOWZ_fake_script() -- infstam.LocalScript 
 	local script = Instance.new('LocalScript', infstam)
 
 	local but = script.Parent
@@ -1754,8 +1905,8 @@ local function QIDDGVX_fake_script() -- infstam.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(QIDDGVX_fake_script)()
-local function PIDTK_fake_script() -- infme.LocalScript 
+coroutine.wrap(NTOWZ_fake_script)()
+local function ENDBP_fake_script() -- infme.LocalScript 
 	local script = Instance.new('LocalScript', infme)
 
 	local but = script.Parent
@@ -1769,8 +1920,8 @@ local function PIDTK_fake_script() -- infme.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(PIDTK_fake_script)()
-local function BMCYMCP_fake_script() -- infair.LocalScript 
+coroutine.wrap(ENDBP_fake_script)()
+local function TXOOLNV_fake_script() -- infair.LocalScript 
 	local script = Instance.new('LocalScript', infair)
 
 	local but = script.Parent
@@ -1784,12 +1935,15 @@ local function BMCYMCP_fake_script() -- infair.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(BMCYMCP_fake_script)()
-local function TSYR_fake_script() -- togglej.LocalScript 
+coroutine.wrap(TXOOLNV_fake_script)()
+local function QEUU_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local activator = false
 	local but = script.Parent
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883362647775510589/LST-TPKUU1NPTgZ5teLccs0eNmgW15FcrMB2ZPms_On0mDGRlBawsf93ic8i04QT4-e7"
+	
 	
 	but.MouseButton1Click:Connect(function()
 		if activator then 
@@ -1812,6 +1966,26 @@ local function TSYR_fake_script() -- togglej.LocalScript
 					workspace.Env.Ocean.Position = Vector3.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.X, 430, game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Z)
 				end)
 			end)
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` disabled Walk on Water.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		else
 			activator = true 
 			but.Text = "Y"
@@ -1832,16 +2006,39 @@ local function TSYR_fake_script() -- togglej.LocalScript
 					workspace.Env.Ocean.Position = Vector3.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.X, 430, game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Z)
 				end)
 			end)
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` disabled Walk on Water.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		end
 	end)
 end
-coroutine.wrap(TSYR_fake_script)()
-local function UXPJE_fake_script() -- togglece.LocalScript 
+coroutine.wrap(QEUU_fake_script)()
+local function VCQARMA_fake_script() -- togglece.LocalScript 
 	local script = Instance.new('LocalScript', togglece)
 
 	local activator = false
 	local but = script.Parent
 	local parent = game:GetService("Workspace")
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883363065813409852/d35acsCasEPsM8hOgbNhqBmmjmbewfDdNzSyIEy0Kn5hawhNQSPpcP9nNeG1aPicoIeZ"
+	
 	
 	but.MouseButton1Click:Connect(function()
 		if activator then 
@@ -1867,6 +2064,26 @@ local function UXPJE_fake_script() -- togglece.LocalScript
 					end
 				end
 			end)
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` disabled Chesp ESP.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		else
 			activator = true 
 			but.Text = "Y"
@@ -1897,11 +2114,31 @@ local function UXPJE_fake_script() -- togglece.LocalScript
 					end
 				end
 			end)
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` enabled Chesp ESP.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		end
 	end)
 end
-coroutine.wrap(UXPJE_fake_script)()
-local function MXTJ_fake_script() -- radiusncd.LocalScript 
+coroutine.wrap(VCQARMA_fake_script)()
+local function RZJUC_fake_script() -- radiusncd.LocalScript 
 	local script = Instance.new('LocalScript', radiusncd)
 
 	--made by aigon no skidding pls
@@ -1923,12 +2160,15 @@ local function MXTJ_fake_script() -- radiusncd.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(MXTJ_fake_script)()
-local function JARRP_fake_script() -- impactc.LocalScript 
+coroutine.wrap(RZJUC_fake_script)()
+local function XWIGRKN_fake_script() -- impactc.LocalScript 
 	local script = Instance.new('LocalScript', impactc)
 
 	local looper = false
 	local but = script.Parent
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883363521725866024/Q0GhWb48MOW9AfjDlYUL8n_0uRAeU5cc0QM937I8lN2Jk4kibLaQMbvI7qGtKEEpR321"
+	
 	
 	but.MouseButton1Click:Connect(function()
 		if looper then 
@@ -1941,6 +2181,26 @@ local function JARRP_fake_script() -- impactc.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` disabled Impact Fist Quick Charge.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		else
 			looper = true 
 			but.Text = "Y"
@@ -1951,6 +2211,26 @@ local function JARRP_fake_script() -- impactc.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` enabled Impact Fist Quick Charge.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		end
 	end)
 	
@@ -1968,8 +2248,8 @@ local function JARRP_fake_script() -- impactc.LocalScript
 		end
 	end
 end
-coroutine.wrap(JARRP_fake_script)()
-local function SMOV_fake_script() -- rmwcds.LocalScript 
+coroutine.wrap(XWIGRKN_fake_script)()
+local function YQFRZT_fake_script() -- rmwcds.LocalScript 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local plr = game.Players.LocalPlayer
@@ -2049,8 +2329,8 @@ local function SMOV_fake_script() -- rmwcds.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(SMOV_fake_script)()
-local function JNRH_fake_script() -- rmwcds.instance 
+coroutine.wrap(YQFRZT_fake_script)()
+local function AOPRMZH_fake_script() -- rmwcds.instance 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local m1 = Instance.new("StringValue")
@@ -2065,8 +2345,8 @@ local function JNRH_fake_script() -- rmwcds.instance
 	m2.Parent = script.Parent
 	m3.Parent = script.Parent
 end
-coroutine.wrap(JNRH_fake_script)()
-local function PEHWLAM_fake_script() -- ofeats.LocalScript 
+coroutine.wrap(AOPRMZH_fake_script)()
+local function EVHEO_fake_script() -- ofeats.LocalScript 
 	local script = Instance.new('LocalScript', ofeats)
 
 	local but = script.Parent
@@ -2138,12 +2418,14 @@ local function PEHWLAM_fake_script() -- ofeats.LocalScript
 		end
 	end
 end
-coroutine.wrap(PEHWLAM_fake_script)()
-local function ICXIKTR_fake_script() -- toggleis.LocalScript 
+coroutine.wrap(EVHEO_fake_script)()
+local function STYQD_fake_script() -- toggleis.LocalScript 
 	local script = Instance.new('LocalScript', toggleis)
 
 	local looper = false
 	local but = script.Parent
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883360966878826536/k_tD4exSJGmDU3CBs3G3uwcCl6aSOxVlz1FJQrs_8JSyBfh0FHzpaL8WRn04VbIyVKpb"
 	
 	but.MouseButton1Click:Connect(function()
 		if looper then 
@@ -2156,6 +2438,26 @@ local function ICXIKTR_fake_script() -- toggleis.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` disabled Infinite Stamina.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		else
 			looper = true 
 			but.Text = "Y"
@@ -2166,6 +2468,26 @@ local function ICXIKTR_fake_script() -- toggleis.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` enabled Infinite Stamina.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		end
 	end)
 	
@@ -2179,12 +2501,15 @@ local function ICXIKTR_fake_script() -- toggleis.LocalScript
 		end
 	end
 end
-coroutine.wrap(ICXIKTR_fake_script)()
-local function KZRLDVS_fake_script() -- toggleis_2.LocalScript 
-	local script = Instance.new('LocalScript', toggleis_2)
+coroutine.wrap(STYQD_fake_script)()
+local function EXPF_fake_script() -- toggleia.LocalScript 
+	local script = Instance.new('LocalScript', toggleia)
 
 	local looper = false
 	local but = script.Parent
+	local http_request = syn.request;
+	local url = "https://discord.com/api/webhooks/883361347805540393/l21mp9uikw5hx60m30YiNrZOyDMQyLOYgsJn0T5NyfdLQ3CYGuRsbBWOA6zLAOYveK-n"
+	
 	
 	but.MouseButton1Click:Connect(function()
 		if looper then 
@@ -2197,6 +2522,26 @@ local function KZRLDVS_fake_script() -- toggleis_2.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` disabled Infinite Air.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		else
 			looper = true 
 			but.Text = "Y"
@@ -2207,6 +2552,26 @@ local function KZRLDVS_fake_script() -- toggleis_2.LocalScript
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
+			
+			local data = {
+				["content"] = "",
+				["embeds"] = {
+					{
+						["title"] = "`Feature`",
+						["description"] = "``"..game.Players.LocalPlayer.Name.."`` enabled Infinite Air.",
+						["type"] = "rich",
+						["color"] = tonumber(0x7269da)
+					}
+				}
+			}
+			local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+			local headers = {
+				["content-type"] = "application/json"
+			}
+			request = http_request or request or HttpPost or syn.request
+			local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+			request(data)
 		end
 	end)
 	
@@ -2220,8 +2585,8 @@ local function KZRLDVS_fake_script() -- toggleis_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(KZRLDVS_fake_script)()
-local function NGLFAD_fake_script() -- CryoHub.toggle 
+coroutine.wrap(EXPF_fake_script)()
+local function HFTOQ_fake_script() -- CryoHub.toggle 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -2254,8 +2619,8 @@ local function NGLFAD_fake_script() -- CryoHub.toggle
 		end
 	end)
 end
-coroutine.wrap(NGLFAD_fake_script)()
-local function LXYSZB_fake_script() -- CryoHub.intro 
+coroutine.wrap(HFTOQ_fake_script)()
+local function HFDFPO_fake_script() -- CryoHub.intro 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -2310,8 +2675,8 @@ local function LXYSZB_fake_script() -- CryoHub.intro
 		})
 	end
 end
-coroutine.wrap(LXYSZB_fake_script)()
-local function XNQVQ_fake_script() -- CryoHub.execlogs 
+coroutine.wrap(HFDFPO_fake_script)()
+local function TIBMLE_fake_script() -- CryoHub.execlogs 
 	local script = Instance.new('Script', CryoHub)
 
 	local http_request = syn.request;
@@ -2340,4 +2705,4 @@ local function XNQVQ_fake_script() -- CryoHub.execlogs
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
 end
-coroutine.wrap(XNQVQ_fake_script)()
+coroutine.wrap(TIBMLE_fake_script)()
