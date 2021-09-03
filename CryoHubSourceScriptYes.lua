@@ -43,10 +43,9 @@ local UICorner_14 = Instance.new("UICorner")
 local farming = Instance.new("ScrollingFrame")
 local combat = Instance.new("Frame")
 local ttl = Instance.new("TextLabel")
-local togglec = Instance.new("TextButton")
+local toggleq = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
 local UICorner_16 = Instance.new("UICorner")
-local tip = Instance.new("TextLabel")
 local bowfarm = Instance.new("Frame")
 local ttl_2 = Instance.new("TextLabel")
 local togglebf = Instance.new("TextButton")
@@ -404,7 +403,6 @@ combat.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 combat.BorderSizePixel = 0
 combat.Position = UDim2.new(0, 4, 0, 4)
 combat.Size = UDim2.new(0, 87, 0, 24)
-combat.Visible = false
 
 ttl.Name = "ttl"
 ttl.Parent = combat
@@ -414,43 +412,32 @@ ttl.BorderSizePixel = 0
 ttl.Position = UDim2.new(0.068965517, 0, 0, 0)
 ttl.Size = UDim2.new(0, 40, 0, 24)
 ttl.Font = Enum.Font.SourceSans
-ttl.Text = "Combat"
+ttl.Text = "Q Farm"
 ttl.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttl.TextSize = 14.000
 
-togglec.Name = "togglec"
-togglec.Parent = combat
-togglec.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-togglec.BorderSizePixel = 0
-togglec.Position = UDim2.new(0, 65, 0, 4)
-togglec.Size = UDim2.new(0, 16, 0, 16)
-togglec.Font = Enum.Font.SourceSans
-togglec.Text = "N"
-togglec.TextColor3 = Color3.fromRGB(255, 0, 0)
-togglec.TextSize = 14.000
+toggleq.Name = "toggleq"
+toggleq.Parent = combat
+toggleq.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+toggleq.BorderSizePixel = 0
+toggleq.Position = UDim2.new(0, 65, 0, 4)
+toggleq.Size = UDim2.new(0, 16, 0, 16)
+toggleq.Font = Enum.Font.SourceSans
+toggleq.Text = "N"
+toggleq.TextColor3 = Color3.fromRGB(255, 0, 0)
+toggleq.TextSize = 14.000
 
 UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = togglec
+UICorner_15.Parent = toggleq
 
 UICorner_16.CornerRadius = UDim.new(0, 3)
 UICorner_16.Parent = combat
-
-tip.Name = "tip"
-tip.Parent = combat
-tip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-tip.BackgroundTransparency = 1.000
-tip.Position = UDim2.new(0, 87, 0, 0)
-tip.Size = UDim2.new(0, 83, 0, 23)
-tip.Font = Enum.Font.SourceSans
-tip.Text = "Currently risky"
-tip.TextColor3 = Color3.fromRGB(64, 15, 163)
-tip.TextSize = 14.000
 
 bowfarm.Name = "bowfarm"
 bowfarm.Parent = farming
 bowfarm.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 bowfarm.BorderSizePixel = 0
-bowfarm.Position = UDim2.new(0, 4, 0, 4)
+bowfarm.Position = UDim2.new(0, 4, 0, 32)
 bowfarm.Size = UDim2.new(0, 87, 0, 24)
 
 ttl_2.Name = "ttl"
@@ -486,7 +473,7 @@ xlfarm.Name = "xlfarm"
 xlfarm.Parent = farming
 xlfarm.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 xlfarm.BorderSizePixel = 0
-xlfarm.Position = UDim2.new(0, 4, 0, 32)
+xlfarm.Position = UDim2.new(0, 4, 0, 60)
 xlfarm.Size = UDim2.new(0, 87, 0, 24)
 
 ttl_3.Name = "ttl"
@@ -920,7 +907,7 @@ UICorner_44.Parent = Frame
 
 -- Scripts:
 
-local function DLFJNU_fake_script() -- Frame.Dragify 
+local function THFJWK_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -961,8 +948,8 @@ local function DLFJNU_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(DLFJNU_fake_script)()
-local function JTLKKU_fake_script() -- close.LocalScript 
+coroutine.wrap(THFJWK_fake_script)()
+local function JYXVS_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	--made by aigon no skidding pls
@@ -991,8 +978,8 @@ local function JTLKKU_fake_script() -- close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JTLKKU_fake_script)()
-local function SRDUI_fake_script() -- farm.LocalScript 
+coroutine.wrap(JYXVS_fake_script)()
+local function QWYZUO_fake_script() -- farm.LocalScript 
 	local script = Instance.new('LocalScript', farm)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1011,8 +998,8 @@ local function SRDUI_fake_script() -- farm.LocalScript
 		farming:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(SRDUI_fake_script)()
-local function HEIS_fake_script() -- misc.LocalScript 
+coroutine.wrap(QWYZUO_fake_script)()
+local function NYVG_fake_script() -- misc.LocalScript 
 	local script = Instance.new('LocalScript', misc)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1031,8 +1018,8 @@ local function HEIS_fake_script() -- misc.LocalScript
 		misc:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(HEIS_fake_script)()
-local function RCSUCD_fake_script() -- feat.LocalScript 
+coroutine.wrap(NYVG_fake_script)()
+local function QDSVK_fake_script() -- feat.LocalScript 
 	local script = Instance.new('LocalScript', feat)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1051,8 +1038,8 @@ local function RCSUCD_fake_script() -- feat.LocalScript
 		features:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(RCSUCD_fake_script)()
-local function BSVQS_fake_script() -- teleports.LocalScript 
+coroutine.wrap(QDSVK_fake_script)()
+local function IATQT_fake_script() -- teleports.LocalScript 
 	local script = Instance.new('LocalScript', teleports)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1071,8 +1058,8 @@ local function BSVQS_fake_script() -- teleports.LocalScript
 		tps1:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(BSVQS_fake_script)()
-local function KNTG_fake_script() -- clicktp.LocalScript 
+coroutine.wrap(IATQT_fake_script)()
+local function UQVKE_fake_script() -- clicktp.LocalScript 
 	local script = Instance.new('LocalScript', clicktp)
 
 	local but = script.Parent
@@ -1099,8 +1086,8 @@ local function KNTG_fake_script() -- clicktp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KNTG_fake_script)()
-local function ZYXB_fake_script() -- infy.LocalScript 
+coroutine.wrap(UQVKE_fake_script)()
+local function JXTTK_fake_script() -- infy.LocalScript 
 	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
@@ -1111,8 +1098,8 @@ local function ZYXB_fake_script() -- infy.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ZYXB_fake_script)()
-local function VEJTNH_fake_script() -- antimod.LocalScript 
+coroutine.wrap(JXTTK_fake_script)()
+local function AQGY_fake_script() -- antimod.LocalScript 
 	local script = Instance.new('LocalScript', antimod)
 
 	local but = script.Parent
@@ -1205,8 +1192,8 @@ local function VEJTNH_fake_script() -- antimod.LocalScript
 		end
 	end
 end
-coroutine.wrap(VEJTNH_fake_script)()
-local function FHJRNF_fake_script() -- banjo.LocalScript 
+coroutine.wrap(AQGY_fake_script)()
+local function LWHGX_fake_script() -- banjo.LocalScript 
 	local script = Instance.new('LocalScript', banjo)
 
 	local but = script.Parent
@@ -1224,8 +1211,8 @@ local function FHJRNF_fake_script() -- banjo.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FHJRNF_fake_script)()
-local function BYMOBWT_fake_script() -- nightv.LocalScript 
+coroutine.wrap(LWHGX_fake_script)()
+local function WJSDEG_fake_script() -- nightv.LocalScript 
 	local script = Instance.new('LocalScript', nightv)
 
 	local but = script.Parent
@@ -1281,8 +1268,8 @@ local function BYMOBWT_fake_script() -- nightv.LocalScript
 	
 	end)
 end
-coroutine.wrap(BYMOBWT_fake_script)()
-local function BJJP_fake_script() -- ss.LocalScript 
+coroutine.wrap(WJSDEG_fake_script)()
+local function VMCWH_fake_script() -- ss.LocalScript 
 	local script = Instance.new('LocalScript', ss)
 
 	local but = script.Parent
@@ -1293,9 +1280,9 @@ local function BJJP_fake_script() -- ss.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(BJJP_fake_script)()
-local function NXADIUT_fake_script() -- togglec.LocalScript 
-	local script = Instance.new('LocalScript', togglec)
+coroutine.wrap(VMCWH_fake_script)()
+local function KSCZ_fake_script() -- toggleq.LocalScript 
+	local script = Instance.new('LocalScript', toggleq)
 
 	local looper = false
 	local but = script.Parent
@@ -1307,7 +1294,7 @@ local function NXADIUT_fake_script() -- togglec.LocalScript
 			but.TextColor3 = Color3.fromRGB(255, 0, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "CombatFarm Disabled.";
+				Text = "Q Farm Disabled.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -1317,7 +1304,7 @@ local function NXADIUT_fake_script() -- togglec.LocalScript
 			but.TextColor3 = Color3.fromRGB(0, 255, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "CombatFarm Enabled; Make sure Combat is equiped.";
+				Text = "Q Farm Enabled; Make sure you have your 1st, 2nd or 3rd magic equipped.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -1328,18 +1315,66 @@ local function NXADIUT_fake_script() -- togglec.LocalScript
 		wait()
 		if looper then 
 			pcall(function()
+				local plr = game:GetService("Players").LocalPlayer
+				local magic = plr.bin.Magic
+				local magic2 = plr.bin.Magic2
+				local magic3 = plr.bin.Magic3
+				
+				repeat
+					wait(0.2)
+					local args = {
+						[1] = 1
+					}
+	
+					game:GetService("Players").LocalPlayer.Character[""..magic.Value.."" or ""..magic2.Value.."" or ""..magic3.Value..""].LocalScript.Lightning:FireServer(unpack(args))
+	
+					local args = {
+						[1] = 2,
+						[2] = Vector3.new(-2366.2358398438, 517.62854003906, 1838.7668457031),
+					}
+	
+					game:GetService("Players").LocalPlayer.Character[""..magic.Value.."" or ""..magic2.Value.."" or ""..magic3.Value..""].LocalScript.Lightning:FireServer(unpack(args))
+	
+				until plr.bin.MagicEnergy.Value <= 100
+				
+				repeat
+					wait(0.2)
+					local args = {
+					[1] = 1
+					}
+	
+					game:GetService("Players").LocalPlayer.Character[""..magic.Value.."" or ""..magic2.Value.."" or ""..magic3.Value..""].LocalScript.Lightning:FireServer(unpack(args))
+	
+					local args = {
+						[1] = 2,
+						[2] = Vector3.new(-2366.2358398438, 517.62854003906, 1838.7668457031),
+					}
+	
+					game:GetService("Players").LocalPlayer.Character[""..magic.Value.."" or ""..magic2.Value.."" or ""..magic3.Value..""].LocalScript.Lightning:FireServer(unpack(args))
+					
+				until plr.bin.MagicEnergy.Value <= 100
+				
+				repeat
+					wait(0.1)
+					local args = {
+						[1] = "Charge"
+					}
+	
+					game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
+	
+				until plr.bin.MagicEnergy.Value >= plr.bin.MagicPower.Value*5+25
+				
 				local args = {
-					[1] = 50,
-					[2] = Vector3.new(-2152.529296875, 449.84774780273, 10.075839996338)
+					[1] = "ChargeEnd"
 				}
 	
-				game:GetService("Players").LocalPlayer.Character.Combat.LocalScript.Combat:FireServer(unpack(args))
+				game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
 			end)
 		end
 	end
 end
-coroutine.wrap(NXADIUT_fake_script)()
-local function YKAUZZ_fake_script() -- togglebf.LocalScript 
+coroutine.wrap(KSCZ_fake_script)()
+local function KMYN_fake_script() -- togglebf.LocalScript 
 	local script = Instance.new('LocalScript', togglebf)
 
 	local looper = false
@@ -1500,8 +1535,8 @@ local function YKAUZZ_fake_script() -- togglebf.LocalScript
 		end
 	end
 end
-coroutine.wrap(YKAUZZ_fake_script)()
-local function BSMKZX_fake_script() -- togglexl.LocalScript 
+coroutine.wrap(KMYN_fake_script)()
+local function GUENI_fake_script() -- togglexl.LocalScript 
 	local script = Instance.new('LocalScript', togglexl)
 
 	local looper = false
@@ -1662,8 +1697,8 @@ local function BSMKZX_fake_script() -- togglexl.LocalScript
 		end
 	end
 end
-coroutine.wrap(BSMKZX_fake_script)()
-local function MHBR_fake_script() -- animp.LocalScript 
+coroutine.wrap(GUENI_fake_script)()
+local function PBMJ_fake_script() -- animp.LocalScript 
 	local script = Instance.new('LocalScript', animp)
 
 	local but = script.Parent
@@ -1686,8 +1721,8 @@ local function MHBR_fake_script() -- animp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(MHBR_fake_script)()
-local function LOJOWSU_fake_script() -- noclog.LocalScript 
+coroutine.wrap(PBMJ_fake_script)()
+local function ONTFODG_fake_script() -- noclog.LocalScript 
 	local script = Instance.new('LocalScript', noclog)
 
 	local but = script.Parent
@@ -1703,8 +1738,8 @@ local function LOJOWSU_fake_script() -- noclog.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LOJOWSU_fake_script)()
-local function JEYRE_fake_script() -- infstam.LocalScript 
+coroutine.wrap(ONTFODG_fake_script)()
+local function MVEYSZE_fake_script() -- infstam.LocalScript 
 	local script = Instance.new('LocalScript', infstam)
 
 	local but = script.Parent
@@ -1718,8 +1753,8 @@ local function JEYRE_fake_script() -- infstam.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(JEYRE_fake_script)()
-local function VUDBYTK_fake_script() -- infme.LocalScript 
+coroutine.wrap(MVEYSZE_fake_script)()
+local function OWGGM_fake_script() -- infme.LocalScript 
 	local script = Instance.new('LocalScript', infme)
 
 	local but = script.Parent
@@ -1733,8 +1768,8 @@ local function VUDBYTK_fake_script() -- infme.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(VUDBYTK_fake_script)()
-local function UJBFXLJ_fake_script() -- infair.LocalScript 
+coroutine.wrap(OWGGM_fake_script)()
+local function UOBV_fake_script() -- infair.LocalScript 
 	local script = Instance.new('LocalScript', infair)
 
 	local but = script.Parent
@@ -1748,8 +1783,8 @@ local function UJBFXLJ_fake_script() -- infair.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(UJBFXLJ_fake_script)()
-local function TRHFOXW_fake_script() -- togglej.LocalScript 
+coroutine.wrap(UOBV_fake_script)()
+local function ZQTBKA_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local activator = false
@@ -1799,8 +1834,8 @@ local function TRHFOXW_fake_script() -- togglej.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TRHFOXW_fake_script)()
-local function XAXU_fake_script() -- togglece.LocalScript 
+coroutine.wrap(ZQTBKA_fake_script)()
+local function WYMH_fake_script() -- togglece.LocalScript 
 	local script = Instance.new('LocalScript', togglece)
 
 	local activator = false
@@ -1864,8 +1899,8 @@ local function XAXU_fake_script() -- togglece.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XAXU_fake_script)()
-local function DVWV_fake_script() -- radiusncd.LocalScript 
+coroutine.wrap(WYMH_fake_script)()
+local function GWTRON_fake_script() -- radiusncd.LocalScript 
 	local script = Instance.new('LocalScript', radiusncd)
 
 	--made by aigon no skidding pls
@@ -1887,8 +1922,8 @@ local function DVWV_fake_script() -- radiusncd.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DVWV_fake_script)()
-local function RWTGYWC_fake_script() -- impactc.LocalScript 
+coroutine.wrap(GWTRON_fake_script)()
+local function ERNJKAS_fake_script() -- impactc.LocalScript 
 	local script = Instance.new('LocalScript', impactc)
 
 	local looper = false
@@ -1932,8 +1967,8 @@ local function RWTGYWC_fake_script() -- impactc.LocalScript
 		end
 	end
 end
-coroutine.wrap(RWTGYWC_fake_script)()
-local function FMGC_fake_script() -- rmwcds.LocalScript 
+coroutine.wrap(ERNJKAS_fake_script)()
+local function WOAWU_fake_script() -- rmwcds.LocalScript 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local plr = game.Players.LocalPlayer
@@ -2013,8 +2048,8 @@ local function FMGC_fake_script() -- rmwcds.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(FMGC_fake_script)()
-local function BAUA_fake_script() -- rmwcds.instance 
+coroutine.wrap(WOAWU_fake_script)()
+local function BDJJ_fake_script() -- rmwcds.instance 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local m1 = Instance.new("StringValue")
@@ -2029,8 +2064,8 @@ local function BAUA_fake_script() -- rmwcds.instance
 	m2.Parent = script.Parent
 	m3.Parent = script.Parent
 end
-coroutine.wrap(BAUA_fake_script)()
-local function EWBYG_fake_script() -- ofeats.LocalScript 
+coroutine.wrap(BDJJ_fake_script)()
+local function DQPLL_fake_script() -- ofeats.LocalScript 
 	local script = Instance.new('LocalScript', ofeats)
 
 	local but = script.Parent
@@ -2102,8 +2137,8 @@ local function EWBYG_fake_script() -- ofeats.LocalScript
 		end
 	end
 end
-coroutine.wrap(EWBYG_fake_script)()
-local function FFJW_fake_script() -- toggleis.LocalScript 
+coroutine.wrap(DQPLL_fake_script)()
+local function BYAI_fake_script() -- toggleis.LocalScript 
 	local script = Instance.new('LocalScript', toggleis)
 
 	local looper = false
@@ -2143,8 +2178,8 @@ local function FFJW_fake_script() -- toggleis.LocalScript
 		end
 	end
 end
-coroutine.wrap(FFJW_fake_script)()
-local function QZEO_fake_script() -- toggleis_2.LocalScript 
+coroutine.wrap(BYAI_fake_script)()
+local function RSKFZ_fake_script() -- toggleis_2.LocalScript 
 	local script = Instance.new('LocalScript', toggleis_2)
 
 	local looper = false
@@ -2184,8 +2219,8 @@ local function QZEO_fake_script() -- toggleis_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(QZEO_fake_script)()
-local function RXAG_fake_script() -- CryoHub.toggle 
+coroutine.wrap(RSKFZ_fake_script)()
+local function SZLH_fake_script() -- CryoHub.toggle 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -2218,8 +2253,8 @@ local function RXAG_fake_script() -- CryoHub.toggle
 		end
 	end)
 end
-coroutine.wrap(RXAG_fake_script)()
-local function PZRQFTY_fake_script() -- CryoHub.intro 
+coroutine.wrap(SZLH_fake_script)()
+local function PFVWJR_fake_script() -- CryoHub.intro 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -2274,8 +2309,8 @@ local function PZRQFTY_fake_script() -- CryoHub.intro
 		})
 	end
 end
-coroutine.wrap(PZRQFTY_fake_script)()
-local function QAVBAXT_fake_script() -- CryoHub.execlogs 
+coroutine.wrap(PFVWJR_fake_script)()
+local function UHJX_fake_script() -- CryoHub.execlogs 
 	local script = Instance.new('Script', CryoHub)
 
 	local http_request = syn.request;
@@ -2285,9 +2320,9 @@ local function QAVBAXT_fake_script() -- CryoHub.execlogs
 		["embeds"] = {
 			{
 				["title"] = "Whitelisted",
-				["description"] = "Username: " .. game.Players.LocalPlayer.Name,
+				["description"] = "Username: " .. game.Players.LocalPlayer.Name..", User ID: "..game.Players.LocalPlayer.UserId,
 				["type"] = "rich",
-				["color"] = tonumber(0x7269da),
+				["color"] = tonumber(0x00FF00),
 				["image"] = {
 					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
 						tostring(game:GetService("Players").LocalPlayer.Name)
@@ -2304,4 +2339,4 @@ local function QAVBAXT_fake_script() -- CryoHub.execlogs
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
 end
-coroutine.wrap(QAVBAXT_fake_script)()
+coroutine.wrap(UHJX_fake_script)()
