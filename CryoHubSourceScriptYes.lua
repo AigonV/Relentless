@@ -14,7 +14,7 @@ local bar3 = Instance.new("Frame")
 local bar4 = Instance.new("Frame")
 local bar5 = Instance.new("Frame")
 local bar6 = Instance.new("Frame")
-local Main = Instance.new("Frame")
+local MainAR = Instance.new("Frame")
 local title = Instance.new("TextLabel")
 local close = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
@@ -107,18 +107,23 @@ local ttl_8 = Instance.new("TextLabel")
 local toggleia = Instance.new("TextButton")
 local UICorner_38 = Instance.new("UICorner")
 local UICorner_39 = Instance.new("UICorner")
+local namespoof = Instance.new("Frame")
+local ttl_9 = Instance.new("TextLabel")
+local togglens = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local UICorner_41 = Instance.new("UICorner")
 local tps1 = Instance.new("ScrollingFrame")
 local soon = Instance.new("TextButton")
-local UICorner_40 = Instance.new("UICorner")
-local soon_2 = Instance.new("TextButton")
-local UICorner_41 = Instance.new("UICorner")
-local soon_3 = Instance.new("TextButton")
 local UICorner_42 = Instance.new("UICorner")
-local soon_4 = Instance.new("TextButton")
+local soon_2 = Instance.new("TextButton")
 local UICorner_43 = Instance.new("UICorner")
-local ttl_9 = Instance.new("TextLabel")
-local Frame_2 = Instance.new("Frame")
+local soon_3 = Instance.new("TextButton")
 local UICorner_44 = Instance.new("UICorner")
+local soon_4 = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local ttl_10 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local UICorner_46 = Instance.new("UICorner")
 
 --Properties:
 
@@ -222,15 +227,15 @@ bar6.BorderSizePixel = 0
 bar6.Position = UDim2.new(0, 151, 0, 68)
 bar6.Size = UDim2.new(0, 4, 0, 15)
 
-Main.Name = "Main"
-Main.Parent = Frame
-Main.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-Main.BorderSizePixel = 0
-Main.ClipsDescendants = true
-Main.Size = UDim2.new(0, 384, 0, 220)
+MainAR.Name = "MainAR"
+MainAR.Parent = Frame
+MainAR.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+MainAR.BorderSizePixel = 0
+MainAR.ClipsDescendants = true
+MainAR.Size = UDim2.new(0, 384, 0, 220)
 
 title.Name = "title"
-title.Parent = Main
+title.Parent = MainAR
 title.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 title.BorderSizePixel = 0
 title.Size = UDim2.new(0, 384, 0, 22)
@@ -255,7 +260,7 @@ UICorner.CornerRadius = UDim.new(0, 3)
 UICorner.Parent = close
 
 menu.Name = "menu"
-menu.Parent = Main
+menu.Parent = MainAR
 menu.Active = true
 menu.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 menu.BorderSizePixel = 0
@@ -321,14 +326,14 @@ UICorner_5.CornerRadius = UDim.new(0, 3)
 UICorner_5.Parent = teleports
 
 line.Name = "line"
-line.Parent = Main
+line.Parent = MainAR
 line.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
 line.BorderSizePixel = 0
 line.Position = UDim2.new(0, -3, 0, 22)
 line.Size = UDim2.new(0, 387, 0, 1)
 
 misce.Name = "misce"
-misce.Parent = Main
+misce.Parent = MainAR
 misce.Active = true
 misce.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 misce.BorderSizePixel = 0
@@ -457,12 +462,12 @@ UICorner_14.CornerRadius = UDim.new(0, 3)
 UICorner_14.Parent = ss
 
 farming.Name = "farming"
-farming.Parent = Main
+farming.Parent = MainAR
 farming.Active = true
 farming.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 farming.BorderSizePixel = 0
 farming.Position = UDim2.new(0, 100, 0, 28)
-farming.Size = UDim2.new(0, 278, 0, 185)
+farming.Size = UDim2.new(0, 278, 0, 0)
 farming.CanvasSize = UDim2.new(0, 0, 0, 0)
 farming.ScrollBarThickness = 0
 
@@ -576,12 +581,12 @@ UICorner_20.CornerRadius = UDim.new(0, 3)
 UICorner_20.Parent = xlfarm
 
 feats.Name = "feats"
-feats.Parent = Main
+feats.Parent = MainAR
 feats.Active = true
 feats.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 feats.BorderSizePixel = 0
 feats.Position = UDim2.new(0, 100, 0, 28)
-feats.Size = UDim2.new(0, 278, 0, 0)
+feats.Size = UDim2.new(0, 278, 0, 185)
 feats.CanvasSize = UDim2.new(0, 0, 0, 0)
 feats.ScrollBarThickness = 0
 
@@ -808,7 +813,7 @@ ofeats.Name = "ofeats"
 ofeats.Parent = feats
 ofeats.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 ofeats.BorderSizePixel = 0
-ofeats.Position = UDim2.new(0, 4, 0, 66)
+ofeats.Position = UDim2.new(0, 4, 0, 97)
 ofeats.Size = UDim2.new(0, 80, 0, 27)
 ofeats.Font = Enum.Font.SourceSans
 ofeats.Text = "Other Features"
@@ -890,8 +895,45 @@ UICorner_38.Parent = toggleia
 UICorner_39.CornerRadius = UDim.new(0, 3)
 UICorner_39.Parent = infair_2
 
+namespoof.Name = "namespoof"
+namespoof.Parent = feats
+namespoof.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+namespoof.BorderSizePixel = 0
+namespoof.Position = UDim2.new(0, 4, 0, 66)
+namespoof.Size = UDim2.new(0, 80, 0, 27)
+
+ttl_9.Name = "ttl"
+ttl_9.Parent = namespoof
+ttl_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ttl_9.BackgroundTransparency = 1.000
+ttl_9.BorderSizePixel = 0
+ttl_9.Position = UDim2.new(0, 2, 0, 0)
+ttl_9.Size = UDim2.new(0, 56, 0, 27)
+ttl_9.Font = Enum.Font.SourceSans
+ttl_9.Text = "Hide Name"
+ttl_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+ttl_9.TextSize = 12.000
+ttl_9.TextWrapped = true
+
+togglens.Name = "togglens"
+togglens.Parent = namespoof
+togglens.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+togglens.BorderSizePixel = 0
+togglens.Position = UDim2.new(0, 58, 0, 5)
+togglens.Size = UDim2.new(0, 18, 0, 18)
+togglens.Font = Enum.Font.SourceSans
+togglens.Text = "N"
+togglens.TextColor3 = Color3.fromRGB(255, 0, 0)
+togglens.TextSize = 14.000
+
+UICorner_40.CornerRadius = UDim.new(0, 3)
+UICorner_40.Parent = togglens
+
+UICorner_41.CornerRadius = UDim.new(0, 3)
+UICorner_41.Parent = namespoof
+
 tps1.Name = "tps1"
-tps1.Parent = Main
+tps1.Parent = MainAR
 tps1.Active = true
 tps1.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 tps1.BorderSizePixel = 0
@@ -910,8 +952,8 @@ soon.Text = "Soon!"
 soon.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon.TextSize = 13.000
 
-UICorner_40.CornerRadius = UDim.new(0, 3)
-UICorner_40.Parent = soon
+UICorner_42.CornerRadius = UDim.new(0, 3)
+UICorner_42.Parent = soon
 
 soon_2.Name = "soon"
 soon_2.Parent = tps1
@@ -924,8 +966,8 @@ soon_2.Text = "Soon!"
 soon_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_2.TextSize = 13.000
 
-UICorner_41.CornerRadius = UDim.new(0, 3)
-UICorner_41.Parent = soon_2
+UICorner_43.CornerRadius = UDim.new(0, 3)
+UICorner_43.Parent = soon_2
 
 soon_3.Name = "soon"
 soon_3.Parent = tps1
@@ -938,8 +980,8 @@ soon_3.Text = "Soon!"
 soon_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_3.TextSize = 13.000
 
-UICorner_42.CornerRadius = UDim.new(0, 3)
-UICorner_42.Parent = soon_3
+UICorner_44.CornerRadius = UDim.new(0, 3)
+UICorner_44.Parent = soon_3
 
 soon_4.Name = "soon"
 soon_4.Parent = tps1
@@ -952,19 +994,19 @@ soon_4.Text = "Soon!"
 soon_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 soon_4.TextSize = 13.000
 
-UICorner_43.CornerRadius = UDim.new(0, 3)
-UICorner_43.Parent = soon_4
+UICorner_45.CornerRadius = UDim.new(0, 3)
+UICorner_45.Parent = soon_4
 
-ttl_9.Name = "ttl"
-ttl_9.Parent = tps1
-ttl_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ttl_9.BackgroundTransparency = 1.000
-ttl_9.Size = UDim2.new(0, 278, 0, 21)
-ttl_9.Font = Enum.Font.SourceSans
-ttl_9.Text = "             Islands                Cap-able islands                        Seas"
-ttl_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-ttl_9.TextSize = 14.000
-ttl_9.TextXAlignment = Enum.TextXAlignment.Left
+ttl_10.Name = "ttl"
+ttl_10.Parent = tps1
+ttl_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ttl_10.BackgroundTransparency = 1.000
+ttl_10.Size = UDim2.new(0, 278, 0, 21)
+ttl_10.Font = Enum.Font.SourceSans
+ttl_10.Text = "             Islands                Cap-able islands                        Seas"
+ttl_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+ttl_10.TextSize = 14.000
+ttl_10.TextXAlignment = Enum.TextXAlignment.Left
 
 Frame_2.Parent = tps1
 Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -972,13 +1014,13 @@ Frame_2.BorderSizePixel = 0
 Frame_2.Position = UDim2.new(0, 0, 0, 21)
 Frame_2.Size = UDim2.new(0, 278, 0, 1)
 
-UICorner_44.CornerRadius = UDim.new(0, 5)
-UICorner_44.Parent = Frame
+UICorner_46.CornerRadius = UDim.new(0, 5)
+UICorner_46.Parent = Frame
 
 -- Scripts:
 
 -- loading.handler is disabled.
-local function BMUXAR_fake_script() -- Frame.Dragify 
+local function JVRTPKJ_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1019,8 +1061,8 @@ local function BMUXAR_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(BMUXAR_fake_script)()
-local function WOYEUI_fake_script() -- close.LocalScript 
+coroutine.wrap(JVRTPKJ_fake_script)()
+local function OZDV_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	--made by aigon no skidding pls
@@ -1049,8 +1091,8 @@ local function WOYEUI_fake_script() -- close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WOYEUI_fake_script)()
-local function IOOHMCD_fake_script() -- farm.LocalScript 
+coroutine.wrap(OZDV_fake_script)()
+local function EXAR_fake_script() -- farm.LocalScript 
 	local script = Instance.new('LocalScript', farm)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1069,8 +1111,8 @@ local function IOOHMCD_fake_script() -- farm.LocalScript
 		farming:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(IOOHMCD_fake_script)()
-local function GOTCAH_fake_script() -- misc.LocalScript 
+coroutine.wrap(EXAR_fake_script)()
+local function PJCO_fake_script() -- misc.LocalScript 
 	local script = Instance.new('LocalScript', misc)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1089,8 +1131,8 @@ local function GOTCAH_fake_script() -- misc.LocalScript
 		misc:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(GOTCAH_fake_script)()
-local function YTDOKE_fake_script() -- feat.LocalScript 
+coroutine.wrap(PJCO_fake_script)()
+local function KUCOKHM_fake_script() -- feat.LocalScript 
 	local script = Instance.new('LocalScript', feat)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1109,8 +1151,8 @@ local function YTDOKE_fake_script() -- feat.LocalScript
 		features:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(YTDOKE_fake_script)()
-local function MSKHVWS_fake_script() -- teleports.LocalScript 
+coroutine.wrap(KUCOKHM_fake_script)()
+local function GSKASUG_fake_script() -- teleports.LocalScript 
 	local script = Instance.new('LocalScript', teleports)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1129,8 +1171,8 @@ local function MSKHVWS_fake_script() -- teleports.LocalScript
 		tps1:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(MSKHVWS_fake_script)()
-local function EFRUX_fake_script() -- clicktp.LocalScript 
+coroutine.wrap(GSKASUG_fake_script)()
+local function BKDNRI_fake_script() -- clicktp.LocalScript 
 	local script = Instance.new('LocalScript', clicktp)
 
 	local but = script.Parent
@@ -1157,8 +1199,8 @@ local function EFRUX_fake_script() -- clicktp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(EFRUX_fake_script)()
-local function MGEH_fake_script() -- infy.LocalScript 
+coroutine.wrap(BKDNRI_fake_script)()
+local function VTNHDIY_fake_script() -- infy.LocalScript 
 	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
@@ -1169,8 +1211,8 @@ local function MGEH_fake_script() -- infy.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(MGEH_fake_script)()
-local function XUVWX_fake_script() -- antimod.LocalScript 
+coroutine.wrap(VTNHDIY_fake_script)()
+local function KOJS_fake_script() -- antimod.LocalScript 
 	local script = Instance.new('LocalScript', antimod)
 
 	local but = script.Parent
@@ -1209,16 +1251,18 @@ local function XUVWX_fake_script() -- antimod.LocalScript
 		})
 	end)
 	
-	--Rainbow text script
-	local text = script.Parent
-	local add = 10
+	-- rainbow script aigon innit
+	local text = script.Parent -- locate object
+	local add = 10 -- how many digits to add to the color
 	wait(1)
-	local k = 1
-	while k <= 255 do
-		text.TextColor3 = Color3.new(k/255,0/255,0/255)
-		k = k + add
-		wait()
+	local k = 1 -- start number
+	while k <= 255 do -- constantly changing colors when the numbers are under 255
+		text.TextColor3 = Color3.new(k/255,0/255,0/255) -- current color
+		k = k + add -- changes color
+		wait() -- waits so it doesn't break
 	end
+	
+	-- under here it just basically repeats everything above i explained above.
 	while true do
 		k = 1
 		while k <= 255 do
@@ -1263,8 +1307,8 @@ local function XUVWX_fake_script() -- antimod.LocalScript
 		end
 	end
 end
-coroutine.wrap(XUVWX_fake_script)()
-local function MEMS_fake_script() -- banjo.LocalScript 
+coroutine.wrap(KOJS_fake_script)()
+local function AOBF_fake_script() -- banjo.LocalScript 
 	local script = Instance.new('LocalScript', banjo)
 
 	local but = script.Parent
@@ -1282,8 +1326,8 @@ local function MEMS_fake_script() -- banjo.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MEMS_fake_script)()
-local function DFXWUBJ_fake_script() -- nightv.LocalScript 
+coroutine.wrap(AOBF_fake_script)()
+local function DKYB_fake_script() -- nightv.LocalScript 
 	local script = Instance.new('LocalScript', nightv)
 
 	local but = script.Parent
@@ -1338,8 +1382,8 @@ local function DFXWUBJ_fake_script() -- nightv.LocalScript
 		)
 	end)
 end
-coroutine.wrap(DFXWUBJ_fake_script)()
-local function YFZVWF_fake_script() -- ss.LocalScript 
+coroutine.wrap(DKYB_fake_script)()
+local function EMSJ_fake_script() -- ss.LocalScript 
 	local script = Instance.new('LocalScript', ss)
 
 	local but = script.Parent
@@ -1350,8 +1394,8 @@ local function YFZVWF_fake_script() -- ss.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(YFZVWF_fake_script)()
-local function NRBJ_fake_script() -- toggleq.LocalScript 
+coroutine.wrap(EMSJ_fake_script)()
+local function REWA_fake_script() -- toggleq.LocalScript 
 	local script = Instance.new('LocalScript', toggleq)
 
 	local looper = false
@@ -1443,8 +1487,8 @@ local function NRBJ_fake_script() -- toggleq.LocalScript
 		end
 	end
 end
-coroutine.wrap(NRBJ_fake_script)()
-local function FTEANKM_fake_script() -- togglebf.LocalScript 
+coroutine.wrap(REWA_fake_script)()
+local function PGMIRFL_fake_script() -- togglebf.LocalScript 
 	local script = Instance.new('LocalScript', togglebf)
 
 	local looper = false
@@ -1605,8 +1649,8 @@ local function FTEANKM_fake_script() -- togglebf.LocalScript
 		end
 	end
 end
-coroutine.wrap(FTEANKM_fake_script)()
-local function XQVVAW_fake_script() -- togglexl.LocalScript 
+coroutine.wrap(PGMIRFL_fake_script)()
+local function OBQUPEN_fake_script() -- togglexl.LocalScript 
 	local script = Instance.new('LocalScript', togglexl)
 
 	local looper = false
@@ -1767,8 +1811,8 @@ local function XQVVAW_fake_script() -- togglexl.LocalScript
 		end
 	end
 end
-coroutine.wrap(XQVVAW_fake_script)()
-local function DWSYPRP_fake_script() -- animp.LocalScript 
+coroutine.wrap(OBQUPEN_fake_script)()
+local function HNLDAK_fake_script() -- animp.LocalScript 
 	local script = Instance.new('LocalScript', animp)
 
 	local but = script.Parent
@@ -1791,8 +1835,8 @@ local function DWSYPRP_fake_script() -- animp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DWSYPRP_fake_script)()
-local function RMZHF_fake_script() -- noclog.LocalScript 
+coroutine.wrap(HNLDAK_fake_script)()
+local function GAGN_fake_script() -- noclog.LocalScript 
 	local script = Instance.new('LocalScript', noclog)
 
 	local but = script.Parent
@@ -1808,8 +1852,8 @@ local function RMZHF_fake_script() -- noclog.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(RMZHF_fake_script)()
-local function GRAZLX_fake_script() -- infstam.LocalScript 
+coroutine.wrap(GAGN_fake_script)()
+local function AIHBKC_fake_script() -- infstam.LocalScript 
 	local script = Instance.new('LocalScript', infstam)
 
 	local but = script.Parent
@@ -1823,8 +1867,8 @@ local function GRAZLX_fake_script() -- infstam.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(GRAZLX_fake_script)()
-local function PMPBI_fake_script() -- infme.LocalScript 
+coroutine.wrap(AIHBKC_fake_script)()
+local function FNYSDN_fake_script() -- infme.LocalScript 
 	local script = Instance.new('LocalScript', infme)
 
 	local but = script.Parent
@@ -1838,8 +1882,8 @@ local function PMPBI_fake_script() -- infme.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(PMPBI_fake_script)()
-local function NXAJU_fake_script() -- infair.LocalScript 
+coroutine.wrap(FNYSDN_fake_script)()
+local function MRLORS_fake_script() -- infair.LocalScript 
 	local script = Instance.new('LocalScript', infair)
 
 	local but = script.Parent
@@ -1853,8 +1897,8 @@ local function NXAJU_fake_script() -- infair.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(NXAJU_fake_script)()
-local function SUUFGU_fake_script() -- togglej.LocalScript 
+coroutine.wrap(MRLORS_fake_script)()
+local function HRLI_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local activator = false
@@ -1905,8 +1949,8 @@ local function SUUFGU_fake_script() -- togglej.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SUUFGU_fake_script)()
-local function TFIE_fake_script() -- togglece.LocalScript 
+coroutine.wrap(HRLI_fake_script)()
+local function FTOHP_fake_script() -- togglece.LocalScript 
 	local script = Instance.new('LocalScript', togglece)
 
 	local activator = false
@@ -1971,8 +2015,8 @@ local function TFIE_fake_script() -- togglece.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TFIE_fake_script)()
-local function GWMEVUW_fake_script() -- radiusncd.LocalScript 
+coroutine.wrap(FTOHP_fake_script)()
+local function XEMFIT_fake_script() -- radiusncd.LocalScript 
 	local script = Instance.new('LocalScript', radiusncd)
 
 	--made by aigon no skidding pls
@@ -1994,8 +2038,8 @@ local function GWMEVUW_fake_script() -- radiusncd.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(GWMEVUW_fake_script)()
-local function OFVHERZ_fake_script() -- impactc.LocalScript 
+coroutine.wrap(XEMFIT_fake_script)()
+local function EBSUGK_fake_script() -- impactc.LocalScript 
 	local script = Instance.new('LocalScript', impactc)
 
 	local looper = false
@@ -2040,12 +2084,12 @@ local function OFVHERZ_fake_script() -- impactc.LocalScript
 		end
 	end
 end
-coroutine.wrap(OFVHERZ_fake_script)()
-local function IKOPJ_fake_script() -- rmwcds.LocalScript 
+coroutine.wrap(EBSUGK_fake_script)()
+local function MCQMEIJ_fake_script() -- rmwcds.LocalScript 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local plr = game.Players.LocalPlayer
-	local bin = plr.bin
+	local bin = plr:WaitForChild("bin")
 	local m1 = bin.LastWeapon1
 	local m2 = bin.LastWeapon2
 	local m3 = bin.LastWeapon3
@@ -2121,8 +2165,8 @@ local function IKOPJ_fake_script() -- rmwcds.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(IKOPJ_fake_script)()
-local function PXCEM_fake_script() -- rmwcds.instance 
+coroutine.wrap(MCQMEIJ_fake_script)()
+local function LVVQ_fake_script() -- rmwcds.instance 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local m1 = Instance.new("StringValue")
@@ -2137,8 +2181,8 @@ local function PXCEM_fake_script() -- rmwcds.instance
 	m2.Parent = script.Parent
 	m3.Parent = script.Parent
 end
-coroutine.wrap(PXCEM_fake_script)()
-local function MPXM_fake_script() -- ofeats.LocalScript 
+coroutine.wrap(LVVQ_fake_script)()
+local function LSXZON_fake_script() -- ofeats.LocalScript 
 	local script = Instance.new('LocalScript', ofeats)
 
 	local but = script.Parent
@@ -2210,8 +2254,8 @@ local function MPXM_fake_script() -- ofeats.LocalScript
 		end
 	end
 end
-coroutine.wrap(MPXM_fake_script)()
-local function XHBYLX_fake_script() -- toggleis.LocalScript 
+coroutine.wrap(LSXZON_fake_script)()
+local function APPFD_fake_script() -- toggleis.LocalScript 
 	local script = Instance.new('LocalScript', toggleis)
 
 	local looper = false
@@ -2251,8 +2295,8 @@ local function XHBYLX_fake_script() -- toggleis.LocalScript
 		end
 	end
 end
-coroutine.wrap(XHBYLX_fake_script)()
-local function NLWUYME_fake_script() -- toggleia.LocalScript 
+coroutine.wrap(APPFD_fake_script)()
+local function YTEFHZN_fake_script() -- toggleia.LocalScript 
 	local script = Instance.new('LocalScript', toggleia)
 
 	local looper = false
@@ -2292,13 +2336,88 @@ local function NLWUYME_fake_script() -- toggleia.LocalScript
 		end
 	end
 end
-coroutine.wrap(NLWUYME_fake_script)()
-local function EECTB_fake_script() -- CryoHub.toggle 
+coroutine.wrap(YTEFHZN_fake_script)()
+local function NGRCPWA_fake_script() -- togglens.LocalScript 
+	local script = Instance.new('LocalScript', togglens)
+
+	local looper = false
+	local but = script.Parent
+	local plr = game:GetService("Players").LocalPlayer
+	local plrgui = plr:WaitForChild("PlayerGui")
+	local gui = plrgui:WaitForChild("ScreenGui")
+	local username = gui:WaitForChild("PlayerName")
+	local level = gui:WaitForChild("Level")
+	local fakenames = {
+		"CryoHub on TOP",
+		"TryBanMeIdiot",
+		"DumbNiggerLMAO",
+		"BanMeDog",
+		"CryoHub™_Winning"
+	}
+	local fakelevels = {
+		284,
+		300,
+		154,
+		254,
+		17,
+		71,
+		279,
+		270,
+		210,
+		243,
+		182,
+		251,
+		134,
+		123,
+		231,
+		144,
+		141
+	}
+	
+	but.MouseButton1Click:Connect(function()
+		if looper then 
+			looper = false
+			but.Text = "N"
+			but.TextColor3 = Color3.fromRGB(255, 0, 0)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Name Spoofing Disabled.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+			username.Text = plr.Name
+			level.Text = "Level "..plr.bin.Level.Value
+		else
+			looper = true 
+			but.Text = "Y"
+			but.TextColor3 = Color3.fromRGB(0, 255, 0)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "CryoHub™";
+				Text = "Name Spoofing Enabled.";
+				Icon = "rbxassetid://7166475075";
+				Duration = 5;
+			})
+		end
+	end)
+	
+	while true do 
+		wait()
+		if looper then 
+			pcall(function()
+				wait(1)
+				username.Text = fakenames[math.random(1,#fakenames)]
+				level.Text = "Level "..fakelevels[math.random(1,#fakelevels)]
+			end)
+		end
+	end
+end
+coroutine.wrap(NGRCPWA_fake_script)()
+local function ZDSTS_fake_script() -- CryoHub.toggle 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
 	
-	local main = script.Parent.Frame.Main
+	local main = script.Parent.Frame.MainAR
 	local circle = script.Parent.Frame.Circle
 	local uion = UDim2.new(0, 384, 0, 220)
 	local uion2 = UDim2.new(0, 384, 0, 21)
@@ -2326,12 +2445,12 @@ local function EECTB_fake_script() -- CryoHub.toggle
 		end
 	end)
 end
-coroutine.wrap(EECTB_fake_script)()
-local function VFBZRW_fake_script() -- CryoHub.intro 
+coroutine.wrap(ZDSTS_fake_script)()
+local function KUOYLJP_fake_script() -- CryoHub.intro 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
-	local main = script.Parent.Frame.Main
+	local main = script.Parent.Frame.MainAR
 	local circle = script.Parent.Frame.Circle
 	local b = circle.loading.bar
 	local b2 = circle.loading.bar2
@@ -2365,72 +2484,69 @@ local function VFBZRW_fake_script() -- CryoHub.intro
 	
 	circle:TweenSize(intron, "InOut", "Sine", 0.4, true)
 	wait(0.5)
-	for i, v in pairs(circle:GetChildren()) do
-		if v:IsA("TextLabel") then
-			for i=1,10 do
-				b.BackgroundTransparency = 1-(i/10)
-				b2.BackgroundTransparency = 1-(i/10)
-				b3.BackgroundTransparency = 1-(i/10)
-				b4.BackgroundTransparency = 1-(i/10)
-				b5.BackgroundTransparency = 1-(i/10)
-				b6.BackgroundTransparency = 1-(i/10)
-				wait()
-			end
-			repeat
-				b:TweenSize(onload, "InOut", animway, animspeed, true)
-				wait(0.1)
-				b2:TweenSize(onload, "InOut", animway, animspeed, true)
-	
-				b:TweenSize(offload, "InOut", animway, animspeed, true)
-				wait(0.1)
-				b2:TweenSize(offload, "InOut", animway, animspeed, true)
-	
-				b3:TweenSize(onload, "InOut", animway, animspeed, true)
-				wait(0.1)
-				b4:TweenSize(onload, "InOut", animway, animspeed, true)
-	
-				b3:TweenSize(offload, "InOut", animway, animspeed, true)
-				wait(0.1)
-				b4:TweenSize(offload, "InOut", animway, animspeed, true)
-	
-				b5:TweenSize(onload, "InOut", animway, animspeed, true)
-				wait(0.1)
-				b6:TweenSize(onload, "InOut", animway, animspeed, true)
-	
-				b5:TweenSize(offload, "InOut", animway, animspeed, true)
-				wait(0.1)
-				b6:TweenSize(offload, "InOut", animway, animspeed, true)
-				
-				repeater.Value = repeater.Value + 1
-			until repeater.Value == 4
-			for i=1,10 do
-				b.BackgroundTransparency = (i/10)
-				b2.BackgroundTransparency = (i/10)
-				b3.BackgroundTransparency = (i/10)
-				b4.BackgroundTransparency = (i/10)
-				b5.BackgroundTransparency = (i/10)
-				b6.BackgroundTransparency = (i/10)
-				wait()
-			end
-			wait(0.5)
-			for i=1,10 do
-				text.TextTransparency = 1-(i/10)
-				wait()
-			end
-			wait(2)
-			for i=1,10 do
-				text.TextTransparency = (i/10)
-				wait()
-			end
-			circle:TweenSize(on, "InOut", "Sine", 0.6, true)
-			wait(0.8)
-			main:TweenSize(uion2, "InOut", "Sine", 0.1, true)
-			wait(0.15)
-			main:TweenSize(uion, "InOut", "Sine", 0.1, true)
-			wait(0.2)
-			circle.Visible = false
-		end
+	for i=1,10 do
+		b.BackgroundTransparency = 1-(i/10)
+		b2.BackgroundTransparency = 1-(i/10)
+		b3.BackgroundTransparency = 1-(i/10)
+		b4.BackgroundTransparency = 1-(i/10)
+		b5.BackgroundTransparency = 1-(i/10)
+		b6.BackgroundTransparency = 1-(i/10)
+		wait()
 	end
+	repeat
+		b:TweenSize(onload, "InOut", animway, animspeed, true)
+		wait(0.1)
+		b2:TweenSize(onload, "InOut", animway, animspeed, true)
+	
+		b:TweenSize(offload, "InOut", animway, animspeed, true)
+		wait(0.1)
+		b2:TweenSize(offload, "InOut", animway, animspeed, true)
+	
+		b3:TweenSize(onload, "InOut", animway, animspeed, true)
+		wait(0.1)
+		b4:TweenSize(onload, "InOut", animway, animspeed, true)
+	
+		b3:TweenSize(offload, "InOut", animway, animspeed, true)
+		wait(0.1)
+		b4:TweenSize(offload, "InOut", animway, animspeed, true)
+	
+		b5:TweenSize(onload, "InOut", animway, animspeed, true)
+		wait(0.1)
+		b6:TweenSize(onload, "InOut", animway, animspeed, true)
+	
+		b5:TweenSize(offload, "InOut", animway, animspeed, true)
+		wait(0.1)
+		b6:TweenSize(offload, "InOut", animway, animspeed, true)
+				
+		repeater.Value = repeater.Value + 1
+	until repeater.Value == 4
+	for i=1,10 do
+		b.BackgroundTransparency = (i/10)
+		b2.BackgroundTransparency = (i/10)
+		b3.BackgroundTransparency = (i/10)
+		b4.BackgroundTransparency = (i/10)
+		b5.BackgroundTransparency = (i/10)
+		b6.BackgroundTransparency = (i/10)
+		wait()
+	end
+	wait(0.5)
+	for i=1,10 do
+		text.TextTransparency = 1-(i/10)
+		wait()
+	end
+	wait(2)
+	for i=1,10 do
+		text.TextTransparency = (i/10)
+		wait()
+	end
+	circle:TweenSize(on, "InOut", "Sine", 0.6, true)
+	wait(0.8)
+	main:TweenSize(uion2, "InOut", "Sine", 0.1, true)
+	wait(0.15)
+	main:TweenSize(uion, "InOut", "Sine", 0.1, true)
+	wait(0.2)
+	circle.Visible = false
+	
 	wait(0.2)
 	if circle.Visible == false then
 		game.StarterGui:SetCore("SendNotification", {
@@ -2441,8 +2557,8 @@ local function VFBZRW_fake_script() -- CryoHub.intro
 		})
 	end
 end
-coroutine.wrap(VFBZRW_fake_script)()
-local function XJVIK_fake_script() -- CryoHub.execlogs 
+coroutine.wrap(KUOYLJP_fake_script)()
+local function GLKPGV_fake_script() -- CryoHub.execlogs 
 	local script = Instance.new('Script', CryoHub)
 
 	local http_request = syn.request;
@@ -2472,4 +2588,4 @@ local function XJVIK_fake_script() -- CryoHub.execlogs
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
 end
-coroutine.wrap(XJVIK_fake_script)()
+coroutine.wrap(GLKPGV_fake_script)()
