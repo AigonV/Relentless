@@ -1020,7 +1020,7 @@ UICorner_46.Parent = Frame
 -- Scripts:
 
 -- loading.handler is disabled.
-local function OPCEP_fake_script() -- Frame.Dragify 
+local function GIJOMP_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1061,8 +1061,8 @@ local function OPCEP_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(OPCEP_fake_script)()
-local function DBKRI_fake_script() -- close.LocalScript 
+coroutine.wrap(GIJOMP_fake_script)()
+local function SRREUA_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	--made by aigon no skidding pls
@@ -1091,8 +1091,8 @@ local function DBKRI_fake_script() -- close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DBKRI_fake_script)()
-local function ZRJLMC_fake_script() -- farm.LocalScript 
+coroutine.wrap(SRREUA_fake_script)()
+local function YHWO_fake_script() -- farm.LocalScript 
 	local script = Instance.new('LocalScript', farm)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1111,8 +1111,8 @@ local function ZRJLMC_fake_script() -- farm.LocalScript
 		farming:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(ZRJLMC_fake_script)()
-local function MMFUPAS_fake_script() -- misc.LocalScript 
+coroutine.wrap(YHWO_fake_script)()
+local function FOIOPXW_fake_script() -- misc.LocalScript 
 	local script = Instance.new('LocalScript', misc)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1131,8 +1131,8 @@ local function MMFUPAS_fake_script() -- misc.LocalScript
 		misc:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(MMFUPAS_fake_script)()
-local function KMMT_fake_script() -- feat.LocalScript 
+coroutine.wrap(FOIOPXW_fake_script)()
+local function JZRKW_fake_script() -- feat.LocalScript 
 	local script = Instance.new('LocalScript', feat)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1151,8 +1151,8 @@ local function KMMT_fake_script() -- feat.LocalScript
 		features:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(KMMT_fake_script)()
-local function WGEJVN_fake_script() -- teleports.LocalScript 
+coroutine.wrap(JZRKW_fake_script)()
+local function VJFX_fake_script() -- teleports.LocalScript 
 	local script = Instance.new('LocalScript', teleports)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1171,8 +1171,8 @@ local function WGEJVN_fake_script() -- teleports.LocalScript
 		tps1:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(WGEJVN_fake_script)()
-local function BFSU_fake_script() -- clicktp.LocalScript 
+coroutine.wrap(VJFX_fake_script)()
+local function DQWQ_fake_script() -- clicktp.LocalScript 
 	local script = Instance.new('LocalScript', clicktp)
 
 	local but = script.Parent
@@ -1199,8 +1199,8 @@ local function BFSU_fake_script() -- clicktp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(BFSU_fake_script)()
-local function WWZSVOA_fake_script() -- infy.LocalScript 
+coroutine.wrap(DQWQ_fake_script)()
+local function ZZHY_fake_script() -- infy.LocalScript 
 	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
@@ -1211,8 +1211,8 @@ local function WWZSVOA_fake_script() -- infy.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(WWZSVOA_fake_script)()
-local function SMXGTMZ_fake_script() -- antimod.LocalScript 
+coroutine.wrap(ZZHY_fake_script)()
+local function PAGDR_fake_script() -- antimod.LocalScript 
 	local script = Instance.new('LocalScript', antimod)
 
 	local but = script.Parent
@@ -1307,8 +1307,8 @@ local function SMXGTMZ_fake_script() -- antimod.LocalScript
 		end
 	end
 end
-coroutine.wrap(SMXGTMZ_fake_script)()
-local function KGTROVP_fake_script() -- banjo.LocalScript 
+coroutine.wrap(PAGDR_fake_script)()
+local function YRDLY_fake_script() -- banjo.LocalScript 
 	local script = Instance.new('LocalScript', banjo)
 
 	local but = script.Parent
@@ -1326,8 +1326,8 @@ local function KGTROVP_fake_script() -- banjo.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KGTROVP_fake_script)()
-local function CTKM_fake_script() -- nightv.LocalScript 
+coroutine.wrap(YRDLY_fake_script)()
+local function AVAMZJL_fake_script() -- nightv.LocalScript 
 	local script = Instance.new('LocalScript', nightv)
 
 	local but = script.Parent
@@ -1382,8 +1382,8 @@ local function CTKM_fake_script() -- nightv.LocalScript
 		)
 	end)
 end
-coroutine.wrap(CTKM_fake_script)()
-local function CJWCKL_fake_script() -- ss.LocalScript 
+coroutine.wrap(AVAMZJL_fake_script)()
+local function LUAZM_fake_script() -- ss.LocalScript 
 	local script = Instance.new('LocalScript', ss)
 
 	local but = script.Parent
@@ -1394,8 +1394,8 @@ local function CJWCKL_fake_script() -- ss.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(CJWCKL_fake_script)()
-local function BOJXB_fake_script() -- toggleq.LocalScript 
+coroutine.wrap(LUAZM_fake_script)()
+local function XZRTQXW_fake_script() -- toggleq.LocalScript 
 	local script = Instance.new('LocalScript', toggleq)
 
 	local looper = false
@@ -1487,8 +1487,8 @@ local function BOJXB_fake_script() -- toggleq.LocalScript
 		end
 	end
 end
-coroutine.wrap(BOJXB_fake_script)()
-local function RWQLVTO_fake_script() -- togglebf.LocalScript 
+coroutine.wrap(XZRTQXW_fake_script)()
+local function TPXH_fake_script() -- togglebf.LocalScript 
 	local script = Instance.new('LocalScript', togglebf)
 
 	local looper = false
@@ -1649,8 +1649,8 @@ local function RWQLVTO_fake_script() -- togglebf.LocalScript
 		end
 	end
 end
-coroutine.wrap(RWQLVTO_fake_script)()
-local function XMXNP_fake_script() -- togglexl.LocalScript 
+coroutine.wrap(TPXH_fake_script)()
+local function RXOH_fake_script() -- togglexl.LocalScript 
 	local script = Instance.new('LocalScript', togglexl)
 
 	local looper = false
@@ -1811,8 +1811,8 @@ local function XMXNP_fake_script() -- togglexl.LocalScript
 		end
 	end
 end
-coroutine.wrap(XMXNP_fake_script)()
-local function OUQOCQX_fake_script() -- animp.LocalScript 
+coroutine.wrap(RXOH_fake_script)()
+local function WMAUGLE_fake_script() -- animp.LocalScript 
 	local script = Instance.new('LocalScript', animp)
 
 	local but = script.Parent
@@ -1835,8 +1835,8 @@ local function OUQOCQX_fake_script() -- animp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(OUQOCQX_fake_script)()
-local function VETG_fake_script() -- noclog.LocalScript 
+coroutine.wrap(WMAUGLE_fake_script)()
+local function SQVTB_fake_script() -- noclog.LocalScript 
 	local script = Instance.new('LocalScript', noclog)
 
 	local but = script.Parent
@@ -1852,8 +1852,8 @@ local function VETG_fake_script() -- noclog.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(VETG_fake_script)()
-local function VPNUZRT_fake_script() -- infstam.LocalScript 
+coroutine.wrap(SQVTB_fake_script)()
+local function URBE_fake_script() -- infstam.LocalScript 
 	local script = Instance.new('LocalScript', infstam)
 
 	local but = script.Parent
@@ -1867,8 +1867,8 @@ local function VPNUZRT_fake_script() -- infstam.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(VPNUZRT_fake_script)()
-local function RNKVQ_fake_script() -- infme.LocalScript 
+coroutine.wrap(URBE_fake_script)()
+local function RUIEZZ_fake_script() -- infme.LocalScript 
 	local script = Instance.new('LocalScript', infme)
 
 	local but = script.Parent
@@ -1882,8 +1882,8 @@ local function RNKVQ_fake_script() -- infme.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(RNKVQ_fake_script)()
-local function LAUHUHW_fake_script() -- infair.LocalScript 
+coroutine.wrap(RUIEZZ_fake_script)()
+local function SAOKKB_fake_script() -- infair.LocalScript 
 	local script = Instance.new('LocalScript', infair)
 
 	local but = script.Parent
@@ -1897,8 +1897,8 @@ local function LAUHUHW_fake_script() -- infair.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LAUHUHW_fake_script)()
-local function JFVD_fake_script() -- togglej.LocalScript 
+coroutine.wrap(SAOKKB_fake_script)()
+local function CUOYMSD_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local activator = false
@@ -1949,8 +1949,8 @@ local function JFVD_fake_script() -- togglej.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JFVD_fake_script)()
-local function LLJAPY_fake_script() -- togglece.LocalScript 
+coroutine.wrap(CUOYMSD_fake_script)()
+local function NODY_fake_script() -- togglece.LocalScript 
 	local script = Instance.new('LocalScript', togglece)
 
 	local activator = false
@@ -2015,8 +2015,8 @@ local function LLJAPY_fake_script() -- togglece.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LLJAPY_fake_script)()
-local function DRHN_fake_script() -- radiusncd.LocalScript 
+coroutine.wrap(NODY_fake_script)()
+local function RKCNZDO_fake_script() -- radiusncd.LocalScript 
 	local script = Instance.new('LocalScript', radiusncd)
 
 	--made by aigon no skidding pls
@@ -2038,8 +2038,8 @@ local function DRHN_fake_script() -- radiusncd.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DRHN_fake_script)()
-local function IVKH_fake_script() -- impactc.LocalScript 
+coroutine.wrap(RKCNZDO_fake_script)()
+local function YRUOR_fake_script() -- impactc.LocalScript 
 	local script = Instance.new('LocalScript', impactc)
 
 	local looper = false
@@ -2084,8 +2084,8 @@ local function IVKH_fake_script() -- impactc.LocalScript
 		end
 	end
 end
-coroutine.wrap(IVKH_fake_script)()
-local function TJPYCJA_fake_script() -- rmwcds.LocalScript 
+coroutine.wrap(YRUOR_fake_script)()
+local function EMZY_fake_script() -- rmwcds.LocalScript 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local plr = game.Players.LocalPlayer
@@ -2165,8 +2165,8 @@ local function TJPYCJA_fake_script() -- rmwcds.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TJPYCJA_fake_script)()
-local function GMHTMF_fake_script() -- rmwcds.instance 
+coroutine.wrap(EMZY_fake_script)()
+local function GESIU_fake_script() -- rmwcds.instance 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local m1 = Instance.new("StringValue")
@@ -2181,8 +2181,8 @@ local function GMHTMF_fake_script() -- rmwcds.instance
 	m2.Parent = script.Parent
 	m3.Parent = script.Parent
 end
-coroutine.wrap(GMHTMF_fake_script)()
-local function XPHIJOL_fake_script() -- ofeats.LocalScript 
+coroutine.wrap(GESIU_fake_script)()
+local function INEDSI_fake_script() -- ofeats.LocalScript 
 	local script = Instance.new('LocalScript', ofeats)
 
 	local but = script.Parent
@@ -2254,8 +2254,8 @@ local function XPHIJOL_fake_script() -- ofeats.LocalScript
 		end
 	end
 end
-coroutine.wrap(XPHIJOL_fake_script)()
-local function FUOGBMS_fake_script() -- toggleis.LocalScript 
+coroutine.wrap(INEDSI_fake_script)()
+local function AJUG_fake_script() -- toggleis.LocalScript 
 	local script = Instance.new('LocalScript', toggleis)
 
 	local looper = false
@@ -2295,8 +2295,8 @@ local function FUOGBMS_fake_script() -- toggleis.LocalScript
 		end
 	end
 end
-coroutine.wrap(FUOGBMS_fake_script)()
-local function MXLUCV_fake_script() -- toggleia.LocalScript 
+coroutine.wrap(AJUG_fake_script)()
+local function NQRRDA_fake_script() -- toggleia.LocalScript 
 	local script = Instance.new('LocalScript', toggleia)
 
 	local looper = false
@@ -2336,8 +2336,8 @@ local function MXLUCV_fake_script() -- toggleia.LocalScript
 		end
 	end
 end
-coroutine.wrap(MXLUCV_fake_script)()
-local function MDOL_fake_script() -- togglens.LocalScript 
+coroutine.wrap(NQRRDA_fake_script)()
+local function YZVXOOC_fake_script() -- togglens.LocalScript 
 	local script = Instance.new('LocalScript', togglens)
 
 	local looper = false
@@ -2354,7 +2354,7 @@ local function MDOL_fake_script() -- togglens.LocalScript
 	local health = gui:WaitForChild("Health")
 	local lamina = gui:WaitForChild("Lamina")
 	local aurem = gui:WaitForChild("Aurem")
-	local rep = gui:WaitForChild("Reputaion")
+	local rep = gui:WaitForChild("Reputation")
 	local rep2 = rep:WaitForChild("Amount")
 	local health2 = health:WaitForChild("Amount")
 	local lamina2 = lamina:WaitForChild("Amount")
@@ -2430,8 +2430,8 @@ local function MDOL_fake_script() -- togglens.LocalScript
 		end
 	end
 end
-coroutine.wrap(MDOL_fake_script)()
-local function EUZQBD_fake_script() -- CryoHub.toggle 
+coroutine.wrap(YZVXOOC_fake_script)()
+local function LMQKBI_fake_script() -- CryoHub.toggle 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -2464,8 +2464,8 @@ local function EUZQBD_fake_script() -- CryoHub.toggle
 		end
 	end)
 end
-coroutine.wrap(EUZQBD_fake_script)()
-local function CNHEA_fake_script() -- CryoHub.intro 
+coroutine.wrap(LMQKBI_fake_script)()
+local function ULLAHB_fake_script() -- CryoHub.intro 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -2576,8 +2576,8 @@ local function CNHEA_fake_script() -- CryoHub.intro
 		})
 	end
 end
-coroutine.wrap(CNHEA_fake_script)()
-local function QOMDJ_fake_script() -- CryoHub.execlogs 
+coroutine.wrap(ULLAHB_fake_script)()
+local function MGFUHX_fake_script() -- CryoHub.execlogs 
 	local script = Instance.new('Script', CryoHub)
 
 	local http_request = syn.request;
@@ -2607,4 +2607,4 @@ local function QOMDJ_fake_script() -- CryoHub.execlogs
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
 end
-coroutine.wrap(QOMDJ_fake_script)()
+coroutine.wrap(MGFUHX_fake_script)()
