@@ -18,6 +18,8 @@ MainAR = Instance.new("Frame")
 title = Instance.new("TextLabel")
 close = Instance.new("TextButton")
 UICorner = Instance.new("UICorner")
+tips = Instance.new("TextLabel")
+hider = Instance.new("Frame")
 menu = Instance.new("ScrollingFrame")
 farm = Instance.new("TextButton")
 UICorner_2 = Instance.new("UICorner")
@@ -63,105 +65,107 @@ ttl_3 = Instance.new("TextLabel")
 togglexl = Instance.new("TextButton")
 UICorner_19 = Instance.new("UICorner")
 UICorner_20 = Instance.new("UICorner")
+tpgc = Instance.new("TextButton")
+UICorner_21 = Instance.new("UICorner")
 feats = Instance.new("ScrollingFrame")
 t2 = Instance.new("TextLabel")
 animp = Instance.new("TextButton")
-UICorner_21 = Instance.new("UICorner")
-noclog = Instance.new("TextButton")
 UICorner_22 = Instance.new("UICorner")
-infstam = Instance.new("TextButton")
+noclog = Instance.new("TextButton")
 UICorner_23 = Instance.new("UICorner")
-infme = Instance.new("TextButton")
+infstam = Instance.new("TextButton")
 UICorner_24 = Instance.new("UICorner")
-infair = Instance.new("TextButton")
+infme = Instance.new("TextButton")
 UICorner_25 = Instance.new("UICorner")
+infair = Instance.new("TextButton")
+UICorner_26 = Instance.new("UICorner")
 jesus = Instance.new("Frame")
 ttl_4 = Instance.new("TextLabel")
 togglej = Instance.new("TextButton")
-UICorner_26 = Instance.new("UICorner")
 UICorner_27 = Instance.new("UICorner")
+UICorner_28 = Instance.new("UICorner")
 chestesp = Instance.new("Frame")
 ttl_5 = Instance.new("TextLabel")
 togglece = Instance.new("TextButton")
-UICorner_28 = Instance.new("UICorner")
 UICorner_29 = Instance.new("UICorner")
-ncddm = Instance.new("Frame")
 UICorner_30 = Instance.new("UICorner")
-radiusncd = Instance.new("TextButton")
+ncddm = Instance.new("Frame")
 UICorner_31 = Instance.new("UICorner")
-ttl_6 = Instance.new("TextLabel")
+radiusncd = Instance.new("TextButton")
 UICorner_32 = Instance.new("UICorner")
-impactc = Instance.new("TextButton")
+ttl_6 = Instance.new("TextLabel")
 UICorner_33 = Instance.new("UICorner")
-rmwcds = Instance.new("TextButton")
+impactc = Instance.new("TextButton")
 UICorner_34 = Instance.new("UICorner")
-ofeats = Instance.new("TextButton")
+rmwcds = Instance.new("TextButton")
 UICorner_35 = Instance.new("UICorner")
+ofeats = Instance.new("TextButton")
+UICorner_36 = Instance.new("UICorner")
 infstam_2 = Instance.new("Frame")
 ttl_7 = Instance.new("TextLabel")
 toggleis = Instance.new("TextButton")
-UICorner_36 = Instance.new("UICorner")
 UICorner_37 = Instance.new("UICorner")
+UICorner_38 = Instance.new("UICorner")
 infair_2 = Instance.new("Frame")
 ttl_8 = Instance.new("TextLabel")
 toggleia = Instance.new("TextButton")
-UICorner_38 = Instance.new("UICorner")
 UICorner_39 = Instance.new("UICorner")
+UICorner_40 = Instance.new("UICorner")
 namespoof = Instance.new("Frame")
 ttl_9 = Instance.new("TextLabel")
 togglens = Instance.new("TextButton")
-UICorner_40 = Instance.new("UICorner")
 UICorner_41 = Instance.new("UICorner")
+UICorner_42 = Instance.new("UICorner")
 tps1 = Instance.new("ScrollingFrame")
 ttl_10 = Instance.new("TextLabel")
 line2 = Instance.new("Frame")
-UICorner_42 = Instance.new("UICorner")
+UICorner_43 = Instance.new("UICorner")
 seas = Instance.new("Frame")
 first = Instance.new("TextButton")
-UICorner_43 = Instance.new("UICorner")
-north = Instance.new("TextButton")
 UICorner_44 = Instance.new("UICorner")
-second = Instance.new("TextButton")
+north = Instance.new("TextButton")
 UICorner_45 = Instance.new("UICorner")
-third = Instance.new("TextButton")
+second = Instance.new("TextButton")
 UICorner_46 = Instance.new("UICorner")
+third = Instance.new("TextButton")
 UICorner_47 = Instance.new("UICorner")
+UICorner_48 = Instance.new("UICorner")
 corner = Instance.new("Frame")
 islandholder = Instance.new("ScrollingFrame")
 sab = Instance.new("TextButton")
-UICorner_48 = Instance.new("UICorner")
-sr = Instance.new("TextButton")
 UICorner_49 = Instance.new("UICorner")
-hb = Instance.new("TextButton")
+sr = Instance.new("TextButton")
 UICorner_50 = Instance.new("UICorner")
-agb = Instance.new("TextButton")
+hb = Instance.new("TextButton")
 UICorner_51 = Instance.new("UICorner")
-aa = Instance.new("TextButton")
+agb = Instance.new("TextButton")
 UICorner_52 = Instance.new("UICorner")
-cer = Instance.new("TextButton")
+aa = Instance.new("TextButton")
 UICorner_53 = Instance.new("UICorner")
-sw = Instance.new("TextButton")
+cer = Instance.new("TextButton")
 UICorner_54 = Instance.new("UICorner")
-swt = Instance.new("TextButton")
+sw = Instance.new("TextButton")
 UICorner_55 = Instance.new("UICorner")
-ala = Instance.new("TextButton")
+swt = Instance.new("TextButton")
 UICorner_56 = Instance.new("UICorner")
-ra = Instance.new("TextButton")
+ala = Instance.new("TextButton")
 UICorner_57 = Instance.new("UICorner")
+ra = Instance.new("TextButton")
 UICorner_58 = Instance.new("UICorner")
+UICorner_59 = Instance.new("UICorner")
 corner2 = Instance.new("Frame")
 scroller = Instance.new("ScrollingFrame")
 wild = Instance.new("TextButton")
-UICorner_59 = Instance.new("UICorner")
-redwood = Instance.new("TextButton")
 UICorner_60 = Instance.new("UICorner")
-sth = Instance.new("TextButton")
+redwood = Instance.new("TextButton")
 UICorner_61 = Instance.new("UICorner")
-wr = Instance.new("TextButton")
+sth = Instance.new("TextButton")
 UICorner_62 = Instance.new("UICorner")
-ip = Instance.new("TextButton")
+wr = Instance.new("TextButton")
 UICorner_63 = Instance.new("UICorner")
+ip = Instance.new("TextButton")
 UICorner_64 = Instance.new("UICorner")
+UICorner_65 = Instance.new("UICorner")
 
 --Properties:
 
@@ -296,6 +300,24 @@ close.TextSize = 14.000
 
 UICorner.CornerRadius = UDim.new(0, 3)
 UICorner.Parent = close
+
+tips.Name = "tips"
+tips.Parent = title
+tips.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tips.BackgroundTransparency = 1.000
+tips.Position = UDim2.new(0.200520828, 0, 0, 0)
+tips.Size = UDim2.new(0, 266, 0, 22)
+tips.Font = Enum.Font.SourceSans
+tips.Text = ""
+tips.TextColor3 = Color3.fromRGB(255, 255, 255)
+tips.TextSize = 13.000
+
+hider.Name = "hider"
+hider.Parent = title
+hider.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+hider.BorderSizePixel = 0
+hider.Position = UDim2.new(0, 61, 0, 0)
+hider.Size = UDim2.new(0, 297, 0, 22)
 
 menu.Name = "menu"
 menu.Parent = MainAR
@@ -505,7 +527,7 @@ farming.Active = true
 farming.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 farming.BorderSizePixel = 0
 farming.Position = UDim2.new(0, 100, 0, 28)
-farming.Size = UDim2.new(0, 278, 0, 0)
+farming.Size = UDim2.new(0, 278, 0, 185)
 farming.CanvasSize = UDim2.new(0, 0, 0, 0)
 farming.ScrollBarThickness = 0
 
@@ -618,6 +640,20 @@ UICorner_19.Parent = togglexl
 UICorner_20.CornerRadius = UDim.new(0, 3)
 UICorner_20.Parent = xlfarm
 
+tpgc.Name = "tpgc"
+tpgc.Parent = farming
+tpgc.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+tpgc.BorderSizePixel = 0
+tpgc.Position = UDim2.new(0, 4, 0, 4)
+tpgc.Size = UDim2.new(0, 87, 0, 24)
+tpgc.Font = Enum.Font.SourceSans
+tpgc.Text = "TP to Gold Chest"
+tpgc.TextColor3 = Color3.fromRGB(255, 255, 255)
+tpgc.TextSize = 13.000
+
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = tpgc
+
 feats.Name = "feats"
 feats.Parent = MainAR
 feats.Active = true
@@ -650,8 +686,8 @@ animp.Text = "All Anim Packs"
 animp.TextColor3 = Color3.fromRGB(255, 255, 255)
 animp.TextSize = 13.000
 
-UICorner_21.CornerRadius = UDim.new(0, 3)
-UICorner_21.Parent = animp
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = animp
 
 noclog.Name = "noclog"
 noclog.Parent = feats
@@ -664,8 +700,8 @@ noclog.Text = "No CLog"
 noclog.TextColor3 = Color3.fromRGB(255, 255, 255)
 noclog.TextSize = 13.000
 
-UICorner_22.CornerRadius = UDim.new(0, 3)
-UICorner_22.Parent = noclog
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = noclog
 
 infstam.Name = "infstam"
 infstam.Parent = feats
@@ -679,8 +715,8 @@ infstam.Text = "Inf Stam"
 infstam.TextColor3 = Color3.fromRGB(255, 255, 255)
 infstam.TextSize = 13.000
 
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = infstam
+UICorner_24.CornerRadius = UDim.new(0, 3)
+UICorner_24.Parent = infstam
 
 infme.Name = "infme"
 infme.Parent = feats
@@ -694,8 +730,8 @@ infme.Text = "Infinite Energy"
 infme.TextColor3 = Color3.fromRGB(255, 255, 255)
 infme.TextSize = 13.000
 
-UICorner_24.CornerRadius = UDim.new(0, 3)
-UICorner_24.Parent = infme
+UICorner_25.CornerRadius = UDim.new(0, 3)
+UICorner_25.Parent = infme
 
 infair.Name = "infair"
 infair.Parent = feats
@@ -709,8 +745,8 @@ infair.Text = "Inf Air"
 infair.TextColor3 = Color3.fromRGB(255, 255, 255)
 infair.TextSize = 13.000
 
-UICorner_25.CornerRadius = UDim.new(0, 3)
-UICorner_25.Parent = infair
+UICorner_26.CornerRadius = UDim.new(0, 3)
+UICorner_26.Parent = infair
 
 jesus.Name = "jesus"
 jesus.Parent = feats
@@ -742,11 +778,11 @@ togglej.Text = "N"
 togglej.TextColor3 = Color3.fromRGB(255, 0, 0)
 togglej.TextSize = 14.000
 
-UICorner_26.CornerRadius = UDim.new(0, 3)
-UICorner_26.Parent = togglej
-
 UICorner_27.CornerRadius = UDim.new(0, 3)
-UICorner_27.Parent = jesus
+UICorner_27.Parent = togglej
+
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = jesus
 
 chestesp.Name = "chestesp"
 chestesp.Parent = feats
@@ -778,11 +814,11 @@ togglece.Text = "N"
 togglece.TextColor3 = Color3.fromRGB(255, 0, 0)
 togglece.TextSize = 14.000
 
-UICorner_28.CornerRadius = UDim.new(0, 3)
-UICorner_28.Parent = togglece
-
 UICorner_29.CornerRadius = UDim.new(0, 3)
-UICorner_29.Parent = chestesp
+UICorner_29.Parent = togglece
+
+UICorner_30.CornerRadius = UDim.new(0, 3)
+UICorner_30.Parent = chestesp
 
 ncddm.Name = "ncddm"
 ncddm.Parent = feats
@@ -792,8 +828,8 @@ ncddm.ClipsDescendants = true
 ncddm.Position = UDim2.new(0, 88, 0, 4)
 ncddm.Size = UDim2.new(0, 103, 0, 177)
 
-UICorner_30.CornerRadius = UDim.new(0, 3)
-UICorner_30.Parent = ncddm
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = ncddm
 
 radiusncd.Name = "radiusncd"
 radiusncd.Parent = ncddm
@@ -805,8 +841,8 @@ radiusncd.Text = "Radius R No CD"
 radiusncd.TextColor3 = Color3.fromRGB(255, 255, 255)
 radiusncd.TextSize = 14.000
 
-UICorner_31.CornerRadius = UDim.new(0, 3)
-UICorner_31.Parent = radiusncd
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = radiusncd
 
 ttl_6.Name = "ttl"
 ttl_6.Parent = ncddm
@@ -818,8 +854,8 @@ ttl_6.Text = "IF Charger"
 ttl_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttl_6.TextSize = 14.000
 
-UICorner_32.CornerRadius = UDim.new(0, 3)
-UICorner_32.Parent = ttl_6
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = ttl_6
 
 impactc.Name = "impactc"
 impactc.Parent = ncddm
@@ -831,8 +867,8 @@ impactc.Text = "N"
 impactc.TextColor3 = Color3.fromRGB(255, 0, 0)
 impactc.TextSize = 14.000
 
-UICorner_33.CornerRadius = UDim.new(0, 3)
-UICorner_33.Parent = impactc
+UICorner_34.CornerRadius = UDim.new(0, 3)
+UICorner_34.Parent = impactc
 
 rmwcds.Name = "rmwcds"
 rmwcds.Parent = ncddm
@@ -844,8 +880,8 @@ rmwcds.Text = "Remove Wep CDs"
 rmwcds.TextColor3 = Color3.fromRGB(255, 255, 255)
 rmwcds.TextSize = 14.000
 
-UICorner_34.CornerRadius = UDim.new(0, 3)
-UICorner_34.Parent = rmwcds
+UICorner_35.CornerRadius = UDim.new(0, 3)
+UICorner_35.Parent = rmwcds
 
 ofeats.Name = "ofeats"
 ofeats.Parent = feats
@@ -858,8 +894,8 @@ ofeats.Text = "Other Features"
 ofeats.TextColor3 = Color3.fromRGB(255, 255, 255)
 ofeats.TextSize = 13.000
 
-UICorner_35.CornerRadius = UDim.new(0, 3)
-UICorner_35.Parent = ofeats
+UICorner_36.CornerRadius = UDim.new(0, 3)
+UICorner_36.Parent = ofeats
 
 infstam_2.Name = "infstam"
 infstam_2.Parent = feats
@@ -891,11 +927,11 @@ toggleis.Text = "N"
 toggleis.TextColor3 = Color3.fromRGB(255, 0, 0)
 toggleis.TextSize = 14.000
 
-UICorner_36.CornerRadius = UDim.new(0, 3)
-UICorner_36.Parent = toggleis
-
 UICorner_37.CornerRadius = UDim.new(0, 3)
-UICorner_37.Parent = infstam_2
+UICorner_37.Parent = toggleis
+
+UICorner_38.CornerRadius = UDim.new(0, 3)
+UICorner_38.Parent = infstam_2
 
 infair_2.Name = "infair"
 infair_2.Parent = feats
@@ -927,11 +963,11 @@ toggleia.Text = "N"
 toggleia.TextColor3 = Color3.fromRGB(255, 0, 0)
 toggleia.TextSize = 14.000
 
-UICorner_38.CornerRadius = UDim.new(0, 3)
-UICorner_38.Parent = toggleia
-
 UICorner_39.CornerRadius = UDim.new(0, 3)
-UICorner_39.Parent = infair_2
+UICorner_39.Parent = toggleia
+
+UICorner_40.CornerRadius = UDim.new(0, 3)
+UICorner_40.Parent = infair_2
 
 namespoof.Name = "namespoof"
 namespoof.Parent = feats
@@ -964,11 +1000,11 @@ togglens.Text = "N"
 togglens.TextColor3 = Color3.fromRGB(255, 0, 0)
 togglens.TextSize = 14.000
 
-UICorner_40.CornerRadius = UDim.new(0, 3)
-UICorner_40.Parent = togglens
-
 UICorner_41.CornerRadius = UDim.new(0, 3)
-UICorner_41.Parent = namespoof
+UICorner_41.Parent = togglens
+
+UICorner_42.CornerRadius = UDim.new(0, 3)
+UICorner_42.Parent = namespoof
 
 tps1.Name = "tps1"
 tps1.Parent = MainAR
@@ -976,7 +1012,7 @@ tps1.Active = true
 tps1.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 tps1.BorderSizePixel = 0
 tps1.Position = UDim2.new(0, 100, 0, 28)
-tps1.Size = UDim2.new(0, 278, 0, 185)
+tps1.Size = UDim2.new(0, 278, 0, 0)
 tps1.CanvasSize = UDim2.new(0, 0, 0, 0)
 tps1.ScrollBarThickness = 0
 
@@ -998,8 +1034,8 @@ line2.BorderSizePixel = 0
 line2.Position = UDim2.new(0, 0, 0, 21)
 line2.Size = UDim2.new(0, 278, 0, 1)
 
-UICorner_42.CornerRadius = UDim.new(0, 3)
-UICorner_42.Parent = line2
+UICorner_43.CornerRadius = UDim.new(0, 3)
+UICorner_43.Parent = line2
 
 seas.Name = "seas"
 seas.Parent = tps1
@@ -1020,8 +1056,8 @@ first.TextColor3 = Color3.fromRGB(255, 255, 255)
 first.TextSize = 14.000
 first.TextWrapped = true
 
-UICorner_43.CornerRadius = UDim.new(0, 3)
-UICorner_43.Parent = first
+UICorner_44.CornerRadius = UDim.new(0, 3)
+UICorner_44.Parent = first
 
 north.Name = "north"
 north.Parent = seas
@@ -1034,8 +1070,8 @@ north.Text = "Northwestern"
 north.TextColor3 = Color3.fromRGB(255, 255, 255)
 north.TextSize = 13.000
 
-UICorner_44.CornerRadius = UDim.new(0, 3)
-UICorner_44.Parent = north
+UICorner_45.CornerRadius = UDim.new(0, 3)
+UICorner_45.Parent = north
 
 second.Name = "second"
 second.Parent = seas
@@ -1048,8 +1084,8 @@ second.Text = "Second Sea"
 second.TextColor3 = Color3.fromRGB(255, 255, 255)
 second.TextSize = 13.000
 
-UICorner_45.CornerRadius = UDim.new(0, 3)
-UICorner_45.Parent = second
+UICorner_46.CornerRadius = UDim.new(0, 3)
+UICorner_46.Parent = second
 
 third.Name = "third"
 third.Parent = seas
@@ -1062,11 +1098,11 @@ third.Text = "Third Sea"
 third.TextColor3 = Color3.fromRGB(255, 255, 255)
 third.TextSize = 13.000
 
-UICorner_46.CornerRadius = UDim.new(0, 3)
-UICorner_46.Parent = third
-
 UICorner_47.CornerRadius = UDim.new(0, 3)
-UICorner_47.Parent = seas
+UICorner_47.Parent = third
+
+UICorner_48.CornerRadius = UDim.new(0, 3)
+UICorner_48.Parent = seas
 
 corner.Name = "corner"
 corner.Parent = tps1
@@ -1082,7 +1118,6 @@ islandholder.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 islandholder.BackgroundTransparency = 1.000
 islandholder.BorderSizePixel = 0
 islandholder.Size = UDim2.new(0, 79, 0, 153)
-islandholder.CanvasPosition = Vector2.new(0, 149.940002)
 islandholder.CanvasSize = UDim2.new(0, 0, 1.98000002, 0)
 islandholder.ScrollBarThickness = 0
 
@@ -1098,8 +1133,8 @@ sab.TextColor3 = Color3.fromRGB(255, 255, 255)
 sab.TextSize = 14.000
 sab.TextWrapped = true
 
-UICorner_48.CornerRadius = UDim.new(0, 3)
-UICorner_48.Parent = sab
+UICorner_49.CornerRadius = UDim.new(0, 3)
+UICorner_49.Parent = sab
 
 sr.Name = "sr"
 sr.Parent = islandholder
@@ -1113,8 +1148,8 @@ sr.TextColor3 = Color3.fromRGB(255, 255, 255)
 sr.TextSize = 14.000
 sr.TextWrapped = true
 
-UICorner_49.CornerRadius = UDim.new(0, 3)
-UICorner_49.Parent = sr
+UICorner_50.CornerRadius = UDim.new(0, 3)
+UICorner_50.Parent = sr
 
 hb.Name = "hb"
 hb.Parent = islandholder
@@ -1129,8 +1164,8 @@ hb.TextScaled = true
 hb.TextSize = 14.000
 hb.TextWrapped = true
 
-UICorner_50.CornerRadius = UDim.new(0, 3)
-UICorner_50.Parent = hb
+UICorner_51.CornerRadius = UDim.new(0, 3)
+UICorner_51.Parent = hb
 
 agb.Name = "agb"
 agb.Parent = islandholder
@@ -1144,8 +1179,8 @@ agb.TextColor3 = Color3.fromRGB(255, 255, 255)
 agb.TextSize = 14.000
 agb.TextWrapped = true
 
-UICorner_51.CornerRadius = UDim.new(0, 3)
-UICorner_51.Parent = agb
+UICorner_52.CornerRadius = UDim.new(0, 3)
+UICorner_52.Parent = agb
 
 aa.Name = "aa"
 aa.Parent = islandholder
@@ -1159,8 +1194,8 @@ aa.TextColor3 = Color3.fromRGB(255, 255, 255)
 aa.TextSize = 14.000
 aa.TextWrapped = true
 
-UICorner_52.CornerRadius = UDim.new(0, 3)
-UICorner_52.Parent = aa
+UICorner_53.CornerRadius = UDim.new(0, 3)
+UICorner_53.Parent = aa
 
 cer.Name = "cer"
 cer.Parent = islandholder
@@ -1174,8 +1209,8 @@ cer.TextColor3 = Color3.fromRGB(255, 255, 255)
 cer.TextSize = 14.000
 cer.TextWrapped = true
 
-UICorner_53.CornerRadius = UDim.new(0, 3)
-UICorner_53.Parent = cer
+UICorner_54.CornerRadius = UDim.new(0, 3)
+UICorner_54.Parent = cer
 
 sw.Name = "sw"
 sw.Parent = islandholder
@@ -1189,8 +1224,8 @@ sw.TextColor3 = Color3.fromRGB(255, 255, 255)
 sw.TextSize = 14.000
 sw.TextWrapped = true
 
-UICorner_54.CornerRadius = UDim.new(0, 3)
-UICorner_54.Parent = sw
+UICorner_55.CornerRadius = UDim.new(0, 3)
+UICorner_55.Parent = sw
 
 swt.Name = "swt"
 swt.Parent = islandholder
@@ -1204,8 +1239,8 @@ swt.TextColor3 = Color3.fromRGB(255, 255, 255)
 swt.TextSize = 14.000
 swt.TextWrapped = true
 
-UICorner_55.CornerRadius = UDim.new(0, 3)
-UICorner_55.Parent = swt
+UICorner_56.CornerRadius = UDim.new(0, 3)
+UICorner_56.Parent = swt
 
 ala.Name = "ala"
 ala.Parent = islandholder
@@ -1219,8 +1254,8 @@ ala.TextColor3 = Color3.fromRGB(255, 255, 255)
 ala.TextSize = 14.000
 ala.TextWrapped = true
 
-UICorner_56.CornerRadius = UDim.new(0, 3)
-UICorner_56.Parent = ala
+UICorner_57.CornerRadius = UDim.new(0, 3)
+UICorner_57.Parent = ala
 
 ra.Name = "ra"
 ra.Parent = islandholder
@@ -1234,11 +1269,11 @@ ra.TextColor3 = Color3.fromRGB(255, 255, 255)
 ra.TextSize = 14.000
 ra.TextWrapped = true
 
-UICorner_57.CornerRadius = UDim.new(0, 3)
-UICorner_57.Parent = ra
-
 UICorner_58.CornerRadius = UDim.new(0, 3)
-UICorner_58.Parent = corner
+UICorner_58.Parent = ra
+
+UICorner_59.CornerRadius = UDim.new(0, 3)
+UICorner_59.Parent = corner
 
 corner2.Name = "corner2"
 corner2.Parent = tps1
@@ -1268,8 +1303,8 @@ wild.TextColor3 = Color3.fromRGB(255, 255, 255)
 wild.TextSize = 14.000
 wild.TextWrapped = true
 
-UICorner_59.CornerRadius = UDim.new(0, 3)
-UICorner_59.Parent = wild
+UICorner_60.CornerRadius = UDim.new(0, 3)
+UICorner_60.Parent = wild
 
 redwood.Name = "redwood"
 redwood.Parent = scroller
@@ -1283,8 +1318,8 @@ redwood.TextColor3 = Color3.fromRGB(255, 255, 255)
 redwood.TextSize = 14.000
 redwood.TextWrapped = true
 
-UICorner_60.CornerRadius = UDim.new(0, 3)
-UICorner_60.Parent = redwood
+UICorner_61.CornerRadius = UDim.new(0, 3)
+UICorner_61.Parent = redwood
 
 sth.Name = "sth"
 sth.Parent = scroller
@@ -1299,8 +1334,8 @@ sth.TextScaled = true
 sth.TextSize = 14.000
 sth.TextWrapped = true
 
-UICorner_61.CornerRadius = UDim.new(0, 3)
-UICorner_61.Parent = sth
+UICorner_62.CornerRadius = UDim.new(0, 3)
+UICorner_62.Parent = sth
 
 wr.Name = "wr"
 wr.Parent = scroller
@@ -1314,8 +1349,8 @@ wr.TextColor3 = Color3.fromRGB(255, 255, 255)
 wr.TextSize = 14.000
 wr.TextWrapped = true
 
-UICorner_62.CornerRadius = UDim.new(0, 3)
-UICorner_62.Parent = wr
+UICorner_63.CornerRadius = UDim.new(0, 3)
+UICorner_63.Parent = wr
 
 ip.Name = "ip"
 ip.Parent = scroller
@@ -1329,16 +1364,16 @@ ip.TextColor3 = Color3.fromRGB(255, 255, 255)
 ip.TextSize = 14.000
 ip.TextWrapped = true
 
-UICorner_63.CornerRadius = UDim.new(0, 3)
-UICorner_63.Parent = ip
-
 UICorner_64.CornerRadius = UDim.new(0, 3)
-UICorner_64.Parent = corner2
+UICorner_64.Parent = ip
+
+UICorner_65.CornerRadius = UDim.new(0, 3)
+UICorner_65.Parent = corner2
 
 -- Scripts:
 
 -- loading.handler is disabled.
-local function JYNJL_fake_script() -- Frame.Dragify 
+local function XOWENL_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -1379,8 +1414,8 @@ local function JYNJL_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(JYNJL_fake_script)()
-local function HDKZR_fake_script() -- close.LocalScript 
+coroutine.wrap(XOWENL_fake_script)()
+local function IBRVU_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	--made by aigon no skidding pls
@@ -1409,8 +1444,8 @@ local function HDKZR_fake_script() -- close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HDKZR_fake_script)()
-local function EYDD_fake_script() -- farm.LocalScript 
+coroutine.wrap(IBRVU_fake_script)()
+local function BZLVO_fake_script() -- farm.LocalScript 
 	local script = Instance.new('LocalScript', farm)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1429,8 +1464,8 @@ local function EYDD_fake_script() -- farm.LocalScript
 		farming:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(EYDD_fake_script)()
-local function IEDF_fake_script() -- misc.LocalScript 
+coroutine.wrap(BZLVO_fake_script)()
+local function PTWRRRA_fake_script() -- misc.LocalScript 
 	local script = Instance.new('LocalScript', misc)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1449,8 +1484,8 @@ local function IEDF_fake_script() -- misc.LocalScript
 		misc:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(IEDF_fake_script)()
-local function MBFBAP_fake_script() -- feat.LocalScript 
+coroutine.wrap(PTWRRRA_fake_script)()
+local function SCPA_fake_script() -- feat.LocalScript 
 	local script = Instance.new('LocalScript', feat)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1469,8 +1504,8 @@ local function MBFBAP_fake_script() -- feat.LocalScript
 		features:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(MBFBAP_fake_script)()
-local function OHASJYH_fake_script() -- teleports.LocalScript 
+coroutine.wrap(SCPA_fake_script)()
+local function ULIT_fake_script() -- teleports.LocalScript 
 	local script = Instance.new('LocalScript', teleports)
 
 	local misc = script.Parent.Parent.Parent.misce
@@ -1489,8 +1524,8 @@ local function OHASJYH_fake_script() -- teleports.LocalScript
 		tps1:TweenSize(on, "InOut", "Sine", 0.14, true)
 	end)
 end
-coroutine.wrap(OHASJYH_fake_script)()
-local function EUAJ_fake_script() -- clicktp.LocalScript 
+coroutine.wrap(ULIT_fake_script)()
+local function WKWMZZ_fake_script() -- clicktp.LocalScript 
 	local script = Instance.new('LocalScript', clicktp)
 
 	local but = script.Parent
@@ -1517,8 +1552,8 @@ local function EUAJ_fake_script() -- clicktp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(EUAJ_fake_script)()
-local function KSSPE_fake_script() -- infy.LocalScript 
+coroutine.wrap(WKWMZZ_fake_script)()
+local function GJDM_fake_script() -- infy.LocalScript 
 	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
@@ -1529,8 +1564,8 @@ local function KSSPE_fake_script() -- infy.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KSSPE_fake_script)()
-local function XZNWN_fake_script() -- antimod.LocalScript 
+coroutine.wrap(GJDM_fake_script)()
+local function TPEWD_fake_script() -- antimod.LocalScript 
 	local script = Instance.new('LocalScript', antimod)
 
 	local but = script.Parent
@@ -1627,8 +1662,8 @@ local function XZNWN_fake_script() -- antimod.LocalScript
 		end
 	end
 end
-coroutine.wrap(XZNWN_fake_script)()
-local function OCPT_fake_script() -- banjo.LocalScript 
+coroutine.wrap(TPEWD_fake_script)()
+local function OWEFSYL_fake_script() -- banjo.LocalScript 
 	local script = Instance.new('LocalScript', banjo)
 
 	local but = script.Parent
@@ -1646,8 +1681,8 @@ local function OCPT_fake_script() -- banjo.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OCPT_fake_script)()
-local function FECZFSF_fake_script() -- nightv.LocalScript 
+coroutine.wrap(OWEFSYL_fake_script)()
+local function WVDUSHI_fake_script() -- nightv.LocalScript 
 	local script = Instance.new('LocalScript', nightv)
 
 	local but = script.Parent
@@ -1702,8 +1737,8 @@ local function FECZFSF_fake_script() -- nightv.LocalScript
 		)
 	end)
 end
-coroutine.wrap(FECZFSF_fake_script)()
-local function BJTTI_fake_script() -- ss.LocalScript 
+coroutine.wrap(WVDUSHI_fake_script)()
+local function UWMFW_fake_script() -- ss.LocalScript 
 	local script = Instance.new('LocalScript', ss)
 
 	local but = script.Parent
@@ -1714,8 +1749,8 @@ local function BJTTI_fake_script() -- ss.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(BJTTI_fake_script)()
-local function XLJHVNI_fake_script() -- toggleq.LocalScript 
+coroutine.wrap(UWMFW_fake_script)()
+local function CITIJXA_fake_script() -- toggleq.LocalScript 
 	local script = Instance.new('LocalScript', toggleq)
 
 	local looper = false
@@ -1807,18 +1842,21 @@ local function XLJHVNI_fake_script() -- toggleq.LocalScript
 		end
 	end
 end
-coroutine.wrap(XLJHVNI_fake_script)()
-local function OKWXL_fake_script() -- togglebf.LocalScript 
+coroutine.wrap(CITIJXA_fake_script)()
+local function MFZTN_fake_script() -- togglebf.LocalScript 
 	local script = Instance.new('LocalScript', togglebf)
 
 	local looper = false
-	local but = script.Parent
+	local looper = false
+	local items = {
+		but = script.Parent
+	}
 	
-	but.MouseButton1Click:Connect(function()
+	items.but.MouseButton1Click:Connect(function()
 		if looper then 
 			looper = false
-			but.Text = "N"
-			but.TextColor3 = Color3.fromRGB(255, 0, 0)
+			items.but.Text = "N"
+			items.but.TextColor3 = Color3.fromRGB(255, 0, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
 				Text = "BowFarm Disabled.";
@@ -1835,8 +1873,8 @@ local function OKWXL_fake_script() -- togglebf.LocalScript
 			end)
 		else
 			looper = true 
-			but.Text = "Y"
-			but.TextColor3 = Color3.fromRGB(0, 255, 0)
+			items.but.Text = "Y"
+			items.but.TextColor3 = Color3.fromRGB(0, 255, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
 				Text = "BowFarm Enabled; Make sure Magic Bow is equiped.";
@@ -1886,8 +1924,30 @@ local function OKWXL_fake_script() -- togglebf.LocalScript
 		end
 	end
 end
-coroutine.wrap(OKWXL_fake_script)()
-local function ZLCKBWU_fake_script() -- togglexl.LocalScript 
+coroutine.wrap(MFZTN_fake_script)()
+local function JBQLGTZ_fake_script() -- bowfarm.LocalScript 
+	local script = Instance.new('LocalScript', bowfarm)
+
+	local items = {
+		object = script.Parent,
+		tips = script.Parent.Parent.Parent.title.tips,
+		hider = script.Parent.Parent.Parent.title.hider,
+		on = UDim2.new(0, 297, 0, 22),
+		off = UDim2.new(0, 0, 0, 22)
+	}
+	
+	items.object.MouseEnter:Connect(function()
+		items.tips.Text = "When disabled, wait til the loop finishes and it'll stop."
+		items.hider:TweenSize(items.off, "InOut", "Sine", 0.14, true)
+	end)
+	items.object.MouseLeave:Connect(function()
+		items.hider:TweenSize(items.on, "InOut", "Sine", 0.14, true)
+		wait(0.14)
+		items.tips.Text = ""
+	end)
+end
+coroutine.wrap(JBQLGTZ_fake_script)()
+local function AXHT_fake_script() -- togglexl.LocalScript 
 	local script = Instance.new('LocalScript', togglexl)
 
 	local looper = false
@@ -2048,8 +2108,48 @@ local function ZLCKBWU_fake_script() -- togglexl.LocalScript
 		end
 	end
 end
-coroutine.wrap(ZLCKBWU_fake_script)()
-local function APFI_fake_script() -- animp.LocalScript 
+coroutine.wrap(AXHT_fake_script)()
+local function PCZNY_fake_script() -- tpgc.LocalScript 
+	local script = Instance.new('LocalScript', tpgc)
+
+	local items = {
+		but = script.Parent,
+		tips = script.Parent.Parent.Parent.title.tips,
+		hider = script.Parent.Parent.Parent.title.hider,
+		on = UDim2.new(0, 297, 0, 22),
+		off = UDim2.new(0, 0, 0, 22)
+	}
+	
+	items.but.MouseButton1Click:Connect(function()
+		pcall(function()
+			pcall(function()
+				for i, v in pairs(game.Workspace:GetChildren()) do
+					if v:IsA("Folder") then
+						for i, s in pairs(v:GetChildren()) do
+							if s.Name == "Chest" and s:WaitForChild("Type").Value == "Gold" then
+								pcall(function()
+									game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = s.CFrame
+								end)
+							end
+						end
+					end
+				end
+			end)
+		end)
+	end)
+	
+	items.but.MouseEnter:Connect(function()
+		items.tips.Text = "If nothing happens, there are no golden chests. (dont spam)"
+		items.hider:TweenSize(items.off, "InOut", "Sine", 0.14, true)
+	end)
+	items.but.MouseLeave:Connect(function()
+		items.hider:TweenSize(items.on, "InOut", "Sine", 0.14, true)
+		wait(0.14)
+		items.tips.Text = ""
+	end)
+end
+coroutine.wrap(PCZNY_fake_script)()
+local function IMXKMC_fake_script() -- animp.LocalScript 
 	local script = Instance.new('LocalScript', animp)
 
 	local but = script.Parent
@@ -2072,8 +2172,8 @@ local function APFI_fake_script() -- animp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(APFI_fake_script)()
-local function DWPH_fake_script() -- noclog.LocalScript 
+coroutine.wrap(IMXKMC_fake_script)()
+local function DXQUGYG_fake_script() -- noclog.LocalScript 
 	local script = Instance.new('LocalScript', noclog)
 
 	local but = script.Parent
@@ -2089,8 +2189,8 @@ local function DWPH_fake_script() -- noclog.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DWPH_fake_script)()
-local function LGXRWE_fake_script() -- infstam.LocalScript 
+coroutine.wrap(DXQUGYG_fake_script)()
+local function MVWXOIU_fake_script() -- infstam.LocalScript 
 	local script = Instance.new('LocalScript', infstam)
 
 	local but = script.Parent
@@ -2104,8 +2204,8 @@ local function LGXRWE_fake_script() -- infstam.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LGXRWE_fake_script)()
-local function WDFCFE_fake_script() -- infme.LocalScript 
+coroutine.wrap(MVWXOIU_fake_script)()
+local function XZHL_fake_script() -- infme.LocalScript 
 	local script = Instance.new('LocalScript', infme)
 
 	local but = script.Parent
@@ -2119,8 +2219,8 @@ local function WDFCFE_fake_script() -- infme.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(WDFCFE_fake_script)()
-local function GXZPFBR_fake_script() -- infair.LocalScript 
+coroutine.wrap(XZHL_fake_script)()
+local function RYXVCFC_fake_script() -- infair.LocalScript 
 	local script = Instance.new('LocalScript', infair)
 
 	local but = script.Parent
@@ -2134,8 +2234,8 @@ local function GXZPFBR_fake_script() -- infair.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(GXZPFBR_fake_script)()
-local function JKMWDXT_fake_script() -- togglej.LocalScript 
+coroutine.wrap(RYXVCFC_fake_script)()
+local function QVZLNG_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local activator = false
@@ -2186,8 +2286,8 @@ local function JKMWDXT_fake_script() -- togglej.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JKMWDXT_fake_script)()
-local function QVWBRR_fake_script() -- togglece.LocalScript 
+coroutine.wrap(QVZLNG_fake_script)()
+local function GTWC_fake_script() -- togglece.LocalScript 
 	local script = Instance.new('LocalScript', togglece)
 
 	local activator = false
@@ -2252,8 +2352,8 @@ local function QVWBRR_fake_script() -- togglece.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QVWBRR_fake_script)()
-local function KBDCETL_fake_script() -- radiusncd.LocalScript 
+coroutine.wrap(GTWC_fake_script)()
+local function WVCTDD_fake_script() -- radiusncd.LocalScript 
 	local script = Instance.new('LocalScript', radiusncd)
 
 	--made by aigon no skidding pls
@@ -2275,8 +2375,8 @@ local function KBDCETL_fake_script() -- radiusncd.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KBDCETL_fake_script)()
-local function MHKFW_fake_script() -- impactc.LocalScript 
+coroutine.wrap(WVCTDD_fake_script)()
+local function GGND_fake_script() -- impactc.LocalScript 
 	local script = Instance.new('LocalScript', impactc)
 
 	local looper = false
@@ -2321,8 +2421,8 @@ local function MHKFW_fake_script() -- impactc.LocalScript
 		end
 	end
 end
-coroutine.wrap(MHKFW_fake_script)()
-local function PWKKRAB_fake_script() -- rmwcds.LocalScript 
+coroutine.wrap(GGND_fake_script)()
+local function FHIV_fake_script() -- rmwcds.LocalScript 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local plr = game.Players.LocalPlayer
@@ -2402,8 +2502,8 @@ local function PWKKRAB_fake_script() -- rmwcds.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(PWKKRAB_fake_script)()
-local function OIMFY_fake_script() -- rmwcds.instance 
+coroutine.wrap(FHIV_fake_script)()
+local function TLMMFW_fake_script() -- rmwcds.instance 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local m1 = Instance.new("StringValue")
@@ -2418,8 +2518,8 @@ local function OIMFY_fake_script() -- rmwcds.instance
 	m2.Parent = script.Parent
 	m3.Parent = script.Parent
 end
-coroutine.wrap(OIMFY_fake_script)()
-local function GWGO_fake_script() -- ofeats.LocalScript 
+coroutine.wrap(TLMMFW_fake_script)()
+local function UVTL_fake_script() -- ofeats.LocalScript 
 	local script = Instance.new('LocalScript', ofeats)
 
 	local but = script.Parent
@@ -2495,8 +2595,8 @@ local function GWGO_fake_script() -- ofeats.LocalScript
 		end
 	end
 end
-coroutine.wrap(GWGO_fake_script)()
-local function RQOGD_fake_script() -- toggleis.LocalScript 
+coroutine.wrap(UVTL_fake_script)()
+local function LGSRC_fake_script() -- toggleis.LocalScript 
 	local script = Instance.new('LocalScript', toggleis)
 
 	local looper = false
@@ -2536,8 +2636,8 @@ local function RQOGD_fake_script() -- toggleis.LocalScript
 		end
 	end
 end
-coroutine.wrap(RQOGD_fake_script)()
-local function TMOS_fake_script() -- toggleia.LocalScript 
+coroutine.wrap(LGSRC_fake_script)()
+local function BHYXIQH_fake_script() -- toggleia.LocalScript 
 	local script = Instance.new('LocalScript', toggleia)
 
 	local looper = false
@@ -2577,8 +2677,8 @@ local function TMOS_fake_script() -- toggleia.LocalScript
 		end
 	end
 end
-coroutine.wrap(TMOS_fake_script)()
-local function KZTGSP_fake_script() -- togglens.LocalScript 
+coroutine.wrap(BHYXIQH_fake_script)()
+local function DJRQ_fake_script() -- togglens.LocalScript 
 	local script = Instance.new('LocalScript', togglens)
 
 	local looper = false
@@ -2685,8 +2785,8 @@ local function KZTGSP_fake_script() -- togglens.LocalScript
 		end
 	end
 end
-coroutine.wrap(KZTGSP_fake_script)()
-local function WRDP_fake_script() -- first.LocalScript 
+coroutine.wrap(DJRQ_fake_script)()
+local function LMMGXZ_fake_script() -- first.LocalScript 
 	local script = Instance.new('LocalScript', first)
 
 	local but = script.Parent
@@ -2697,8 +2797,8 @@ local function WRDP_fake_script() -- first.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(WRDP_fake_script)()
-local function KQAP_fake_script() -- north.LocalScript 
+coroutine.wrap(LMMGXZ_fake_script)()
+local function KJKL_fake_script() -- north.LocalScript 
 	local script = Instance.new('LocalScript', north)
 
 	local but = script.Parent
@@ -2709,8 +2809,8 @@ local function KQAP_fake_script() -- north.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KQAP_fake_script)()
-local function KGNI_fake_script() -- second.LocalScript 
+coroutine.wrap(KJKL_fake_script)()
+local function BRKVI_fake_script() -- second.LocalScript 
 	local script = Instance.new('LocalScript', second)
 
 	local but = script.Parent
@@ -2721,8 +2821,8 @@ local function KGNI_fake_script() -- second.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KGNI_fake_script)()
-local function TUEIG_fake_script() -- third.LocalScript 
+coroutine.wrap(BRKVI_fake_script)()
+local function DNXYR_fake_script() -- third.LocalScript 
 	local script = Instance.new('LocalScript', third)
 
 	local but = script.Parent
@@ -2733,8 +2833,8 @@ local function TUEIG_fake_script() -- third.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TUEIG_fake_script)()
-local function GREBUH_fake_script() -- sab.LocalScript 
+coroutine.wrap(DNXYR_fake_script)()
+local function DLEIVK_fake_script() -- sab.LocalScript 
 	local script = Instance.new('LocalScript', sab)
 
 	local but = script.Parent
@@ -2745,8 +2845,8 @@ local function GREBUH_fake_script() -- sab.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(GREBUH_fake_script)()
-local function IVXHO_fake_script() -- sr.LocalScript 
+coroutine.wrap(DLEIVK_fake_script)()
+local function XDZQAPR_fake_script() -- sr.LocalScript 
 	local script = Instance.new('LocalScript', sr)
 
 	local but = script.Parent
@@ -2757,8 +2857,8 @@ local function IVXHO_fake_script() -- sr.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(IVXHO_fake_script)()
-local function TMBYMUL_fake_script() -- hb.LocalScript 
+coroutine.wrap(XDZQAPR_fake_script)()
+local function ZBQB_fake_script() -- hb.LocalScript 
 	local script = Instance.new('LocalScript', hb)
 
 	local but = script.Parent
@@ -2769,8 +2869,8 @@ local function TMBYMUL_fake_script() -- hb.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TMBYMUL_fake_script)()
-local function XLZYCE_fake_script() -- agb.LocalScript 
+coroutine.wrap(ZBQB_fake_script)()
+local function LCLNYN_fake_script() -- agb.LocalScript 
 	local script = Instance.new('LocalScript', agb)
 
 	local but = script.Parent
@@ -2781,8 +2881,8 @@ local function XLZYCE_fake_script() -- agb.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XLZYCE_fake_script)()
-local function RADHM_fake_script() -- aa.LocalScript 
+coroutine.wrap(LCLNYN_fake_script)()
+local function TFPPFYW_fake_script() -- aa.LocalScript 
 	local script = Instance.new('LocalScript', aa)
 
 	local but = script.Parent
@@ -2793,8 +2893,8 @@ local function RADHM_fake_script() -- aa.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(RADHM_fake_script)()
-local function CKMTT_fake_script() -- cer.LocalScript 
+coroutine.wrap(TFPPFYW_fake_script)()
+local function UHJBHP_fake_script() -- cer.LocalScript 
 	local script = Instance.new('LocalScript', cer)
 
 	local but = script.Parent
@@ -2805,8 +2905,8 @@ local function CKMTT_fake_script() -- cer.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(CKMTT_fake_script)()
-local function STRLM_fake_script() -- sw.LocalScript 
+coroutine.wrap(UHJBHP_fake_script)()
+local function LXGHEK_fake_script() -- sw.LocalScript 
 	local script = Instance.new('LocalScript', sw)
 
 	local but = script.Parent
@@ -2817,8 +2917,8 @@ local function STRLM_fake_script() -- sw.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(STRLM_fake_script)()
-local function DWWPFCW_fake_script() -- swt.LocalScript 
+coroutine.wrap(LXGHEK_fake_script)()
+local function OVWWDV_fake_script() -- swt.LocalScript 
 	local script = Instance.new('LocalScript', swt)
 
 	local but = script.Parent
@@ -2829,8 +2929,8 @@ local function DWWPFCW_fake_script() -- swt.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DWWPFCW_fake_script)()
-local function GLPFRHQ_fake_script() -- ala.LocalScript 
+coroutine.wrap(OVWWDV_fake_script)()
+local function PJCDIDC_fake_script() -- ala.LocalScript 
 	local script = Instance.new('LocalScript', ala)
 
 	local but = script.Parent
@@ -2841,8 +2941,8 @@ local function GLPFRHQ_fake_script() -- ala.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(GLPFRHQ_fake_script)()
-local function JLFUO_fake_script() -- ra.LocalScript 
+coroutine.wrap(PJCDIDC_fake_script)()
+local function IUKQ_fake_script() -- ra.LocalScript 
 	local script = Instance.new('LocalScript', ra)
 
 	local but = script.Parent
@@ -2853,8 +2953,8 @@ local function JLFUO_fake_script() -- ra.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(JLFUO_fake_script)()
-local function XXGZH_fake_script() -- wild.LocalScript 
+coroutine.wrap(IUKQ_fake_script)()
+local function HDBYZ_fake_script() -- wild.LocalScript 
 	local script = Instance.new('LocalScript', wild)
 
 	local but = script.Parent
@@ -2865,8 +2965,8 @@ local function XXGZH_fake_script() -- wild.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XXGZH_fake_script)()
-local function AMVIPQS_fake_script() -- redwood.LocalScript 
+coroutine.wrap(HDBYZ_fake_script)()
+local function RZRRRY_fake_script() -- redwood.LocalScript 
 	local script = Instance.new('LocalScript', redwood)
 
 	local but = script.Parent
@@ -2877,8 +2977,8 @@ local function AMVIPQS_fake_script() -- redwood.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(AMVIPQS_fake_script)()
-local function TEPRZA_fake_script() -- sth.LocalScript 
+coroutine.wrap(RZRRRY_fake_script)()
+local function XBJC_fake_script() -- sth.LocalScript 
 	local script = Instance.new('LocalScript', sth)
 
 	local but = script.Parent
@@ -2889,8 +2989,8 @@ local function TEPRZA_fake_script() -- sth.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TEPRZA_fake_script)()
-local function FGRVEB_fake_script() -- wr.LocalScript 
+coroutine.wrap(XBJC_fake_script)()
+local function HBTHGTJ_fake_script() -- wr.LocalScript 
 	local script = Instance.new('LocalScript', wr)
 
 	local but = script.Parent
@@ -2901,8 +3001,8 @@ local function FGRVEB_fake_script() -- wr.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(FGRVEB_fake_script)()
-local function BCPDFZT_fake_script() -- ip.LocalScript 
+coroutine.wrap(HBTHGTJ_fake_script)()
+local function WHTNMKY_fake_script() -- ip.LocalScript 
 	local script = Instance.new('LocalScript', ip)
 
 	local but = script.Parent
@@ -2913,8 +3013,8 @@ local function BCPDFZT_fake_script() -- ip.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(BCPDFZT_fake_script)()
-local function MRZGX_fake_script() -- tps1.corrector 
+coroutine.wrap(WHTNMKY_fake_script)()
+local function IPHVW_fake_script() -- tps1.corrector 
 	local script = Instance.new('LocalScript', tps1)
 
 	local islands = script.Parent.corner.islandholder
@@ -2950,8 +3050,8 @@ local function MRZGX_fake_script() -- tps1.corrector
 		end
 	end
 end
-coroutine.wrap(MRZGX_fake_script)()
-local function MLQG_fake_script() -- CryoHub.toggle 
+coroutine.wrap(IPHVW_fake_script)()
+local function DEHPV_fake_script() -- CryoHub.toggle 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -2984,8 +3084,8 @@ local function MLQG_fake_script() -- CryoHub.toggle
 		end
 	end)
 end
-coroutine.wrap(MLQG_fake_script)()
-local function FTAJ_fake_script() -- CryoHub.intro 
+coroutine.wrap(DEHPV_fake_script)()
+local function XIPX_fake_script() -- CryoHub.intro 
 	local script = Instance.new('LocalScript', CryoHub)
 
 	--made by aigon no skidding pls
@@ -3099,8 +3199,8 @@ local function FTAJ_fake_script() -- CryoHub.intro
 		})
 	end
 end
-coroutine.wrap(FTAJ_fake_script)()
-local function UJUMX_fake_script() -- CryoHub.execlogs 
+coroutine.wrap(XIPX_fake_script)()
+local function USYG_fake_script() -- CryoHub.execlogs 
 	local script = Instance.new('Script', CryoHub)
 
 	local http_request = syn.request;
@@ -3130,4 +3230,4 @@ local function UJUMX_fake_script() -- CryoHub.execlogs
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
 end
-coroutine.wrap(UJUMX_fake_script)()
+coroutine.wrap(USYG_fake_script)()
