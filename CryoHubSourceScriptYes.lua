@@ -2199,7 +2199,7 @@ local function EQORPBT_fake_script() -- toggleaf.LocalScript
 								game:GetService("Players").LocalPlayer.Character:FindFirstChild("Gold Rod").FishingClient.Fishing:FireServer(unpack(args))
 	
 							until hooked.Value == false
-						wait(0.5)
+						wait(1)
 							pcall(function()
 								local args = {
 									[1] = 91
