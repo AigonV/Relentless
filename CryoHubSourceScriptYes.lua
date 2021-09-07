@@ -443,7 +443,7 @@ antimod.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
 antimod.Position = UDim2.new(0, 4, 0, 159)
 antimod.Size = UDim2.new(0, 270, 0, 22)
 antimod.Font = Enum.Font.SourceSans
-antimod.Text = "Anti-Moderators"
+antimod.Text = "Secure Anti-Moderators"
 antimod.TextColor3 = Color3.fromRGB(255, 255, 255)
 antimod.TextSize = 14.000
 
