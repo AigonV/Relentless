@@ -2226,7 +2226,7 @@ local function KUKJ_fake_script() -- refresh.LocalScript
 				for i, s in pairs(v:GetChildren()) do
 					if s.Name == "Chest" then
 						for _,c in pairs(v:GetChildren()) do
-							if c.Type.Value == "Normal" then
+							if c.Type.Value == "Gold" then
 								table.insert(golchests, c)
 							end
 						end
