@@ -2272,7 +2272,7 @@ local function JYQYK_fake_script() -- toggleaf.LocalScript
 								game:GetService("Players").LocalPlayer.Character:FindFirstChild(items.frod).FishingClient.Fishing:FireServer(unpack(args))
 	
 							until hooked.Value == false
-							wait(1)
+							wait(1.5)
 							pcall(function()
 								local args = {
 										[1] = 91
