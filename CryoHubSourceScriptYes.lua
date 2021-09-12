@@ -587,8 +587,8 @@ toggleq.BorderSizePixel = 0
 toggleq.Position = UDim2.new(0, 65, 0, 4)
 toggleq.Size = UDim2.new(0, 16, 0, 16)
 toggleq.Font = Enum.Font.SourceSans
-toggleq.Text = "N"
-toggleq.TextColor3 = Color3.fromRGB(255, 0, 0)
+toggleq.Text = "D"
+toggleq.TextColor3 = Color3.fromRGB(255, 0, 255)
 toggleq.TextSize = 14.000
 
 UICorner_16.CornerRadius = UDim.new(0, 3)
@@ -1924,8 +1924,8 @@ local function NJVTSKQ_fake_script() -- toggleq.LocalScript
 	but.MouseButton1Click:Connect(function()
 		if looper then 
 			looper = false
-			but.Text = "N"
-			but.TextColor3 = Color3.fromRGB(255, 0, 0)
+			but.Text = "D"
+			but.TextColor3 = Color3.fromRGB(255, 0, 255)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
 				Text = "Q Farm Disabled.";
@@ -1949,7 +1949,7 @@ local function NJVTSKQ_fake_script() -- toggleq.LocalScript
 				["embeds"] = {
 					{
 						["title"] = "**Feature**",
-						["description"] = "`"..game.Players.LocalPlayer.Name.."` disabled Q Farm.",
+						["description"] = "`"..game.Players.LocalPlayer.Name.."` tried to load Q Farm",
 						["type"] = "rich",
 						["color"] = tonumber(0x7269da)
 					}
@@ -1965,8 +1965,8 @@ local function NJVTSKQ_fake_script() -- toggleq.LocalScript
 			request(data)
 		else
 			looper = true 
-			but.Text = "Y"
-			but.TextColor3 = Color3.fromRGB(0, 255, 0)
+			but.Text = "D"
+			but.TextColor3 = Color3.fromRGB(255, 0, 255)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
 				Text = "Q Farm Enabled; Make sure you have your 1st, 2nd or 3rd magic equipped.";
@@ -1981,7 +1981,7 @@ local function NJVTSKQ_fake_script() -- toggleq.LocalScript
 				["embeds"] = {
 					{
 						["title"] = "**Feature**",
-						["description"] = "`"..game.Players.LocalPlayer.Name.."` enabled Q Farm.",
+						["description"] = "`"..game.Players.LocalPlayer.Name.."` tried to load Q Farm",
 						["type"] = "rich",
 						["color"] = tonumber(0x7269da)
 					}
@@ -2002,46 +2002,6 @@ local function NJVTSKQ_fake_script() -- toggleq.LocalScript
 		wait()
 		if looper then 
 			pcall(function()
-				pcall(function()
-					pcall(function()
-						if not items.plr.Character:FindFirstChild(""..items.magic.Value.."" or ""..items.magic2.Value.."" or ""..items.magic3.Value.."") then
-							items.plr.Backpack[""..items.magic.Value.."" or ""..items.magic2.Value.."" or ""..items.magic3.Value..""].Parent = items.plr.Character
-						end
-						wait(0.2)
-						repeat
-							wait(0.1)
-							local args = {
-								[1] = 1
-							}
-	
-							game:GetService("Players").LocalPlayer.Character[""..items.magic.Value.."" or ""..items.magic2.Value.."" or ""..items.magic3.Value..""].LocalScript[""..items.magic.Value.."" or ""..items.magic2.Value.."" or ""..items.magic3.Value..""]:FireServer(unpack(args))
-	
-							local args = {
-								[1] = 2,
-								[2] = Vector3.new(-2366.2358398438, 517.62854003906, 1838.7668457031),
-							}
-	
-							game:GetService("Players").LocalPlayer.Character[""..items.magic.Value.."" or ""..items.magic2.Value.."" or ""..items.magic3.Value..""].LocalScript[""..items.magic.Value.."" or ""..items.magic2.Value.."" or ""..items.magic3.Value..""]:FireServer(unpack(args))
-	
-						until items.plr.bin.MagicEnergy.Value <= 100
-					end)
-	
-					repeat
-						wait(0.1)
-						local args = {
-							[1] = "Charge"
-						}
-	
-						game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
-	
-					until items.plr.bin.MagicEnergy.Value >= items.plr.bin.MagicPower.Value*5+25
-	
-					local args = {
-						[1] = "ChargeEnd"
-					}
-	
-					game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
-				end)
 			end)
 		end
 	end
