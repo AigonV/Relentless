@@ -2019,7 +2019,7 @@ local function BBGQ_fake_script() -- qfarm.LocalScript
 	}
 	
 	items.object.MouseEnter:Connect(function()
-		items.tips.Text = "When disabled, wait til the loop finishes and it'll stop."
+		items.tips.Text = "Currently disabled to be fixed."
 		items.hider:TweenSize(items.off, "InOut", "Sine", 0.14, true)
 	end)
 	items.object.MouseLeave:Connect(function()
