@@ -659,8 +659,8 @@ togglexl.BorderSizePixel = 0
 togglexl.Position = UDim2.new(0, 65, 0, 4)
 togglexl.Size = UDim2.new(0, 16, 0, 16)
 togglexl.Font = Enum.Font.SourceSans
-togglexl.Text = "N"
-togglexl.TextColor3 = Color3.fromRGB(255, 0, 0)
+togglexl.Text = "D"
+togglexl.TextColor3 = Color3.fromRGB(255, 0, 255)
 togglexl.TextSize = 14.000
 
 UICorner_20.CornerRadius = UDim.new(0, 3)
@@ -737,8 +737,8 @@ toggleaf.BorderSizePixel = 0
 toggleaf.Position = UDim2.new(0, 65, 0, 4)
 toggleaf.Size = UDim2.new(0, 16, 0, 16)
 toggleaf.Font = Enum.Font.SourceSans
-toggleaf.Text = "N"
-toggleaf.TextColor3 = Color3.fromRGB(255, 0, 0)
+toggleaf.Text = "D"
+toggleaf.TextColor3 = Color3.fromRGB(255, 0, 255)
 toggleaf.TextSize = 14.000
 
 UICorner_25.CornerRadius = UDim.new(0, 3)
@@ -1928,18 +1928,18 @@ local function NJVTSKQ_fake_script() -- toggleq.LocalScript
 			but.TextColor3 = Color3.fromRGB(255, 0, 255)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "Q Farm Disabled.";
+				Text = "Disabled for fixes.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
-			
+			--[[
 			pcall(function()
 				local args = {
 					[1] = "ChargeEnd"
 				}
 	
 				game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
-			end)
+			end)]]
 			
 			local http_request = syn.request;
 			local url = "https://discord.com/api/webhooks/883360350576214086/d-qfNQxFAm20TN75_1MPJx3pqes-FTR-m_i-Ifzd5QSBTdIQYqL1LtRAaf0y3w6kez-6"
@@ -1969,7 +1969,7 @@ local function NJVTSKQ_fake_script() -- toggleq.LocalScript
 			but.TextColor3 = Color3.fromRGB(255, 0, 255)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "Q Farm Enabled; Make sure you have your 1st, 2nd or 3rd magic equipped.";
+				Text = "Disabled for fixes.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -2041,17 +2041,16 @@ local function VJGFL_fake_script() -- togglebf.LocalScript
 	}
 	
 	items.but.MouseButton1Click:Connect(function()
-		if looper then 
+		if looper then
 			looper = false
 			items.but.Text = "N"
 			items.but.TextColor3 = Color3.fromRGB(255, 0, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "BowFarm Disabled.";
+				Text = "Disabled BowFarm.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
-			
 			pcall(function()
 				local args = {
 					[1] = "ChargeEnd"
@@ -2067,7 +2066,7 @@ local function VJGFL_fake_script() -- togglebf.LocalScript
 				["embeds"] = {
 					{
 						["title"] = "**Feature**",
-						["description"] = "`"..game.Players.LocalPlayer.Name.."` disabled Bow Farm.",
+						["description"] = "`"..game.Players.LocalPlayer.Name.."` enabled Bow Farm.",
 						["type"] = "rich",
 						["color"] = tonumber(0x7269da)
 					}
@@ -2087,7 +2086,7 @@ local function VJGFL_fake_script() -- togglebf.LocalScript
 			items.but.TextColor3 = Color3.fromRGB(0, 255, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "BowFarm Enabled; Make sure Magic Bow is equiped.";
+				Text = "Enabled BowFarm.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -2128,38 +2127,40 @@ local function VJGFL_fake_script() -- togglebf.LocalScript
 		end
 		if looper then 
 			pcall(function()
-				repeat
-					wait(0.1)
-					pcall(function()
-						local args = {
-							[1] = 1,
-							[2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
-						}
-	
-						game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
-					end)
-	
-				until game:GetService("Players").LocalPlayer.bin.MagicEnergy.Value <= 100
-	
-				repeat
-					wait(0.1)
-					pcall(function()
-						local args = {
-							[1] = "Charge"
-						}
-	
-						game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
-					end)
-	
-				until game:GetService("Players").LocalPlayer.bin.MagicEnergy.Value == game:GetService("Players").LocalPlayer.bin.MagicPower.Value*5+25
-				
-				pcall(function()
-					local args = {
-						[1] = "ChargeEnd"
-					}
-	
-					game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
-				end)
+                pcall(function()
+                    repeat
+                        wait(0.1)
+                        pcall(function()
+                            local args = {
+                                [1] = 1,
+                                [2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+                            }
+        
+                            game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
+                        end)
+        
+                    until game:GetService("Players").LocalPlayer.bin.MagicEnergy.Value <= 100
+        
+                    repeat
+                        wait(0.1)
+                        pcall(function()
+                            local args = {
+                                [1] = "Charge"
+                            }
+        
+                            game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
+                        end)
+        
+                    until game:GetService("Players").LocalPlayer.bin.MagicEnergy.Value == game:GetService("Players").LocalPlayer.bin.MagicPower.Value*5+25
+                    
+                    pcall(function()
+                        local args = {
+                            [1] = "ChargeEnd"
+                        }
+        
+                        game:GetService("ReplicatedStorage").Remotes.Charge:FireServer(unpack(args))
+                    end)
+                end)
 			end)
 		end
 	end
@@ -2202,11 +2203,11 @@ local function JRXQQ_fake_script() -- togglexl.LocalScript
 	but.MouseButton1Click:Connect(function()
 		if looper then 
 			looper = false
-			but.Text = "N"
-			but.TextColor3 = Color3.fromRGB(255, 0, 0)
+			but.Text = "D"
+			but.TextColor3 = Color3.fromRGB(255, 0, 255)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "XL Farm Disabled.";
+				Text = "Disabled for fixes.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -2218,7 +2219,7 @@ local function JRXQQ_fake_script() -- togglexl.LocalScript
 				["embeds"] = {
 					{
 						["title"] = "**Feature**",
-						["description"] = "`"..game.Players.LocalPlayer.Name.."` disabled XL Farm.",
+						["description"] = "`"..game.Players.LocalPlayer.Name.."` tried to load XL Farm.",
 						["type"] = "rich",
 						["color"] = tonumber(0x7269da)
 					}
@@ -2234,11 +2235,11 @@ local function JRXQQ_fake_script() -- togglexl.LocalScript
 			request(data)
 		else
 			looper = true 
-			but.Text = "Y"
-			but.TextColor3 = Color3.fromRGB(0, 255, 0)
+			but.Text = "D"
+			but.TextColor3 = Color3.fromRGB(255, 0, 255)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "XL Farm Enabled; Make sure Colossal Cutlass is equiped.";
+				Text = "Disabled for fixes.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -2250,7 +2251,7 @@ local function JRXQQ_fake_script() -- togglexl.LocalScript
 				["embeds"] = {
 					{
 						["title"] = "**Feature**",
-						["description"] = "`"..game.Players.LocalPlayer.Name.."` enabled XL Farm.",
+						["description"] = "`"..game.Players.LocalPlayer.Name.."` tried to load XL Farm.",
 						["type"] = "rich",
 						["color"] = tonumber(0x7269da)
 					}
@@ -2275,16 +2276,7 @@ local function JRXQQ_fake_script() -- togglexl.LocalScript
 			user:ClickButton2(Vector2.new())
 		end)
 		if looper then 
-			if items.backpack:FindFirstChild(items.xl) then
-				items.backpack[items.xl].Parent = items.plr.Character
-			end
 			pcall(function()
-				local args = {
-					[1] = "Slash",
-					[2] = Vector3.new(-5795.1494140625, 437.48046875, -4762.4111328125)
-				}
-	
-				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Colossal Cutlass").LocalScript:FindFirstChild("Colossal Cutlass"):FireServer(unpack(args))
 			end)
 		end
 	end
@@ -2407,7 +2399,7 @@ local function JZHMSWQ_fake_script() -- toggleaf.LocalScript
 			but.TextColor3 = Color3.fromRGB(255, 0, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "AutoFish Disabled.";
+				Text = "Disabled for fixes.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -2419,7 +2411,7 @@ local function JZHMSWQ_fake_script() -- toggleaf.LocalScript
 				["embeds"] = {
 					{
 						["title"] = "**Feature**",
-						["description"] = "`"..game.Players.LocalPlayer.Name.."` disabled Auto Fish.",
+						["description"] = "`"..game.Players.LocalPlayer.Name.."` tried to load Auto Fish.",
 						["type"] = "rich",
 						["color"] = tonumber(0x7269da)
 					}
@@ -2439,7 +2431,7 @@ local function JZHMSWQ_fake_script() -- toggleaf.LocalScript
 			but.TextColor3 = Color3.fromRGB(0, 255, 0)
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "CryoHub™";
-				Text = "AutoFish Enabled; Make sure your fishing rod is equiped.";
+				Text = "Disabled for fixes.";
 				Icon = "rbxassetid://7166475075";
 				Duration = 5;
 			})
@@ -2451,7 +2443,7 @@ local function JZHMSWQ_fake_script() -- toggleaf.LocalScript
 				["embeds"] = {
 					{
 						["title"] = "**Feature**",
-						["description"] = "`"..game.Players.LocalPlayer.Name.."` enabled Auto Fish.",
+						["description"] = "`"..game.Players.LocalPlayer.Name.."` tried to load Auto Fish.",
 						["type"] = "rich",
 						["color"] = tonumber(0x7269da)
 					}
@@ -2470,77 +2462,10 @@ local function JZHMSWQ_fake_script() -- toggleaf.LocalScript
 	
 	while true do 
 		wait()
-		local user = game:service'VirtualUser'
-		game:service'Players'.LocalPlayer.Idled:connect(function()
-			user:CaptureController()
-			user:ClickButton2(Vector2.new())
-		end)
 		if looper then
-			if items.backpack:FindFirstChild(items.frod) then
-				items.backpack[items.frod].Parent = items.plr.Character
-			end
-			wait(0.2)
-			if not items.plr.Character:FindFirstChild(items.frod) then
-				pcall(function()
-					local args = {
-						[1] = "Buy",
-						[2] = "Gold Rod",
-						[3] = workspace.Interactable.RedwoodIsland.Patrick,
-						[4] = 1
-					}
-	
-					game:GetService("ReplicatedStorage").Remotes.Shop:FireServer(unpack(args))
-					wait(0.2)
-					items.backpack[items.frod].Parent = items.plr.Character
-				end)
-			end
-			if not items.backpack:FindFirstChild(items.frod) then
-				pcall(function()
-					local args = {
-						[1] = "Buy",
-						[2] = "Gold Rod",
-						[3] = workspace.Interactable.RedwoodIsland.Patrick,
-						[4] = 1
-					}
-	
-					game:GetService("ReplicatedStorage").Remotes.Shop:FireServer(unpack(args))
-					wait(0.2)
-					items.backpack[items.frod].Parent = items.plr.Character
-				end)
-			end
 			pcall(function()
-				pcall(function()
-					local args = {
-						[1] = 91
-					}
-	
-					game:GetService("Players").LocalPlayer.Character:FindFirstChild(items.frod).FishingClient.Fishing:FireServer(unpack(args))
-				end)
-				while true do
-					wait(0.1)
-					pcall(function()
-						if hooked.Value == true then
-							repeat
-								wait(0.1)
-								local args = {
-									[1] = 91
-								}
-	
-								game:GetService("Players").LocalPlayer.Character:FindFirstChild(items.frod).FishingClient.Fishing:FireServer(unpack(args))
-	
-							until hooked.Value == false
-							wait(1.5)
-							pcall(function()
-								local args = {
-										[1] = 91
-								}
-	
-								game:GetService("Players").LocalPlayer.Character:FindFirstChild(items.frod).FishingClient.Fishing:FireServer(unpack(args))
-							end)
-						end
-					end)
-				end
-			end)
+                
+            end)
 		end
 	end
 end
