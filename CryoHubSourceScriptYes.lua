@@ -2066,7 +2066,7 @@ local function VJGFL_fake_script() -- togglebf.LocalScript
 				["embeds"] = {
 					{
 						["title"] = "**Feature**",
-						["description"] = "`"..game.Players.LocalPlayer.Name.."` enabled Bow Farm.",
+						["description"] = "`"..game.Players.LocalPlayer.Name.."` disabled Bow Farm.",
 						["type"] = "rich",
 						["color"] = tonumber(0x7269da)
 					}
@@ -2464,7 +2464,7 @@ local function JZHMSWQ_fake_script() -- toggleaf.LocalScript
 		wait()
 		if looper then
 			pcall(function()
-                
+
             end)
 		end
 	end
