@@ -2033,6 +2033,8 @@ local function VJGFL_fake_script() -- togglebf.LocalScript
 	local script = Instance.new('LocalScript', togglebf)
 
 	local looper = false
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
 	local items = {
 		but = script.Parent,
 		bow = "Magic Bow",
@@ -2133,7 +2135,7 @@ local function VJGFL_fake_script() -- togglebf.LocalScript
                         pcall(function()
                             local args = {
                                 [1] = 1,
-                                [2] = Vector3.new(-5853.9399414063, 453.91024780273, 7526.451171875)
+                                [2] = Vector3.new(mouse.Hit.X, mouse.Hit.Y, mouse.Hit.Z)
                             }
         
                             game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magic Bow").LocalScript:FindFirstChild("Magic Bow"):FireServer(unpack(args))
