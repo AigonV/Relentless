@@ -2124,11 +2124,11 @@ local function VJGFL_fake_script() -- togglebf.LocalScript
 			user:CaptureController()
 			user:ClickButton2(Vector2.new())
 		end)
-		if items.backpack:FindFirstChild(items.bow) then
-			items.backpack[items.bow].Parent = items.plr.Character
-		end
 		if looper then 
 			pcall(function()
+					if items.backpack:FindFirstChild(items.bow) then
+			items.backpack[items.bow].Parent = items.plr.Character
+		end
                 pcall(function()
                     repeat
                         wait(0.1)
