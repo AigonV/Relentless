@@ -15,7 +15,7 @@ $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $fh = fopen('logs.txt', 'a'); 
 fwrite($fh, ''."".$ip ."\n");
 $keys = array(
-   "RelentlessKey",
+   "089c71b1741087f740353454b633223b3e83ce6eae7a68311241fc4acba1e84ba9fd5ad58ae0800589048a1da77d80341732a5fa8f8dc6f82fb2cf342f9a7b1a", // Tyson
 ); 
 $sub = $_GET["key"];
 if (in_array($sub,$keys,TRUE)) {
