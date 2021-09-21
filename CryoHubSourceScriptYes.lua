@@ -1049,7 +1049,7 @@ off_2.TextSize = 18.000
 
 -- Scripts:
 
-local function OTJWK_fake_script() -- UIGradient.LocalScript 
+local function MCKPB_fake_script() -- UIGradient.LocalScript 
 	local script = Instance.new('LocalScript', UIGradient)
 
 	local TweenService = game:GetService("TweenService")
@@ -1064,8 +1064,8 @@ local function OTJWK_fake_script() -- UIGradient.LocalScript
 	local tween = TweenService:Create(uiGradent, tweenInfo, goals)
 	tween:Play()
 end
-coroutine.wrap(OTJWK_fake_script)()
-local function EZRJE_fake_script() -- off.LocalScript 
+coroutine.wrap(MCKPB_fake_script)()
+local function XXFPLO_fake_script() -- off.LocalScript 
 	local script = Instance.new('LocalScript', off)
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
@@ -1074,8 +1074,8 @@ local function EZRJE_fake_script() -- off.LocalScript
 		gui:Destroy()
 	end)
 end
-coroutine.wrap(EZRJE_fake_script)()
-local function AADEQZN_fake_script() -- togglebf.LocalScript 
+coroutine.wrap(XXFPLO_fake_script)()
+local function SZEK_fake_script() -- togglebf.LocalScript 
 	local script = Instance.new('LocalScript', togglebf)
 
 	local looper = false
@@ -1199,8 +1199,8 @@ local function AADEQZN_fake_script() -- togglebf.LocalScript
 		end
 	end
 end
-coroutine.wrap(AADEQZN_fake_script)()
-local function WLWCNQ_fake_script() -- count.LocalScript 
+coroutine.wrap(SZEK_fake_script)()
+local function RBUIS_fake_script() -- count.LocalScript 
 	local script = Instance.new('LocalScript', count)
 
 	local golchests = {}
@@ -1232,8 +1232,8 @@ local function WLWCNQ_fake_script() -- count.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WLWCNQ_fake_script)()
-local function XOFFML_fake_script() -- tpgc.LocalScript 
+coroutine.wrap(RBUIS_fake_script)()
+local function OMGUX_fake_script() -- tpgc.LocalScript 
 	local script = Instance.new('LocalScript', tpgc)
 
 	local but = script.Parent
@@ -1256,8 +1256,8 @@ local function XOFFML_fake_script() -- tpgc.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XOFFML_fake_script)()
-local function SDFLZT_fake_script() -- antimod.LocalScript 
+coroutine.wrap(OMGUX_fake_script)()
+local function RCQVQKQ_fake_script() -- antimod.LocalScript 
 	local script = Instance.new('LocalScript', antimod)
 
 	local but = script.Parent
@@ -1369,20 +1369,13 @@ local function SDFLZT_fake_script() -- antimod.LocalScript
 		end
 	end
 end
-coroutine.wrap(SDFLZT_fake_script)()
-local function XYNTF_fake_script() -- clicktp.LocalScript 
+coroutine.wrap(RCQVQKQ_fake_script)()
+local function FFWDD_fake_script() -- clicktp.LocalScript 
 	local script = Instance.new('LocalScript', clicktp)
 
 	local but = script.Parent
 	
 	but.MouseButton1Click:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "CryoHub™";
-			Text = "Hover and press B to teleport where-ever.";
-			Icon = "rbxassetid://7166475075";
-			Duration = 5;
-		})
-	
 		pcall(function()
 			local plr = game.Players.LocalPlayer 
 			local hum = plr.Character.HumanoidRootPart
@@ -1397,8 +1390,8 @@ local function XYNTF_fake_script() -- clicktp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XYNTF_fake_script)()
-local function QQWB_fake_script() -- infy.LocalScript 
+coroutine.wrap(FFWDD_fake_script)()
+local function RBVA_fake_script() -- infy.LocalScript 
 	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
@@ -1409,8 +1402,8 @@ local function QQWB_fake_script() -- infy.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(QQWB_fake_script)()
-local function GJJRV_fake_script() -- nightv.LocalScript 
+coroutine.wrap(RBVA_fake_script)()
+local function TTPY_fake_script() -- nightv.LocalScript 
 	local script = Instance.new('LocalScript', nightv)
 
 	local but = script.Parent
@@ -1465,8 +1458,8 @@ local function GJJRV_fake_script() -- nightv.LocalScript
 		)
 	end)
 end
-coroutine.wrap(GJJRV_fake_script)()
-local function LPOTC_fake_script() -- rejoin.LocalScript 
+coroutine.wrap(TTPY_fake_script)()
+local function JVRUHI_fake_script() -- rejoin.LocalScript 
 	local script = Instance.new('LocalScript', rejoin)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1475,8 +1468,8 @@ local function LPOTC_fake_script() -- rejoin.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LPOTC_fake_script)()
-local function RDCX_fake_script() -- ss.LocalScript 
+coroutine.wrap(JVRUHI_fake_script)()
+local function OVYYS_fake_script() -- ss.LocalScript 
 	local script = Instance.new('LocalScript', ss)
 
 	local but = script.Parent
@@ -1487,8 +1480,8 @@ local function RDCX_fake_script() -- ss.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(RDCX_fake_script)()
-local function PVGC_fake_script() -- togglece.LocalScript 
+coroutine.wrap(OVYYS_fake_script)()
+local function LJELE_fake_script() -- togglece.LocalScript 
 	local script = Instance.new('LocalScript', togglece)
 
 	local activator = false
@@ -1605,8 +1598,8 @@ local function PVGC_fake_script() -- togglece.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PVGC_fake_script)()
-local function NNFCWZB_fake_script() -- toggleia.LocalScript 
+coroutine.wrap(LJELE_fake_script)()
+local function EBBYAUS_fake_script() -- toggleia.LocalScript 
 	local script = Instance.new('LocalScript', toggleia)
 
 	local looper = false
@@ -1678,8 +1671,8 @@ local function NNFCWZB_fake_script() -- toggleia.LocalScript
 		end
 	end
 end
-coroutine.wrap(NNFCWZB_fake_script)()
-local function TGDV_fake_script() -- toggleis.LocalScript 
+coroutine.wrap(EBBYAUS_fake_script)()
+local function ILFPPG_fake_script() -- toggleis.LocalScript 
 	local script = Instance.new('LocalScript', toggleis)
 
 	local looper = false
@@ -1751,8 +1744,8 @@ local function TGDV_fake_script() -- toggleis.LocalScript
 		end
 	end
 end
-coroutine.wrap(TGDV_fake_script)()
-local function KKQS_fake_script() -- togglej.LocalScript 
+coroutine.wrap(ILFPPG_fake_script)()
+local function UPEZKP_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local activator = false
@@ -1833,8 +1826,8 @@ local function KKQS_fake_script() -- togglej.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KKQS_fake_script)()
-local function AUDGDU_fake_script() -- togglens.LocalScript 
+coroutine.wrap(UPEZKP_fake_script)()
+local function FKYZ_fake_script() -- togglens.LocalScript 
 	local script = Instance.new('LocalScript', togglens)
 
 	local looper = false
@@ -2266,8 +2259,8 @@ local function AUDGDU_fake_script() -- togglens.LocalScript
 		300
 	}]]
 end
-coroutine.wrap(AUDGDU_fake_script)()
-local function WKHIGDM_fake_script() -- radiusncd.LocalScript 
+coroutine.wrap(FKYZ_fake_script)()
+local function VHBAHIP_fake_script() -- radiusncd.LocalScript 
 	local script = Instance.new('LocalScript', radiusncd)
 
 	--made by aigon no skidding pls
@@ -2289,8 +2282,8 @@ local function WKHIGDM_fake_script() -- radiusncd.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(WKHIGDM_fake_script)()
-local function FUQHIKK_fake_script() -- impactc.LocalScript 
+coroutine.wrap(VHBAHIP_fake_script)()
+local function RWUCRA_fake_script() -- impactc.LocalScript 
 	local script = Instance.new('LocalScript', impactc)
 
 	local looper = false
@@ -2335,8 +2328,8 @@ local function FUQHIKK_fake_script() -- impactc.LocalScript
 		end
 	end
 end
-coroutine.wrap(FUQHIKK_fake_script)()
-local function DCHJLWO_fake_script() -- rmwcds.LocalScript 
+coroutine.wrap(RWUCRA_fake_script)()
+local function GZZRD_fake_script() -- rmwcds.LocalScript 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local plr = game.Players.LocalPlayer
@@ -2416,8 +2409,8 @@ local function DCHJLWO_fake_script() -- rmwcds.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DCHJLWO_fake_script)()
-local function VKGXO_fake_script() -- rmwcds.instance 
+coroutine.wrap(GZZRD_fake_script)()
+local function MKZMMBN_fake_script() -- rmwcds.instance 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local m1 = Instance.new("StringValue")
@@ -2432,9 +2425,9 @@ local function VKGXO_fake_script() -- rmwcds.instance
 	m2.Parent = script.Parent
 	m3.Parent = script.Parent
 end
-coroutine.wrap(VKGXO_fake_script)()
+coroutine.wrap(MKZMMBN_fake_script)()
 -- rc.LocalScript is disabled.
-local function OFLKZG_fake_script() -- animp.LocalScript 
+local function PCOLFUM_fake_script() -- animp.LocalScript 
 	local script = Instance.new('LocalScript', animp)
 
 	local but = script.Parent
@@ -2457,8 +2450,8 @@ local function OFLKZG_fake_script() -- animp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(OFLKZG_fake_script)()
-local function AELNQS_fake_script() -- ofeats.LocalScript 
+coroutine.wrap(PCOLFUM_fake_script)()
+local function XPGU_fake_script() -- ofeats.LocalScript 
 	local script = Instance.new('LocalScript', ofeats)
 
 	local but = script.Parent
@@ -2534,8 +2527,8 @@ local function AELNQS_fake_script() -- ofeats.LocalScript
 		end
 	end
 end
-coroutine.wrap(AELNQS_fake_script)()
-local function ONPYGOB_fake_script() -- submit.LocalScript 
+coroutine.wrap(XPGU_fake_script)()
+local function WZNBMN_fake_script() -- submit.LocalScript 
 	local script = Instance.new('LocalScript', submit)
 
 	local stuff = {
@@ -2579,8 +2572,8 @@ local function ONPYGOB_fake_script() -- submit.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ONPYGOB_fake_script)()
-local function JDYK_fake_script() -- ViewportFrame.LocalScript 
+coroutine.wrap(WZNBMN_fake_script)()
+local function VJDBP_fake_script() -- ViewportFrame.LocalScript 
 	local script = Instance.new('LocalScript', ViewportFrame)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -2615,20 +2608,20 @@ local function JDYK_fake_script() -- ViewportFrame.LocalScript
 		script.Parent.Size = UDim2.new(0,mouse.ViewSizeX,0,mouse.ViewSizeY)
 	end)
 end
-coroutine.wrap(JDYK_fake_script)()
-local function QSMSZ_fake_script() -- name.LocalScript 
+coroutine.wrap(VJDBP_fake_script)()
+local function RNKRXY_fake_script() -- name.LocalScript 
 	local script = Instance.new('LocalScript', name)
 
 	script.Parent.Text = "Username: "..game.Players.LocalPlayer.Name
 end
-coroutine.wrap(QSMSZ_fake_script)()
-local function YRYYZ_fake_script() -- userid.LocalScript 
+coroutine.wrap(RNKRXY_fake_script)()
+local function GYKAULR_fake_script() -- userid.LocalScript 
 	local script = Instance.new('LocalScript', userid)
 
 	script.Parent.Text = "UserID: "..game.Players.LocalPlayer.UserId
 end
-coroutine.wrap(YRYYZ_fake_script)()
-local function EJWXT_fake_script() -- HolderFrame.changePages 
+coroutine.wrap(GYKAULR_fake_script)()
+local function GGSQM_fake_script() -- HolderFrame.changePages 
 	local script = Instance.new('LocalScript', HolderFrame)
 
 	local stuff = {
@@ -2641,7 +2634,7 @@ local function EJWXT_fake_script() -- HolderFrame.changePages
 		features = script.Parent.Main.holder.features,
 		sets = script.Parent.Main.sets,
 		setsFrame = script.Parent.Main.holder.setsFrame,
-		teleports = script.Parent.Main.holder:WaitForChild("teleports"),
+	--	teleports = script.Parent.Main.holder:WaitForChild("teleports"),
 		misce = script.Parent.Main.holder.misc,
 		credits = script.Parent.Main.holder.credits,
 		tps = script.Parent.Main.tps,
@@ -2661,7 +2654,7 @@ local function EJWXT_fake_script() -- HolderFrame.changePages
 	stuff.misce.Size = stuff.off
 	stuff.credits.Size = stuff.off
 	stuff.setsFrame.Size = stuff.off
-	stuff.teleports.Size = stuff.off
+	--stuff.teleports.Size = stuff.off
 	
 	stuff.farm.Position = UDim2.new(0, 4, 0, stuff.valueoff)
 	stuff.feats.Position = UDim2.new(0, 61, 0, stuff.valueoff)
@@ -2682,7 +2675,7 @@ local function EJWXT_fake_script() -- HolderFrame.changePages
 		stuff.sets:TweenPosition(UDim2.new(0, 289, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
 		stuff.setsFrame:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 		stuff.tps:TweenPosition(UDim2.new(0, 232, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
-		stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
+	--	stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 	end)
 	
 	stuff.miscb.MouseButton1Click:Connect(function()
@@ -2697,7 +2690,7 @@ local function EJWXT_fake_script() -- HolderFrame.changePages
 		stuff.sets:TweenPosition(UDim2.new(0, 289, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
 		stuff.setsFrame:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 		stuff.tps:TweenPosition(UDim2.new(0, 232, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
-		stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
+	--	stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 	end)
 	
 	stuff.farm.MouseButton1Click:Connect(function()
@@ -2712,7 +2705,7 @@ local function EJWXT_fake_script() -- HolderFrame.changePages
 		stuff.sets:TweenPosition(UDim2.new(0, 289, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
 		stuff.setsFrame:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 		stuff.tps:TweenPosition(UDim2.new(0, 232, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
-		stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
+	--	stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 	end)
 	
 	stuff.creds.MouseButton1Click:Connect(function()
@@ -2727,7 +2720,7 @@ local function EJWXT_fake_script() -- HolderFrame.changePages
 		stuff.sets:TweenPosition(UDim2.new(0, 289, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
 		stuff.setsFrame:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 		stuff.tps:TweenPosition(UDim2.new(0, 232, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
-		stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
+	--	stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 	end)
 	
 	stuff.sets.MouseButton1Click:Connect(function()
@@ -2742,7 +2735,7 @@ local function EJWXT_fake_script() -- HolderFrame.changePages
 		stuff.farm:TweenPosition(UDim2.new(0, 4, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
 		stuff.creds:TweenPosition(UDim2.new(0, 175, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
 		stuff.tps:TweenPosition(UDim2.new(0, 232, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
-		stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
+	--	stuff.teleports:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 	end)
 	
 	stuff.tps.MouseButton1Click:Connect(function()
@@ -2757,11 +2750,11 @@ local function EJWXT_fake_script() -- HolderFrame.changePages
 		stuff.credits:TweenSize(stuff.off, stuff.anim, stuff.style, stuff.speed, true)
 		stuff.farm:TweenPosition(UDim2.new(0, 4, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
 		stuff.creds:TweenPosition(UDim2.new(0, 175, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
-		stuff.teleports:TweenSize(stuff.on, stuff.anim, stuff.style, stuff.speed, true)
+	--	stuff.teleports:TweenSize(stuff.on, stuff.anim, stuff.style, stuff.speed, true)
 	end)
 end
-coroutine.wrap(EJWXT_fake_script)()
-local function RYDMBFB_fake_script() -- HolderFrame.smoothdrag 
+coroutine.wrap(GGSQM_fake_script)()
+local function YAQAPXA_fake_script() -- HolderFrame.smoothdrag 
 	local script = Instance.new('LocalScript', HolderFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -2802,8 +2795,8 @@ local function RYDMBFB_fake_script() -- HolderFrame.smoothdrag
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(RYDMBFB_fake_script)()
-local function TUKJYKN_fake_script() -- AntiCheat.execlogs 
+coroutine.wrap(YAQAPXA_fake_script)()
+local function YSPEGJ_fake_script() -- AntiCheat.execlogs 
 	local script = Instance.new('Script', AntiCheat)
 
 	local http_request = syn.request;
@@ -2848,8 +2841,8 @@ local function TUKJYKN_fake_script() -- AntiCheat.execlogs
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
 end
-coroutine.wrap(TUKJYKN_fake_script)()
-local function QOWXPUZ_fake_script() -- AntiCheat.toggle 
+coroutine.wrap(YSPEGJ_fake_script)()
+local function FGCPDL_fake_script() -- AntiCheat.toggle 
 	local script = Instance.new('LocalScript', AntiCheat)
 
 	local frame = script.Parent.HolderFrame
@@ -2869,8 +2862,8 @@ local function QOWXPUZ_fake_script() -- AntiCheat.toggle
 		end
 	end)
 end
-coroutine.wrap(QOWXPUZ_fake_script)()
-local function NOHKI_fake_script() -- AntiCheat.intro 
+coroutine.wrap(FGCPDL_fake_script)()
+local function EYFZVY_fake_script() -- AntiCheat.intro 
 	local script = Instance.new('LocalScript', AntiCheat)
 
 	local items = {
@@ -2906,8 +2899,8 @@ local function NOHKI_fake_script() -- AntiCheat.intro
 	
 	items.reminder:TweenSize(items.onn, items.style, items.anim, items.animspeed, true)
 end
-coroutine.wrap(NOHKI_fake_script)()
-local function IUFHBR_fake_script() -- AntiCheat.resize 
+coroutine.wrap(EYFZVY_fake_script)()
+local function QSWNFU_fake_script() -- AntiCheat.resize 
 	local script = Instance.new('LocalScript', AntiCheat)
 
 	local items = {
@@ -2936,8 +2929,8 @@ local function IUFHBR_fake_script() -- AntiCheat.resize
 		script.Parent:Destroy()
 	end
 end
-coroutine.wrap(IUFHBR_fake_script)()
-local function ZHAMFY_fake_script() -- off_2.LocalScript 
+coroutine.wrap(QSWNFU_fake_script)()
+local function TRIYR_fake_script() -- off_2.LocalScript 
 	local script = Instance.new('LocalScript', off_2)
 
 	local but = script.Parent
@@ -2951,12 +2944,12 @@ local function ZHAMFY_fake_script() -- off_2.LocalScript
 	--	teleports:Clone().Parent = game.Players.LocalPlayer.PlayerGui:WaitForChild("AntiCheat"):WaitForChild("HolderFrame"):WaitForChild("Main"):WaitForChild("holder")
 	end)
 end
-coroutine.wrap(ZHAMFY_fake_script)()
-local function JQMPU_fake_script() -- AntiCheat.tploader 
+coroutine.wrap(TRIYR_fake_script)()
+local function BZADRRJ_fake_script() -- AntiCheat.tploader 
 	local script = Instance.new('LocalScript', AntiCheat)
 
 	pcall(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/AigonV/Relentless/master/teleports.lua'),true))()
 	end)
 end
-coroutine.wrap(JQMPU_fake_script)()
+coroutine.wrap(BZADRRJ_fake_script)()
