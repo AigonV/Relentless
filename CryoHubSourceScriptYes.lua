@@ -1113,7 +1113,7 @@ off_2.TextSize = 18.000
 
 -- Scripts:
 
-local function XGXTLXT_fake_script() -- UIGradient.LocalScript 
+local function QQRXLB_fake_script() -- UIGradient.LocalScript 
 	local script = Instance.new('LocalScript', UIGradient)
 
 	local TweenService = game:GetService("TweenService")
@@ -1128,8 +1128,8 @@ local function XGXTLXT_fake_script() -- UIGradient.LocalScript
 	local tween = TweenService:Create(uiGradent, tweenInfo, goals)
 	tween:Play()
 end
-coroutine.wrap(XGXTLXT_fake_script)()
-local function VPQNE_fake_script() -- off.LocalScript 
+coroutine.wrap(QQRXLB_fake_script)()
+local function MBHSN_fake_script() -- off.LocalScript 
 	local script = Instance.new('LocalScript', off)
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
@@ -1138,8 +1138,8 @@ local function VPQNE_fake_script() -- off.LocalScript
 		gui:Destroy()
 	end)
 end
-coroutine.wrap(VPQNE_fake_script)()
-local function UCCMXZ_fake_script() -- togglebf.LocalScript 
+coroutine.wrap(MBHSN_fake_script)()
+local function NLFHX_fake_script() -- togglebf.LocalScript 
 	local script = Instance.new('LocalScript', togglebf)
 
 	local looper = false
@@ -1263,8 +1263,8 @@ local function UCCMXZ_fake_script() -- togglebf.LocalScript
 		end
 	end
 end
-coroutine.wrap(UCCMXZ_fake_script)()
-local function MOFV_fake_script() -- count.LocalScript 
+coroutine.wrap(NLFHX_fake_script)()
+local function FPVCXAQ_fake_script() -- count.LocalScript 
 	local script = Instance.new('LocalScript', count)
 
 	local golchests = {}
@@ -1296,8 +1296,8 @@ local function MOFV_fake_script() -- count.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MOFV_fake_script)()
-local function IYKYVS_fake_script() -- tpgc.LocalScript 
+coroutine.wrap(FPVCXAQ_fake_script)()
+local function WFJSXZ_fake_script() -- tpgc.LocalScript 
 	local script = Instance.new('LocalScript', tpgc)
 
 	local but = script.Parent
@@ -1310,7 +1310,6 @@ local function IYKYVS_fake_script() -- tpgc.LocalScript
 	but.MouseButton1Click:Connect(function()
 		if cd.debounce then
 			cd.debounce = false
-			wait(cd.cooldown)
 			pcall(function()
 				pcall(function()
 					for i, v in pairs(game.Workspace:GetChildren()) do
@@ -1330,8 +1329,8 @@ local function IYKYVS_fake_script() -- tpgc.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IYKYVS_fake_script)()
-local function ULGIXFV_fake_script() -- tpc.LocalScript 
+coroutine.wrap(WFJSXZ_fake_script)()
+local function QQMIPE_fake_script() -- tpc.LocalScript 
 	local script = Instance.new('LocalScript', tpc)
 
 	local but = script.Parent
@@ -1354,8 +1353,8 @@ local function ULGIXFV_fake_script() -- tpc.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ULGIXFV_fake_script)()
-local function NNTFRCJ_fake_script() -- antimod.LocalScript 
+coroutine.wrap(QQMIPE_fake_script)()
+local function LKVEB_fake_script() -- antimod.LocalScript 
 	local script = Instance.new('LocalScript', antimod)
 
 	local but = script.Parent
@@ -1513,8 +1512,8 @@ local function NNTFRCJ_fake_script() -- antimod.LocalScript
 		end
 	end
 end
-coroutine.wrap(NNTFRCJ_fake_script)()
-local function JZBQ_fake_script() -- clicktp.LocalScript 
+coroutine.wrap(LKVEB_fake_script)()
+local function FNBQAIG_fake_script() -- clicktp.LocalScript 
 	local script = Instance.new('LocalScript', clicktp)
 
 	local but = script.Parent
@@ -1535,8 +1534,8 @@ local function JZBQ_fake_script() -- clicktp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(JZBQ_fake_script)()
-local function XODG_fake_script() -- infy.LocalScript 
+coroutine.wrap(FNBQAIG_fake_script)()
+local function UMVTM_fake_script() -- infy.LocalScript 
 	local script = Instance.new('LocalScript', infy)
 
 	local but = script.Parent
@@ -1547,8 +1546,8 @@ local function XODG_fake_script() -- infy.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XODG_fake_script)()
-local function UUNUILC_fake_script() -- nightv.LocalScript 
+coroutine.wrap(UMVTM_fake_script)()
+local function AGPTNH_fake_script() -- nightv.LocalScript 
 	local script = Instance.new('LocalScript', nightv)
 
 	local but = script.Parent
@@ -1603,8 +1602,8 @@ local function UUNUILC_fake_script() -- nightv.LocalScript
 		)
 	end)
 end
-coroutine.wrap(UUNUILC_fake_script)()
-local function SRYV_fake_script() -- rejoin.LocalScript 
+coroutine.wrap(AGPTNH_fake_script)()
+local function NPPBFTW_fake_script() -- rejoin.LocalScript 
 	local script = Instance.new('LocalScript', rejoin)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1613,8 +1612,8 @@ local function SRYV_fake_script() -- rejoin.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(SRYV_fake_script)()
-local function DJDHMA_fake_script() -- ss.LocalScript 
+coroutine.wrap(NPPBFTW_fake_script)()
+local function HWQR_fake_script() -- ss.LocalScript 
 	local script = Instance.new('LocalScript', ss)
 
 	local but = script.Parent
@@ -1625,8 +1624,8 @@ local function DJDHMA_fake_script() -- ss.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DJDHMA_fake_script)()
-local function RPZPTLV_fake_script() -- sh.LocalScript 
+coroutine.wrap(HWQR_fake_script)()
+local function TOEFB_fake_script() -- sh.LocalScript 
 	local script = Instance.new('LocalScript', sh)
 
 	local but = script.Parent
@@ -1646,8 +1645,8 @@ local function RPZPTLV_fake_script() -- sh.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(RPZPTLV_fake_script)()
-local function FWYBBE_fake_script() -- tps.LocalScript 
+coroutine.wrap(TOEFB_fake_script)()
+local function PUSAOF_fake_script() -- tps.LocalScript 
 	local script = Instance.new('LocalScript', tps)
 
 	local but = script.Parent
@@ -1658,8 +1657,8 @@ local function FWYBBE_fake_script() -- tps.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(FWYBBE_fake_script)()
-local function NOXC_fake_script() -- rgui.LocalScript 
+coroutine.wrap(PUSAOF_fake_script)()
+local function VBFLSCI_fake_script() -- rgui.LocalScript 
 	local script = Instance.new('LocalScript', rgui)
 
 	local but = script.Parent
@@ -1672,8 +1671,8 @@ local function NOXC_fake_script() -- rgui.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(NOXC_fake_script)()
-local function COLBVL_fake_script() -- togglece.LocalScript 
+coroutine.wrap(VBFLSCI_fake_script)()
+local function MHRUQY_fake_script() -- togglece.LocalScript 
 	local script = Instance.new('LocalScript', togglece)
 
 	local activator = false
@@ -1790,8 +1789,8 @@ local function COLBVL_fake_script() -- togglece.LocalScript
 		end
 	end)
 end
-coroutine.wrap(COLBVL_fake_script)()
-local function QXFV_fake_script() -- toggleia.LocalScript 
+coroutine.wrap(MHRUQY_fake_script)()
+local function JRDYJKY_fake_script() -- toggleia.LocalScript 
 	local script = Instance.new('LocalScript', toggleia)
 
 	local looper = false
@@ -1863,8 +1862,8 @@ local function QXFV_fake_script() -- toggleia.LocalScript
 		end
 	end
 end
-coroutine.wrap(QXFV_fake_script)()
-local function APLBQS_fake_script() -- toggleis.LocalScript 
+coroutine.wrap(JRDYJKY_fake_script)()
+local function VCFZNBN_fake_script() -- toggleis.LocalScript 
 	local script = Instance.new('LocalScript', toggleis)
 
 	local looper = false
@@ -1936,8 +1935,8 @@ local function APLBQS_fake_script() -- toggleis.LocalScript
 		end
 	end
 end
-coroutine.wrap(APLBQS_fake_script)()
-local function PVUCS_fake_script() -- togglej.LocalScript 
+coroutine.wrap(VCFZNBN_fake_script)()
+local function LYVHNTR_fake_script() -- togglej.LocalScript 
 	local script = Instance.new('LocalScript', togglej)
 
 	local activator = false
@@ -2018,8 +2017,8 @@ local function PVUCS_fake_script() -- togglej.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PVUCS_fake_script)()
-local function SQCB_fake_script() -- togglens.LocalScript 
+coroutine.wrap(LYVHNTR_fake_script)()
+local function VOLUJL_fake_script() -- togglens.LocalScript 
 	local script = Instance.new('LocalScript', togglens)
 
 	local looper = false
@@ -2451,8 +2450,8 @@ local function SQCB_fake_script() -- togglens.LocalScript
 		300
 	}]]
 end
-coroutine.wrap(SQCB_fake_script)()
-local function ESSTOQG_fake_script() -- radiusncd.LocalScript 
+coroutine.wrap(VOLUJL_fake_script)()
+local function TVHMY_fake_script() -- radiusncd.LocalScript 
 	local script = Instance.new('LocalScript', radiusncd)
 
 	--made by aigon no skidding pls
@@ -2474,8 +2473,8 @@ local function ESSTOQG_fake_script() -- radiusncd.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ESSTOQG_fake_script)()
-local function ZBLQ_fake_script() -- impactc.LocalScript 
+coroutine.wrap(TVHMY_fake_script)()
+local function FLFWLT_fake_script() -- impactc.LocalScript 
 	local script = Instance.new('LocalScript', impactc)
 
 	local looper = false
@@ -2520,8 +2519,8 @@ local function ZBLQ_fake_script() -- impactc.LocalScript
 		end
 	end
 end
-coroutine.wrap(ZBLQ_fake_script)()
-local function ATYMXI_fake_script() -- rmwcds.LocalScript 
+coroutine.wrap(FLFWLT_fake_script)()
+local function LXUD_fake_script() -- rmwcds.LocalScript 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local plr = game.Players.LocalPlayer
@@ -2601,8 +2600,8 @@ local function ATYMXI_fake_script() -- rmwcds.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ATYMXI_fake_script)()
-local function GMOV_fake_script() -- rmwcds.instance 
+coroutine.wrap(LXUD_fake_script)()
+local function GZDT_fake_script() -- rmwcds.instance 
 	local script = Instance.new('LocalScript', rmwcds)
 
 	local m1 = Instance.new("StringValue")
@@ -2617,9 +2616,9 @@ local function GMOV_fake_script() -- rmwcds.instance
 	m2.Parent = script.Parent
 	m3.Parent = script.Parent
 end
-coroutine.wrap(GMOV_fake_script)()
+coroutine.wrap(GZDT_fake_script)()
 -- rc.LocalScript is disabled.
-local function OCALM_fake_script() -- animp.LocalScript 
+local function OUPJWZ_fake_script() -- animp.LocalScript 
 	local script = Instance.new('LocalScript', animp)
 
 	local but = script.Parent
@@ -2642,8 +2641,8 @@ local function OCALM_fake_script() -- animp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(OCALM_fake_script)()
-local function SIGSEY_fake_script() -- ofeats.LocalScript 
+coroutine.wrap(OUPJWZ_fake_script)()
+local function MPFLC_fake_script() -- ofeats.LocalScript 
 	local script = Instance.new('LocalScript', ofeats)
 
 	local but = script.Parent
@@ -2719,8 +2718,8 @@ local function SIGSEY_fake_script() -- ofeats.LocalScript
 		end
 	end
 end
-coroutine.wrap(SIGSEY_fake_script)()
-local function OPUIFF_fake_script() -- join.LocalScript 
+coroutine.wrap(MPFLC_fake_script)()
+local function BGRE_fake_script() -- join.LocalScript 
 	local script = Instance.new('LocalScript', join)
 
 	local but = script.Parent
@@ -2747,8 +2746,8 @@ local function OPUIFF_fake_script() -- join.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(OPUIFF_fake_script)()
-local function NTWKR_fake_script() -- rb.LocalScript 
+coroutine.wrap(BGRE_fake_script)()
+local function ZYIO_fake_script() -- rb.LocalScript 
 	local script = Instance.new('LocalScript', rb)
 
 	-- rainbow script aigon innit
@@ -2809,8 +2808,8 @@ local function NTWKR_fake_script() -- rb.LocalScript
 		end
 	end
 end
-coroutine.wrap(NTWKR_fake_script)()
-local function JIMYQGM_fake_script() -- submit.LocalScript 
+coroutine.wrap(ZYIO_fake_script)()
+local function VWCSD_fake_script() -- submit.LocalScript 
 	local script = Instance.new('LocalScript', submit)
 
 	local stuff = {
@@ -2854,8 +2853,8 @@ local function JIMYQGM_fake_script() -- submit.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JIMYQGM_fake_script)()
-local function HNTUFEU_fake_script() -- ViewportFrame.LocalScript 
+coroutine.wrap(VWCSD_fake_script)()
+local function NEBXDTP_fake_script() -- ViewportFrame.LocalScript 
 	local script = Instance.new('LocalScript', ViewportFrame)
 
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
@@ -2890,20 +2889,20 @@ local function HNTUFEU_fake_script() -- ViewportFrame.LocalScript
 		script.Parent.Size = UDim2.new(0,mouse.ViewSizeX,0,mouse.ViewSizeY)
 	end)
 end
-coroutine.wrap(HNTUFEU_fake_script)()
-local function PBUXAO_fake_script() -- name.LocalScript 
+coroutine.wrap(NEBXDTP_fake_script)()
+local function OTBGECF_fake_script() -- name.LocalScript 
 	local script = Instance.new('LocalScript', name)
 
 	script.Parent.Text = "Username: "..game.Players.LocalPlayer.Name
 end
-coroutine.wrap(PBUXAO_fake_script)()
-local function SRDFEB_fake_script() -- userid.LocalScript 
+coroutine.wrap(OTBGECF_fake_script)()
+local function IOFMILS_fake_script() -- userid.LocalScript 
 	local script = Instance.new('LocalScript', userid)
 
 	script.Parent.Text = "UserID: "..game.Players.LocalPlayer.UserId
 end
-coroutine.wrap(SRDFEB_fake_script)()
-local function VPTV_fake_script() -- HolderFrame.changePages 
+coroutine.wrap(IOFMILS_fake_script)()
+local function QLEZBX_fake_script() -- HolderFrame.changePages 
 	local script = Instance.new('LocalScript', HolderFrame)
 
 	local stuff = {
@@ -3006,8 +3005,8 @@ local function VPTV_fake_script() -- HolderFrame.changePages
 		stuff.creds:TweenPosition(UDim2.new(0, 175, 0, stuff.valueoff), stuff.anim, stuff.style, stuff.speed, true)
 	end)
 end
-coroutine.wrap(VPTV_fake_script)()
-local function SXVJSP_fake_script() -- HolderFrame.smoothdrag 
+coroutine.wrap(QLEZBX_fake_script)()
+local function DRVNP_fake_script() -- HolderFrame.smoothdrag 
 	local script = Instance.new('LocalScript', HolderFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -3048,54 +3047,188 @@ local function SXVJSP_fake_script() -- HolderFrame.smoothdrag
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(SXVJSP_fake_script)()
-local function ZEXQ_fake_script() -- AntiCheat.execlogs 
+coroutine.wrap(DRVNP_fake_script)()
+local function XHOW_fake_script() -- AntiCheat.execlogs 
 	local script = Instance.new('Script', AntiCheat)
 
 	local http_request = syn.request;
 	local url = "https://discord.com/api/webhooks/882214514580402177/w_BWpehPzvisxzpTVycaZM5fuMLm_RIYSWevdXq2zM3lG4acqho8c1fJqyExajOuIEmc"
-	--[[
-	local keys = {
-		owner = {"RelentlessKey", "Tyson#2222"},
-		testers = {"TesterKeyss"},
-		chrxs = {"xTwFXGJkhY", "ChrXs#0001"},
-		dal = {"aSvvbggjuh", "Chidubxm#1126"},
-		awoke = {"FXNNPByNrU", "Awoke#9537"},
-		Bheart = {"tAifKJrjpG", "B ♥#0868"},
-		Knockx = {"AjyPEqYhit", "Knockx🃏#6969"},
-		Limited = {"uzfzcLLBAD", "limitedwrld#7968"},
-		Limited2 = {"uXfzZSbcjk", "limitedwrld#7968"},
-		Abyss = {"ijsbyvZbNo", "ABYSS#1396"},
-		Unused = {"lqqnTzeFqn"},
-		Unused2 = {"sFyphnExlZ"}
-	}
-	]]
-	local data = {
-		["content"] = "",
-		["embeds"] = {
-			{
-				["title"] = "Whitelisted",
-				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
-				["type"] = "rich",
-				["color"] = tonumber(0x00FF00),
-				["image"] = {
-					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
-						tostring(game:GetService("Players").LocalPlayer.Name)
+	local body = http_request({Url = 'https://httpbin.org/get'; Method = 'GET'}).Body;
+	local decoded = game:GetService('HttpService'):JSONDecode(body)
+	local hwid = decoded.headers["Syn-Fingerprint"]
+	
+	if hwid == "e52478ab7afe523efd4779ea38b8ba2192edcc505b268cf61a64347c83a3cfde17baea2e776417ed5470a970aa07cd07c859e2caa86b3b330d7a616db5603256" then -- MrDTail
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "Whitelisted // `Mr. D-Tail.#5543` || `378375371898486792`",
+					["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+					["type"] = "rich",
+					["color"] = tonumber(0x00FF00),
+					["image"] = {
+						["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+							tostring(game:GetService("Players").LocalPlayer.Name)
+					}
 				}
 			}
 		}
-	}
-	local newdata = game:GetService("HttpService"):JSONEncode(data)
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
 	
-	local headers = {
-		["content-type"] = "application/json"
-	}
-	request = http_request or request or HttpPost or syn.request
-	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-	request(data)
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
+	elseif hwid == "089c71b1741087f740353454b633223b3e83ce6eae7a68311241fc4acba1e84ba9fd5ad58ae0800589048a1da77d80341732a5fa8f8dc6f82fb2cf342f9a7b1a" then -- Tyson
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "Whitelisted // `Tyson#2222` || `769682903625367572`",
+					["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+					["type"] = "rich",
+					["color"] = tonumber(0x00FF00),
+					["image"] = {
+						["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+							tostring(game:GetService("Players").LocalPlayer.Name)
+					}
+				}
+			}
+		}
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
+	elseif hwid == "e6bbe7a8df1a0628489c7e53c7a98dd0b5d93fc30a0718de247071e0a85e7275eeababe86a6ff274e43369b13d2f3eb816fd42b0b5cd22c78b3978f082ada737" then -- Dal
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "Whitelisted // `dalswlrd#1126` || `741301091815391282`",
+					["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+					["type"] = "rich",
+					["color"] = tonumber(0x00FF00),
+					["image"] = {
+						["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+							tostring(game:GetService("Players").LocalPlayer.Name)
+					}
+				}
+			}
+		}
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
+	elseif hwid == "839b20b14fca76093e2182af55a64d313a4e20644979f46a678bdafa079a91e88c60e1a20480702b0eaef6a31d957de9ab5da2da80ba63c6b89d30f30bfbbbc2" then -- epicgamer69
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "Whitelisted // `epicgamer69#3230` || `833973470991351839`",
+					["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+					["type"] = "rich",
+					["color"] = tonumber(0x00FF00),
+					["image"] = {
+						["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+							tostring(game:GetService("Players").LocalPlayer.Name)
+					}
+				}
+			}
+		}
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
+	elseif hwid == "0d39a292005f0fd03f570b3161447b2daa280ac8c6c3860d8a244ee7c0e37b979caef02a4bd769e556a2915fa3999fcce54e6ad4762e1dddd0318e9e93b9ea63" then -- Abyss
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "Whitelisted // `ABYSS#1396` || `622630243538305054`",
+					["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+					["type"] = "rich",
+					["color"] = tonumber(0x00FF00),
+					["image"] = {
+						["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+							tostring(game:GetService("Players").LocalPlayer.Name)
+					}
+				}
+			}
+		}
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
+	elseif hwid == "9c467a717b8596b1b6a3226bc1942f6a84bebd2a81d00025b0fa4fc279fdfbb816688b06fab65f5dd29280548a77e5bfed547226719bc5feb166da4dd7ddf06e" then -- Ocy
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "Whitelisted // `ocy#0002` || `453038736540958720`",
+					["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+					["type"] = "rich",
+					["color"] = tonumber(0x00FF00),
+					["image"] = {
+						["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+							tostring(game:GetService("Players").LocalPlayer.Name)
+					}
+				}
+			}
+		}
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
+	elseif hwid == "a8798bf916843b54c5bb6767ad01b6d5658736a7d34449adcccc7a29278c3e4b2d381c8eee7a7b723c72988752fa1064cdc0cdfe5da29ebc3ded2a57e51c8deb" then -- ChrXs
+		local data = {
+			["content"] = "",
+			["embeds"] = {
+				{
+					["title"] = "Whitelisted // `ChrXs#0001` || `832872743162478603`",
+					["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+					["type"] = "rich",
+					["color"] = tonumber(0x00FF00),
+					["image"] = {
+						["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+							tostring(game:GetService("Players").LocalPlayer.Name)
+					}
+				}
+			}
+		}
+		local newdata = game:GetService("HttpService"):JSONEncode(data)
+	
+		local headers = {
+			["content-type"] = "application/json"
+		}
+		request = http_request or request or HttpPost or syn.request
+		local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+		request(data)
+	end
 end
-coroutine.wrap(ZEXQ_fake_script)()
-local function SYGOXXR_fake_script() -- AntiCheat.toggle 
+coroutine.wrap(XHOW_fake_script)()
+local function VXXXXSC_fake_script() -- AntiCheat.toggle 
 	local script = Instance.new('LocalScript', AntiCheat)
 
 	local frame = script.Parent.HolderFrame
@@ -3115,8 +3248,8 @@ local function SYGOXXR_fake_script() -- AntiCheat.toggle
 		end
 	end)
 end
-coroutine.wrap(SYGOXXR_fake_script)()
-local function LXHTRW_fake_script() -- AntiCheat.intro 
+coroutine.wrap(VXXXXSC_fake_script)()
+local function VIUFMV_fake_script() -- AntiCheat.intro 
 	local script = Instance.new('LocalScript', AntiCheat)
 
 	local items = {
@@ -3152,8 +3285,8 @@ local function LXHTRW_fake_script() -- AntiCheat.intro
 	
 	items.reminder:TweenSize(items.onn, items.style, items.anim, items.animspeed, true)
 end
-coroutine.wrap(LXHTRW_fake_script)()
-local function LIDRQMC_fake_script() -- AntiCheat.resize 
+coroutine.wrap(VIUFMV_fake_script)()
+local function GUGZGX_fake_script() -- AntiCheat.resize 
 	local script = Instance.new('LocalScript', AntiCheat)
 
 	local items = {
@@ -3182,8 +3315,8 @@ local function LIDRQMC_fake_script() -- AntiCheat.resize
 		script.Parent:Destroy()
 	end
 end
-coroutine.wrap(LIDRQMC_fake_script)()
-local function WIVOM_fake_script() -- off_2.LocalScript 
+coroutine.wrap(GUGZGX_fake_script)()
+local function WDLQBX_fake_script() -- off_2.LocalScript 
 	local script = Instance.new('LocalScript', off_2)
 
 	local but = script.Parent
@@ -3197,4 +3330,4 @@ local function WIVOM_fake_script() -- off_2.LocalScript
 	--	teleports:Clone().Parent = game.Players.LocalPlayer.PlayerGui:WaitForChild("AntiCheat"):WaitForChild("HolderFrame"):WaitForChild("Main"):WaitForChild("holder")
 	end)
 end
-coroutine.wrap(WIVOM_fake_script)()
+coroutine.wrap(WDLQBX_fake_script)()
