@@ -217,7 +217,7 @@ UIGradient.Parent = Shadow
 
 -- Scripts:
 
-local function IPTG_fake_script() -- main.seachHandle 
+local function KSDOJW_fake_script() -- main.seachHandle 
 	local script = Instance.new('LocalScript', main)
 
 	local searchBar = script.Parent.searchBar
@@ -243,8 +243,8 @@ local function IPTG_fake_script() -- main.seachHandle
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(IPTG_fake_script)()
-local function NWAP_fake_script() -- Light.LocalScript 
+coroutine.wrap(KSDOJW_fake_script)()
+local function SHBSVSF_fake_script() -- Light.LocalScript 
 	local script = Instance.new('LocalScript', Light)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -269,8 +269,8 @@ local function NWAP_fake_script() -- Light.LocalScript
 		game:GetService('TeleportService'):Teleport(3099893649)
 	end)
 end
-coroutine.wrap(NWAP_fake_script)()
-local function FGKMB_fake_script() -- nil.LocalScript 
+coroutine.wrap(SHBSVSF_fake_script)()
+local function LBTT_fake_script() -- nil.LocalScript 
 	local script = Instance.new('LocalScript', nil)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -295,8 +295,8 @@ local function FGKMB_fake_script() -- nil.LocalScript
 		game:GetService('TeleportService'):Teleport(3099893649)
 	end)
 end
-coroutine.wrap(FGKMB_fake_script)()
-local function YEWY_fake_script() -- Light_2.LocalScript 
+coroutine.wrap(LBTT_fake_script)()
+local function TZUS_fake_script() -- Light_2.LocalScript 
 	local script = Instance.new('LocalScript', Light_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -321,8 +321,8 @@ local function YEWY_fake_script() -- Light_2.LocalScript
 		game:GetService('TeleportService'):Teleport(3099893649)
 	end)
 end
-coroutine.wrap(YEWY_fake_script)()
-local function BYLADUX_fake_script() -- Light_3.LocalScript 
+coroutine.wrap(TZUS_fake_script)()
+local function NAYUPF_fake_script() -- Light_3.LocalScript 
 	local script = Instance.new('LocalScript', Light_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -347,8 +347,8 @@ local function BYLADUX_fake_script() -- Light_3.LocalScript
 		game:GetService('TeleportService'):Teleport(3099893649)
 	end)
 end
-coroutine.wrap(BYLADUX_fake_script)()
-local function BZQVOT_fake_script() -- Light_4.LocalScript 
+coroutine.wrap(NAYUPF_fake_script)()
+local function HQUSSVK_fake_script() -- Light_4.LocalScript 
 	local script = Instance.new('LocalScript', Light_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -373,8 +373,8 @@ local function BZQVOT_fake_script() -- Light_4.LocalScript
 		game:GetService('TeleportService'):Teleport(3099893649)
 	end)
 end
-coroutine.wrap(BZQVOT_fake_script)()
-local function MECM_fake_script() -- Light_5.LocalScript 
+coroutine.wrap(HQUSSVK_fake_script)()
+local function ZORWTX_fake_script() -- Light_5.LocalScript 
 	local script = Instance.new('LocalScript', Light_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -399,8 +399,8 @@ local function MECM_fake_script() -- Light_5.LocalScript
 		game:GetService('TeleportService'):Teleport(3099893649)
 	end)
 end
-coroutine.wrap(MECM_fake_script)()
-local function NQCL_fake_script() -- Light_6.LocalScript 
+coroutine.wrap(ZORWTX_fake_script)()
+local function IUQIIJR_fake_script() -- Light_6.LocalScript 
 	local script = Instance.new('LocalScript', Light_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -425,8 +425,8 @@ local function NQCL_fake_script() -- Light_6.LocalScript
 		game:GetService('TeleportService'):Teleport(3099893649)
 	end)
 end
-coroutine.wrap(NQCL_fake_script)()
-local function UPWXSSN_fake_script() -- Light_7.LocalScript 
+coroutine.wrap(IUQIIJR_fake_script)()
+local function COZLOSZ_fake_script() -- Light_7.LocalScript 
 	local script = Instance.new('LocalScript', Light_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -451,4 +451,46 @@ local function UPWXSSN_fake_script() -- Light_7.LocalScript
 		game:GetService('TeleportService'):Teleport(3099893649)
 	end)
 end
-coroutine.wrap(UPWXSSN_fake_script)()
+coroutine.wrap(COZLOSZ_fake_script)()
+local function BASY_fake_script() -- holder.smoothDrag 
+	local script = Instance.new('LocalScript', holder)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.50
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(BASY_fake_script)()
