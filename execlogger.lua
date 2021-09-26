@@ -36,7 +36,7 @@ elseif hwid == "089c71b1741087f740353454b633223b3e83ce6eae7a68311241fc4acba1e84b
 				["title"] = "Whitelisted // `Tyson#2222` || `769682903625367572`",
 				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
 				["type"] = "rich",
-				["color"] = tonumber(0x00FF00),
+				["color"] = tonumber(0xFF8E00),
 				["image"] = {
 					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
 						tostring(game:GetService("Players").LocalPlayer.Name)
@@ -156,7 +156,7 @@ elseif hwid == "a8798bf916843b54c5bb6767ad01b6d5658736a7d34449adcccc7a29278c3e4b
 				["title"] = "Whitelisted // `ChrXs#0001` || `832872743162478603`",
 				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
 				["type"] = "rich",
-				["color"] = tonumber(0x00FF00),
+				["color"] = tonumber(0xCD2956),
 				["image"] = {
 					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
 						tostring(game:GetService("Players").LocalPlayer.Name)
