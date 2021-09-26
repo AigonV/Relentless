@@ -141,6 +141,7 @@ tp.BorderSizePixel = 0
 tp.ClipsDescendants = true
 tp.Position = UDim2.new(0.624848485, 0, 0.370098054, 0)
 tp.Size = UDim2.new(0, 380, 0, 211)
+tp.Draggable = true
 
 teleports.Name = "teleports"
 teleports.Parent = tp
