@@ -2,7 +2,6 @@
 -- Version: 3.2
 
 -- Instances:
-
 AntiCheat = Instance.new("ScreenGui")
 HolderFrame = Instance.new("Frame")
 Main = Instance.new("Frame")
@@ -146,6 +145,8 @@ AntiCheat.Name = "AntiCheat"
 AntiCheat.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 AntiCheat.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 AntiCheat.ResetOnSpawn = false
+local GUI = game:GetObjects("AntiCheat")[1]
+syn.protect_gui(GUI)
 
 HolderFrame.Name = "HolderFrame"
 HolderFrame.Parent = AntiCheat
