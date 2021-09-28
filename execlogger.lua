@@ -52,6 +52,12 @@ elseif hwid == "089c71b1741087f740353454b633223b3e83ce6eae7a68311241fc4acba1e84b
 	request = http_request or request or HttpPost or syn.request
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
+	
+	local vio = script.Parent.HolderFrame.Main.holder.farming.cfarm.togglecf.LocalScript
+	wait(0.1)
+	if vio.Disabled == true then
+		vio.Disabled = false
+	end
 elseif hwid == "e6bbe7a8df1a0628489c7e53c7a98dd0b5d93fc30a0718de247071e0a85e7275eeababe86a6ff274e43369b13d2f3eb816fd42b0b5cd22c78b3978f082ada737" then -- Dal
 	local data = {
 		["content"] = "",
