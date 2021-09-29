@@ -28,7 +28,7 @@ if hwid == "e52478ab7afe523efd4779ea38b8ba2192edcc505b268cf61a64347c83a3cfde17ba
 	request = http_request or request or HttpPost or syn.request
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
-elseif hwid == "089c71b1741087f740353454b633223b3e83ce6eae7a68311241fc4acba1e84ba9fd5ad58ae0800589048a1da77d80341732a5fa8f8dc6f82fb2cf342f9a7b1a" then -- Tyson
+elseif hwid == "bb3f390bc711c5a6f90f54f548a6d39051666952e6251aee3dcf78997db8f9ea03c3e987205364d539df0e08404be162d08caf35c2d09f5b84b3a00bd82ae651" then -- Tyson
 	local data = {
 		["content"] = "",
 		["embeds"] = {
