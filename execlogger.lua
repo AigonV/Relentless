@@ -4,7 +4,7 @@ local body = http_request({Url = 'https://httpbin.org/get'; Method = 'GET'}).Bod
 local decoded = game:GetService('HttpService'):JSONDecode(body)
 local hwid = decoded.headers["Syn-Fingerprint"]
 
-if hwid == "e52478ab7afe523efd4779ea38b8ba2192edcc505b268cf61a64347c83a3cfde17baea2e776417ed5470a970aa07cd07c859e2caa86b3b330d7a616db5603256" then -- MrDTail
+if hwid == "b422fbd681c4ee18e50569f20c77ed012ade3241a03076d871a6be873bd9b5e3ce0a7bcade6bb0d0b90c2efdcecfd5eddf2e51df95b21c1290fe3108721c5dfb" then -- MrDTail
 	local data = {
 		["content"] = "",
 		["embeds"] = {
