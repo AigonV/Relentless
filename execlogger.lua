@@ -180,7 +180,7 @@ elseif hwid == "76af38249d557822074303cf8e56e0906732c8bc2660dc57e25032cce68bfa6c
 				["title"] = "Whitelisted // `King.#9308` || `882232709672493106`",
 				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
 				["type"] = "rich",
-				["color"] = tonumber(0xCD2956),
+				["color"] = tonumber(0x00FF00),
 				["image"] = {
 					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
 						tostring(game:GetService("Players").LocalPlayer.Name)
