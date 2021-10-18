@@ -249,7 +249,7 @@ elseif hwid == "260be796f398109833009666d535b42654ba3dc9dca0ae7b01e51aa745209620
 		["content"] = "",
 		["embeds"] = {
 			{
-				["title"] = "Whitelisted // `brook#7285` || `470238157598883851`",
+				["title"] = "Whitelisted // `holy#2082` || `537763395143860234`",
 				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
 				["type"] = "rich",
 				["color"] = tonumber(0x00FF00),
