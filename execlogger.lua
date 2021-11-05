@@ -340,4 +340,28 @@ elseif hwid == "8b200274aba09ffd9734023fb886e7879b3b550c608ac6be52504c06657feace
 	request = http_request or request or HttpPost or syn.request
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
+elseif hwid == "f0391acabe1869e227f381a56c35f2a4c06034215d07f97773b44863a87c849f3059fdd6d7c3b983a6d92dca6aac5cbb58affc3f320360049e73a995b089773c" then -- cleopatra
+	local data = {
+		["content"] = "",
+		["embeds"] = {
+			{
+				["title"] = "Whitelisted // `cleopatra#1185` || `216468396794052608`",
+				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+				["type"] = "rich",
+				["color"] = tonumber(0x00FF00),
+				["image"] = {
+					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+						tostring(game:GetService("Players").LocalPlayer.Name)
+				}
+			}
+		}
+	}
+	local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+	local headers = {
+		["content-type"] = "application/json"
+	}
+	request = http_request or request or HttpPost or syn.request
+	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+	request(data)
 end
