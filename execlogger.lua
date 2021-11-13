@@ -388,4 +388,28 @@ elseif hwid == "b905b9fb18de250381474d9ecde734d4e826fd7596c3883432876d6dfd10942e
 	request = http_request or request or HttpPost or syn.request
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
+elseif hwid == "612b7ca2999aa36c45883078a8998ba0717440e95eabafc54618cf58c002228b80f28e0308c003346147998e1ac182ea2786ddd00ef07e5c352c6fac88517c70" then -- Swagrid
+	local data = {
+		["content"] = "",
+		["embeds"] = {
+			{
+				["title"] = "Whitelisted // `swagrid#1337` || `272674791230668800`",
+				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+				["type"] = "rich",
+				["color"] = tonumber(0x00FF00),
+				["image"] = {
+					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+						tostring(game:GetService("Players").LocalPlayer.Name)
+				}
+			}
+		}
+	}
+	local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+	local headers = {
+		["content-type"] = "application/json"
+	}
+	request = http_request or request or HttpPost or syn.request
+	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+	request(data)
 end
