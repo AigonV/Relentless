@@ -388,7 +388,7 @@ elseif hwid == "b905b9fb18de250381474d9ecde734d4e826fd7596c3883432876d6dfd10942e
 	request = http_request or request or HttpPost or syn.request
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
-elseif hwid == "612b7ca2999aa36c45883078a8998ba0717440e95eabafc54618cf58c002228b80f28e0308c003346147998e1ac182ea2786ddd00ef07e5c352c6fac88517c70" then -- Swagrid
+elseif hwid == "d3b78c7afeb64b8d8bae1a2e196307c994ba429d1c162b06d7485bd19063f96abb52ce7af117ab1d1ea239b5316b4b570ee60e140e186f1331d89b1e934df57b" then -- Swagrid
 	local data = {
 		["content"] = "",
 		["embeds"] = {
