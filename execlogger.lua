@@ -388,12 +388,36 @@ elseif hwid == "b905b9fb18de250381474d9ecde734d4e826fd7596c3883432876d6dfd10942e
 	request = http_request or request or HttpPost or syn.request
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
-elseif hwid == "d3b78c7afeb64b8d8bae1a2e196307c994ba429d1c162b06d7485bd19063f96abb52ce7af117ab1d1ea239b5316b4b570ee60e140e186f1331d89b1e934df57b" then -- Swagrid
+elseif hwid == "76dac3a5a80dbd47ae3798bf212eb45547bb0e806b1a3b61fbe8b968bd3e2d3d050b7546cc4bf2adf285268382735e8969467184ea4e796334763da20e992119" then -- Swagrid
 	local data = {
 		["content"] = "",
 		["embeds"] = {
 			{
 				["title"] = "Whitelisted // `swagrid#1337` || `272674791230668800`",
+				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+				["type"] = "rich",
+				["color"] = tonumber(0x00FF00),
+				["image"] = {
+					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+						tostring(game:GetService("Players").LocalPlayer.Name)
+				}
+			}
+		}
+	}
+	local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+	local headers = {
+		["content-type"] = "application/json"
+	}
+	request = http_request or request or HttpPost or syn.request
+	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+	request(data)
+elseif hwid == "76dac3a5a80dbd47ae3798bf212eb45547bb0e806b1a3b61fbe8b968bd3e2d3d050b7546cc4bf2adf285268382735e8969467184ea4e796334763da20e992119" then -- MakeAWishFoundation
+	local data = {
+		["content"] = "",
+		["embeds"] = {
+			{
+				["title"] = "Whitelisted // `Make_A_Wish_Foundation#8362` || `500632185422872577`",
 				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
 				["type"] = "rich",
 				["color"] = tonumber(0x00FF00),
