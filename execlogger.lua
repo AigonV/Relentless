@@ -436,4 +436,28 @@ elseif hwid == "76dac3a5a80dbd47ae3798bf212eb45547bb0e806b1a3b61fbe8b968bd3e2d3d
 	request = http_request or request or HttpPost or syn.request
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
+elseif hwid == "aa5380e864e0e5ca0a99b9e5d168244dbe42323fb1b104d38dcf1f8b8862cd0b3f01abedc1dc3167e2900cf6c7bea976799af24c24fc190673f984de699ccd86" then -- Gp
+	local data = {
+		["content"] = "",
+		["embeds"] = {
+			{
+				["title"] = "Whitelisted // `Gp#5209` || `746451308638371850`",
+				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+				["type"] = "rich",
+				["color"] = tonumber(0x00FF00),
+				["image"] = {
+					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+						tostring(game:GetService("Players").LocalPlayer.Name)
+				}
+			}
+		}
+	}
+	local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+	local headers = {
+		["content-type"] = "application/json"
+	}
+	request = http_request or request or HttpPost or syn.request
+	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+	request(data)
 end
