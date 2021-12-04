@@ -460,4 +460,28 @@ elseif hwid == "aa5380e864e0e5ca0a99b9e5d168244dbe42323fb1b104d38dcf1f8b8862cd0b
 	request = http_request or request or HttpPost or syn.request
 	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 	request(data)
+elseif hwid == "6e3080bce4d956ba24b4538e06c530ec66b42773ec99c22420cd36724eecbabaae2b17ae8abd6566e46cdafed89fb1d5105a2653fc649b20e2ef7fcca7561380" then -- Megg
+	local data = {
+		["content"] = "",
+		["embeds"] = {
+			{
+				["title"] = "Whitelisted // `Megg#8008` || `301807714038710273`",
+				["description"] = "Username: `" .. game.Players.LocalPlayer.Name.."`, User ID: `"..game.Players.LocalPlayer.UserId.."`",
+				["type"] = "rich",
+				["color"] = tonumber(0x00FF00),
+				["image"] = {
+					["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+						tostring(game:GetService("Players").LocalPlayer.Name)
+				}
+			}
+		}
+	}
+	local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+	local headers = {
+		["content-type"] = "application/json"
+	}
+	request = http_request or request or HttpPost or syn.request
+	local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+	request(data)
 end
