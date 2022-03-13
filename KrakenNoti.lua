@@ -9,6 +9,10 @@ local theos = game.Workspace.Map.Islands.WildernessIsland25.TP
 local ag = game.Workspace.Map.Islands.FreedomLookout.TP
 local ark = game.Workspace.Map.Islands.ArkIsland.TP
 local CoreGui = game:GetService("StarterGui")
+local noti = Instance.new("Sound")
+noti.Volume = 10
+noti.SoundId = "rbxassetid://3398620867"
+noti.Parent = game:GetService("Workspace")
 
 if kraken.Name == "Kraken" and (kraken.HumanoidRootPart.Position - ark.Position).magnitude <= distanceArk then
 	CoreGui:SetCore("SendNotification", {
@@ -17,6 +21,7 @@ if kraken.Name == "Kraken" and (kraken.HumanoidRootPart.Position - ark.Position)
 		Duration = math.huge;
 		Button1 = "Noted!";
 	})
+	noti:Play()
 elseif kraken.Name == "Kraken" and (kraken.HumanoidRootPart.Position - bor.Position).magnitude <= distanceBor then
 	CoreGui:SetCore("SendNotification", {
 		Title = "Notification!";
@@ -24,6 +29,7 @@ elseif kraken.Name == "Kraken" and (kraken.HumanoidRootPart.Position - bor.Posit
 		Duration = math.huge;
 		Button1 = "Noted!";
 	})
+	noti:Play()
 elseif kraken.Name == "Kraken" and (kraken.HumanoidRootPart.Position - theos.Position).magnitude <= distanceTh then
 	CoreGui:SetCore("SendNotification", {
 		Title = "Notification!";
@@ -31,6 +37,7 @@ elseif kraken.Name == "Kraken" and (kraken.HumanoidRootPart.Position - theos.Pos
 		Duration = math.huge;
 		Button1 = "Noted!";
 	})
+	noti:Play()
 elseif kraken.Name == "Kraken" and (kraken.HumanoidRootPart.Position - ag.Position).magnitude <= distanceAG then
 	CoreGui:SetCore("SendNotification", {
 		Title = "Notification!";
@@ -38,6 +45,7 @@ elseif kraken.Name == "Kraken" and (kraken.HumanoidRootPart.Position - ag.Positi
 		Duration = math.huge;
 		Button1 = "Noted!";
 	})
+	noti:Play()
 else
 	CoreGui:SetCore("SendNotification", {
 		Title = "Notification!";
@@ -45,6 +53,7 @@ else
 		Duration = math.huge;
 		Button1 = "Noted!";
 	})
+	noti:Play()
 end
 
 game.Workspace.Enemies.ChildAdded:Connect(function(child)
@@ -56,6 +65,7 @@ game.Workspace.Enemies.ChildAdded:Connect(function(child)
 			Duration = math.huge;
 			Button1 = "Noted!";
 		})
+		noti:Play()
 	elseif child.Name == "Kraken" and (child.HumanoidRootPart.Position - bor.Position).magnitude <= distanceBor then
 		CoreGui:SetCore("SendNotification", {
 			Title = "Notification!";
@@ -63,6 +73,7 @@ game.Workspace.Enemies.ChildAdded:Connect(function(child)
 			Duration = math.huge;
 			Button1 = "Noted!";
 		})
+		noti:Play()
 	elseif child.Name == "Kraken" and (child.HumanoidRootPart.Position - theos.Position).magnitude <= distanceTh then
 		CoreGui:SetCore("SendNotification", {
 			Title = "Notification!";
@@ -70,6 +81,7 @@ game.Workspace.Enemies.ChildAdded:Connect(function(child)
 			Duration = math.huge;
 			Button1 = "Noted!";
 		})
+		noti:Play()
 	elseif child.Name == "Kraken" and (child.HumanoidRootPart.Position - ag.Position).magnitude <= distanceAG then
 		CoreGui:SetCore("SendNotification", {
 			Title = "Notification!";
@@ -77,5 +89,6 @@ game.Workspace.Enemies.ChildAdded:Connect(function(child)
 			Duration = math.huge;
 			Button1 = "Noted!";
 		})
+		noti:Play()
 	end
 end)
