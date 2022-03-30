@@ -1896,7 +1896,7 @@ return ROBLOX
 end
 
 local D_E_X = CreateGui()
-D_E_X.Parent = game.CoreGui.RobloxGui;
+D_E_X.Parent = game:GetService("CoreGui");
 
 spawn(function()
 
@@ -9350,5 +9350,3 @@ function ScrambleNames(A)
 end
 
 wait(.25)
-
-D_E_X.Parent = game:GetService'CoreGui'
