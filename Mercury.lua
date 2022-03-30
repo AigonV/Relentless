@@ -177,9 +177,3 @@ sets.ColorPicker({
         end
     end
 })
-
-
-
-
--- Dont Touch.
-syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/AigonV/Relentless/master/Mercury.lua'))()")
